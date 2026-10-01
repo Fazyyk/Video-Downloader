@@ -1,0 +1,14 @@
+.class public interface abstract Ln34;
+.super Ljava/lang/Object;
+.source "r8-map-id-8dbcdcc6608068ac42f86756e80f44f5ea09085ee794eb202af41f88f7b9cc2e"
+
+# interfaces
+.implements Ljava/lang/AutoCloseable;
+
+
+# virtual methods
+.method public abstract B(Ljava/lang/Object;)V
+.end method
+
+.method public abstract u()Ljava/lang/Object;
+.end method

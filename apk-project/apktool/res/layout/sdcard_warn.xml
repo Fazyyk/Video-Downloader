@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/rl_sdcard" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:background="@color/primary_color" android:layout_width="match_parent" android:layout_height="@dimen/cm_dp_68">
+            <TextView android:textSize="@dimen/cm_sp_16" android:textColor="@color/title_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_RENAMED_0x7f1203b1" android:layout_centerVertical="true" android:layout_marginStart="@dimen/cm_dp_16" android:layout_marginEnd="@dimen/cm_dp_16" />
+            <ImageView android:id="@id/iv_close" android:padding="@dimen/cm_dp_16" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" custom:srcCompat="@drawable/ic_action_delete" custom:tint="@color/sub_title_color" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/cm_sp_14" android:textColor="@color/sub_title_color" android:id="@id/tv_warn_content" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cm_dp_18" android:text="@string/APKTOOL_RENAMED_0x7f120478" android:layout_marginStart="@dimen/cm_dp_16" android:layout_marginEnd="@dimen/cm_dp_16" />
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="@dimen/cm_dp_58" android:layout_marginTop="@dimen/cm_dp_18">
+            <RelativeLayout android:id="@id/tv_confirm" android:background="?android:selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/cm_dp_16" android:layout_marginEnd="@dimen/cm_dp_16" android:layout_alignParentEnd="true">
+                <TextView android:textSize="@dimen/cm_sp_14" android:textColor="@color/white" android:background="@color/accent_color" android:padding="@dimen/cm_dp_12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_RENAMED_0x7f1200d0" android:textAllCaps="true" />
+            </RelativeLayout>
+            <TextView android:textSize="@dimen/cm_sp_14" android:textColor="@color/primary_color_dark" android:id="@id/tv_cancel" android:background="?android:selectableItemBackground" android:padding="@dimen/cm_dp_12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_RENAMED_0x7f120021" android:layout_centerVertical="true" android:textAllCaps="true" android:layout_marginStart="@dimen/cm_dp_16" android:layout_marginEnd="@dimen/cm_dp_16" android:layout_toStartOf="@id/tv_confirm" />
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

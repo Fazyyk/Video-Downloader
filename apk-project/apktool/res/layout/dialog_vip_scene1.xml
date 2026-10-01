@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/container" android:layout_width="@dimen/cm_dp_232" android:layout_height="@dimen/cm_dp_120"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/music_sign_yellow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cm_dp_34" android:src="@drawable/ic_unlock_music_sign_yellow" android:scaleType="centerCrop" android:layout_marginEnd="@dimen/cm_dp_80" android:layout_alignParentEnd="true" />
+    <ImageView android:id="@id/image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_unlock_cd" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/music_sign_dark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cm_dp_30" android:src="@drawable/ic_unlock_music_sign_dark_" android:scaleType="centerCrop" android:rotation="40.0" android:layout_marginEnd="@dimen/cm_dp_80" android:layout_alignParentEnd="true" />
+</RelativeLayout>

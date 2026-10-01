@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout android:id="@id/property_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/cm_dp_24" android:paddingEnd="@dimen/cm_dp_24">
+        <TableRow android:id="@id/layout_author" android:layout_marginTop="@dimen/cm_dp_10">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_RENAMED_0x7f120322" android:layout_weight="0.0" style="@style/propertyStyle" />
+            <TextView android:id="@id/value_author" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:layout_weight="1.0" android:layout_marginStart="@dimen/cm_dp_10" style="@style/propertyStyle" />
+        </TableRow>
+        <TableRow android:id="@id/layout_license" android:layout_marginTop="@dimen/cm_dp_10" android:layout_marginBottom="@dimen/cm_dp_10">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_RENAMED_0x7f12032c" android:layout_weight="0.0" style="@style/propertyStyle" />
+            <TextView android:id="@id/value_license" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:layout_weight="1.0" android:layout_marginStart="@dimen/cm_dp_10" style="@style/propertyStyle" />
+        </TableRow>
+    </TableLayout>
+</ScrollView>

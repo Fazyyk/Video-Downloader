@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/white" android:paddingLeft="8.0dp" android:paddingTop="10.0dp" android:paddingRight="8.0dp" android:paddingBottom="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="8.0dp" android:paddingVertical="10.0dp">
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/black" android:id="@id/readyTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_RENAMED_0x7f12008f" android:includeFontPadding="false" style="@style/TextAppearance.Compat.Notification.Title" />
+        <TextView android:textSize="12.0sp" android:textColor="#999999" android:id="@id/installTv" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:text="@string/APKTOOL_RENAMED_0x7f12039c" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/splash_root" android:background="@drawable/activity_exit_full_background" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_splash_left_top" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_splash_right_top" android:layout_alignParentEnd="true" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_splash_right_bottom" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_splash" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_luncher" android:layout_width="@dimen/cm_dp_100" android:layout_height="@dimen/cm_dp_100" android:src="@drawable/splash_luncher" android:scaleType="fitXY" android:forceDarkAllowed="false" />
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/white" android:gravity="center" android:id="@id/tv_app_name" android:layout_width="match_parent" android:layout_height="@dimen/cm_dp_36" android:layout_marginTop="@dimen/cm_dp_10" android:text="@string/APKTOOL_RENAMED_0x7f120044" android:layout_marginStart="@dimen/cm_dp_16" android:layout_marginEnd="@dimen/cm_dp_16" app:autoSizeTextType="uniform" />
+        <TextView android:textSize="@dimen/cm_sp_16" android:textColor="#99ffffff" android:gravity="center" android:id="@id/tv_splash_desc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cm_dp_10" android:text="@string/APKTOOL_RENAMED_0x7f1202bf" android:layout_marginStart="@dimen/cm_dp_12" android:layout_marginEnd="@dimen/cm_dp_12" />
+    </LinearLayout>
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/loading_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/cm_dp_36" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/cm_dp_86" android:layout_marginEnd="@dimen/cm_dp_86" app:lottie_autoPlay="true" app:lottie_loop="true" app:lottie_rawRes="@raw/splash" />
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:background="@color/setting_background" android:layout_width="match_parent" android:layout_height="@dimen/cm_dp_60">
+        <ImageView android:id="@id/iv_close" android:padding="@dimen/cm_dp_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" app:srcCompat="@drawable/ic_action_delete" app:tint="@color/sub_title_color" />
+        <TextView android:textSize="@dimen/cm_sp_18" android:textStyle="bold" android:textColor="@color/title_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_RENAMED_0x7f1202da" android:layout_centerInParent="true" android:fontFamily="@font/lato_bold" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/cm_sp_14" android:textColor="@color/sub_title_color" android:gravity="center_horizontal" android:id="@id/need_permission_des" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cm_dp_8" android:text="@string/APKTOOL_RENAMED_0x7f12047a" android:layout_marginStart="@dimen/cm_dp_32" android:layout_marginEnd="@dimen/cm_dp_32" />
+    <TextView android:textSize="@dimen/cm_sp_16" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_allow" android:background="@drawable/got_it_backg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cm_dp_32" android:layout_marginBottom="@dimen/cm_dp_16" android:text="@string/APKTOOL_RENAMED_0x7f12003e" android:textAllCaps="true" android:fontFamily="@font/lato_bold" android:layout_marginStart="@dimen/cm_dp_32" android:layout_marginEnd="@dimen/cm_dp_32" />
+</LinearLayout>

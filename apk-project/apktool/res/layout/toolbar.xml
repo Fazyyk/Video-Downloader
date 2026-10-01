@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/toolbar_layout" android:background="?colorPrimary" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/tabs_toolbar_container" android:layout_width="match_parent" android:layout_height="@dimen/cm_dp_30" />
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:paddingTop="@dimen/cm_dp_2" android:paddingBottom="0.0dp" android:layout_width="match_parent" android:layout_height="?actionBarSize" android:paddingStart="0.0dp" android:paddingEnd="0.0dp" app:contentInsetEnd="0.0dp" app:contentInsetStart="0.0dp" app:popupTheme="@style/PopupMenuStyle" />
+    <LinearLayout android:id="@id/ll_progress" android:background="@color/action_bar_color" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <android.supprot.design.widgit.view.AnimatedProgressBar android:id="@id/progress_view" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="@dimen/cm_dp_2" app:bidirectionalAnimate="false" app:progressColor="@color/progress_color" />
+    </LinearLayout>
+</LinearLayout>

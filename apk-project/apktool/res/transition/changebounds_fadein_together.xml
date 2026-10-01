@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <fade android:duration="600" android:fadingMode="fade_in">
+        <targets>
+            <target android:targetId="@id/image_bg" />
+        </targets>
+    </fade>
+    <changeTransform android:interpolator="@android:interpolator/anticipate_overshoot" android:duration="600">
+        <targets>
+            <target android:targetId="@id/music_sign_yellow" />
+            <target android:targetId="@id/music_sign_dark" />
+        </targets>
+    </changeTransform>
+    <changeBounds android:interpolator="@android:interpolator/anticipate_overshoot" android:duration="600">
+        <targets>
+            <target android:targetId="@id/music_sign_yellow" />
+            <target android:targetId="@id/music_sign_dark" />
+        </targets>
+    </changeBounds>
+</transitionSet>

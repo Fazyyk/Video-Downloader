@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_filter_none_black_24dp" android:id="@id/menu_tab" android:title="@string/APKTOOL_RENAMED_0x7f120397" />
+    <item android:icon="@drawable/ic_footbar_progress" android:id="@id/menu_progress" android:title="@string/APKTOOL_RENAMED_0x7f1202f7" />
+    <item android:icon="@drawable/ic_folder" android:id="@id/menu_finished" android:title="@string/APKTOOL_RENAMED_0x7f12017c" />
+</menu>

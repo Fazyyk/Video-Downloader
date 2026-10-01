@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/black" android:layout_width="match_parent" android:layout_height="@dimen/cm_dp_30" android:weightSum="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/tabs_list" android:scrollbars="none" android:fadingEdge="horizontal" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" android:overScrollMode="never" />
+    <ImageView android:id="@id/new_tab_button" android:background="?actionBarItemBackground" android:layout_width="@dimen/cm_dp_30" android:layout_height="match_parent" app:srcCompat="@drawable/ic_action_plus" />
+</LinearLayout>

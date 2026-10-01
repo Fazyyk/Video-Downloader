@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="email_margin">74.0dp</dimen>
+    <dimen name="email_margin_height">90.0dp</dimen>
+    <dimen name="email_margin_top">30.0dp</dimen>
+    <dimen name="email_margin_top_small">15.0dp</dimen>
+    <dimen name="password_margin_large">50.0dp</dimen>
+    <dimen name="password_size">244.0dp</dimen>
+    <dimen name="pro_guide_buy_margin_top">64.0dp</dimen>
+    <dimen name="pro_guide_desc_margin_top">16.0dp</dimen>
+    <dimen name="pro_guide_divide_line_margin_top">32.0dp</dimen>
+    <dimen name="pro_guide_divide_tv_margin_top">22.0dp</dimen>
+    <dimen name="pro_guide_title_margin_top">30.0dp</dimen>
+    <dimen name="pro_guide_watch_ad_margin_top">40.0dp</dimen>
+</resources>

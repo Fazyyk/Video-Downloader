@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:id="@id/search_container" android:background="?searchBackground" android:focusableInTouchMode="true" android:clipChildren="false" android:clipToPadding="false" android:descendantFocusability="beforeDescendants" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/cm_dp_8" android:layout_marginBottom="@dimen/cm_dp_8" android:layout_weight="1.0" android:layout_marginEnd="@dimen/cm_dp_2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/cm_sp_14" android:textColor="@color/black" android:textColorHint="#80000000" android:ellipsize="none" android:gravity="center_vertical" android:id="@id/search" android:background="@null" android:layout_width="match_parent" android:layout_height="match_parent" android:hint="@string/APKTOOL_RENAMED_0x7f120365" android:maxLines="1" android:singleLine="true" android:fontFamily="@font/lato_regular" android:paddingStart="@dimen/cm_dp_14" android:paddingEnd="@dimen/cm_dp_10" />
+</LinearLayout>

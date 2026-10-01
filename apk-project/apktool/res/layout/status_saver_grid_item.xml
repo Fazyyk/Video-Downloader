@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="?android:selectableItemBackground" android:layout_width="match_parent" android:layout_height="@dimen/cm_dp_210"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_image" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" />
+    <ImageView android:id="@id/iv_play" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerInside" app:srcCompat="@drawable/ic_play_white" />
+    <RelativeLayout android:id="@id/rl_save" android:background="@color/status_saver_transparent" android:layout_width="match_parent" android:layout_height="match_parent">
+        <CheckBox android:theme="@style/StatusSaverCheckboxStyle" android:id="@id/cb_save" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/cm_dp_10" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/tab_item_background" android:clickable="false" android:layout_width="@dimen/cm_dp_176" android:layout_height="match_parent" android:weightSum="1.0" android:paddingStart="@dimen/cm_dp_10" android:paddingEnd="@dimen/cm_dp_10"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:gravity="center_vertical" android:id="@id/faviconTab" android:layout_width="@dimen/cm_dp_20" android:layout_height="@dimen/cm_dp_20" android:contentDescription="Favicon" android:layout_marginStart="@dimen/cm_dp_7" android:layout_marginEnd="@dimen/cm_dp_7" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/textTab" android:layout_width="0.0dp" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall" android:maxLines="1" android:singleLine="true" android:layout_weight="1.0" />
+    <FrameLayout android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/deleteAction" android:background="?actionBarItemBackground" android:layout_width="@dimen/cm_dp_36" android:layout_height="match_parent">
+        <ImageView android:layout_gravity="center" android:id="@id/deleteButton" android:layout_width="@dimen/cm_dp_20" android:layout_height="@dimen/cm_dp_20" android:contentDescription="@string/APKTOOL_RENAMED_0x7f1200b8" app:srcCompat="@drawable/ic_action_delete" />
+    </FrameLayout>
+</LinearLayout>

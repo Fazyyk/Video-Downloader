@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/help_layout" android:background="@drawable/bg_eef1fb_100dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/cm_dp_42"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_help" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_howto" />
+    <TextView android:textSize="@dimen/cm_sp_14" android:textColor="#1974ff" android:id="@id/tv_help" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_RENAMED_0x7f12019b" android:fontFamily="@font/lato_bold" android:layout_marginStart="@dimen/cm_dp_10" android:layout_marginEnd="@dimen/cm_dp_10" />
+</LinearLayout>
