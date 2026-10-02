@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:id="@id/group_select_mode">
+        <item android:icon="@drawable/ic_select_all_black_24dp_private" android:id="@id/select_all" android:title="@string/APKTOOL_RENAMED_0x7f12036d" app:showAsAction="always" />
+        <item android:icon="@drawable/ic_unlock_folder" android:id="@id/unlock_folder_action" android:title="@string/APKTOOL_RENAMED_0x7f12045d" app:showAsAction="always" />
+        <item android:icon="@drawable/ic_delete_black_24dp" android:id="@id/delete_all_action" android:title="@string/APKTOOL_RENAMED_0x7f1200e5" app:showAsAction="always" />
+    </group>
+    <group android:id="@id/group_normal">
+        <item android:id="@id/select" android:title="@string/APKTOOL_RENAMED_0x7f12036c" />
+        <item android:id="@id/modify_pin" android:title="@string/APKTOOL_RENAMED_0x7f120237" />
+    </group>
+</menu>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/btn_black_selector" android:padding="@dimen/cm_dp_14" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:background="#202021" android:layout_width="@dimen/thumb_middle_w" android:layout_height="@dimen/thumb_middle_h" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/cm_sp_12" android:textColor="#ffffff" android:gravity="center" android:id="@id/duration" android:background="#b1000000" android:paddingTop="@dimen/cm_dp_2" android:paddingBottom="@dimen/cm_dp_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignBottom="@id/icon" android:paddingStart="@dimen/cm_dp_10" android:paddingEnd="@dimen/cm_dp_10" android:layout_alignEnd="@id/icon" />
+    <RelativeLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="@dimen/thumb_middle_h" android:layout_centerVertical="true" android:layout_marginStart="@dimen/cm_dp_14" android:layout_toEndOf="@id/icon" android:layout_alignParentEnd="true">
+        <TextView android:textSize="@dimen/cm_sp_15" android:textColor="#e6ffffff" android:ellipsize="end" android:id="@id/play_list_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="3" />
+    </RelativeLayout>
+</RelativeLayout>

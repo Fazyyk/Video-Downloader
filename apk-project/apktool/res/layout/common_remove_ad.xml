@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="?android:selectableItemBackground" android:layout_width="match_parent" android:layout_height="@dimen/cm_dp_63" android:layout_marginTop="@dimen/cm_dp_16" android:layout_marginBottom="@dimen/cm_dp_16"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/cm_sp_18" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:background="@drawable/common_bg_remove_ad" android:layout_width="match_parent" android:layout_height="@dimen/cm_dp_50" android:text="@string/APKTOOL_RENAMED_0x7f120309" android:layout_alignParentBottom="true" android:textAllCaps="true" android:layout_marginStart="@dimen/cm_dp_30" android:layout_marginEnd="@dimen/cm_dp_30" />
+    <TextView android:textSize="@dimen/cm_sp_13" android:textStyle="bold" android:textColor="#000000" android:gravity="center" android:background="@drawable/common_bg_special_offer" android:layout_width="wrap_content" android:layout_height="@dimen/cm_dp_26" android:text="@string/APKTOOL_RENAMED_0x7f120389" android:paddingStart="@dimen/cm_dp_16" android:paddingEnd="@dimen/cm_dp_16" android:layout_marginStart="@dimen/cm_dp_18" android:layout_marginEnd="@dimen/cm_dp_18" android:layout_alignParentEnd="true" android:forceDarkAllowed="false" />
+</RelativeLayout>

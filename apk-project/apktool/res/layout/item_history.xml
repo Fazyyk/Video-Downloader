@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="?android:selectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/action_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/cm_dp_8" android:layout_alignParentEnd="true">
+        <ImageView android:id="@id/iv_action_more" android:padding="@dimen/cm_dp_4" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_more_vert_black_24dp" style="?checkboxStyle" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/cm_dp_12" android:paddingBottom="@dimen/cm_dp_12" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/cm_dp_24" android:layout_toStartOf="@id/action_layout">
+        <TextView android:textSize="@dimen/cm_sp_15" android:textColor="@color/title_color" android:ellipsize="end" android:id="@id/textBookmark" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cm_dp_6">
+            <RelativeLayout android:id="@id/icon_layout" android:layout_width="@dimen/cm_dp_14" android:layout_height="@dimen/cm_dp_14">
+                <ImageView android:id="@id/faviconBookmark" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" />
+            </RelativeLayout>
+            <TextView android:textSize="@dimen/cm_sp_12" android:textColor="@color/sub_title_color" android:id="@id/textUrl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" android:layout_marginStart="@dimen/cm_dp_8" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

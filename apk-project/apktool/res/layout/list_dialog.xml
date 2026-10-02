@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="@dimen/cm_dp_300"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TextAppearance.AppCompat.Title" android:ellipsize="end" android:gravity="start" android:id="@id/dialog_title" android:paddingTop="@dimen/cm_dp_16" android:paddingBottom="@dimen/cm_dp_8" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd" />
+    <ListView android:id="@id/dialog_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:listSelector="?listChoiceBackgroundIndicator" />
+</LinearLayout>

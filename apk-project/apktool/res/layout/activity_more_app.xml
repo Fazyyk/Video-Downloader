@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/more_app_root" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/more_app_title" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?actionBarSize" android:paddingStart="@dimen/cm_dp_10" android:paddingEnd="@dimen/cm_dp_18">
+        <ImageView android:id="@id/more_app_back" android:padding="@dimen/cm_dp_8" android:layout_width="@dimen/cm_dp_40" android:layout_height="@dimen/cm_dp_40" android:src="@drawable/ic_back" android:layout_marginEnd="@dimen/cm_dp_12" app:tint="@color/black" />
+        <TextView android:textSize="@dimen/cm_sp_18" android:textStyle="bold" android:textColor="@color/title_color" android:id="@id/more_app_title_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_RENAMED_0x7f120174" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/web_view_ll" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/more_app_title" />
+    <ProgressBar android:id="@id/act_web_view_progress" android:visibility="visible" android:layout_width="@dimen/cm_dp_33" android:layout_height="@dimen/cm_dp_33" android:layout_centerInParent="true" />
+</RelativeLayout>

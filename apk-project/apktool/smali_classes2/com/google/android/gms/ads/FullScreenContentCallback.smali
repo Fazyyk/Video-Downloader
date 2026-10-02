@@ -1,0 +1,52 @@
+.class public abstract Lcom/google/android/gms/ads/FullScreenContentCallback;
+.super Ljava/lang/Object;
+.source "r8-map-id-8dbcdcc6608068ac42f86756e80f44f5ea09085ee794eb202af41f88f7b9cc2e"
+
+
+# static fields
+.field public static final ERROR_CODE_AD_REUSED:I = 0x1
+
+.field public static final ERROR_CODE_APP_NOT_FOREGROUND:I = 0x3
+
+.field public static final ERROR_CODE_INTERNAL_ERROR:I = 0x0
+
+.field public static final ERROR_CODE_MEDIATION_SHOW_ERROR:I = 0x4
+
+.field public static final ERROR_CODE_NOT_READY:I = 0x2
+
+
+# virtual methods
+.method public onAdClicked()V
+    .locals 0
+
+    .line 1
+    return-void
+.end method
+
+.method public onAdDismissedFullScreenContent()V
+    .locals 0
+
+    .line 1
+    return-void
+.end method
+
+.method public onAdFailedToShowFullScreenContent(Lcom/google/android/gms/ads/AdError;)V
+    .locals 0
+
+    .line 1
+    return-void
+.end method
+
+.method public onAdImpression()V
+    .locals 0
+
+    .line 1
+    return-void
+.end method
+
+.method public onAdShowedFullScreenContent()V
+    .locals 0
+
+    .line 1
+    return-void
+.end method

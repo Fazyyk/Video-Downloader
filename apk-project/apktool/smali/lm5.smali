@@ -1,0 +1,29 @@
+.class public interface abstract Llm5;
+.super Ljava/lang/Object;
+.source "r8-map-id-8dbcdcc6608068ac42f86756e80f44f5ea09085ee794eb202af41f88f7b9cc2e"
+
+
+# virtual methods
+.method public abstract a()Ljava/util/Set;
+.end method
+
+.method public abstract b()Z
+.end method
+
+.method public abstract clear()V
+.end method
+
+.method public abstract contains(Ljava/lang/String;)Z
+.end method
+
+.method public abstract isEmpty()Z
+.end method
+
+.method public abstract m(Ljava/lang/String;)Ljava/util/List;
+.end method
+
+.method public abstract names()Ljava/util/Set;
+.end method
+
+.method public abstract r(Ljava/lang/String;Ljava/util/List;)V
+.end method

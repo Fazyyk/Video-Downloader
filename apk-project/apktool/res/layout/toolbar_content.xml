@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:gravity="center" android:id="@id/arrow_button" android:background="?actionBarItemBackground" android:clickable="true" android:layout_width="?actionBarSize" android:layout_height="match_parent">
+        <ImageView android:layout_gravity="center" android:id="@id/arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_home" android:background="?actionBarItemBackground" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="match_parent" android:contentDescription="@string/APKTOOL_RENAMED_0x7f120028" android:paddingEnd="@dimen/cm_dp_12" app:srcCompat="@drawable/ic_action_home" />
+    <include layout="@layout/search" />
+    <ImageView android:layout_gravity="center" android:id="@id/toolbar_feedback" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/cm_dp_12" app:srcCompat="@drawable/ic_feedback_small" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginStart="@dimen/cm_dp_12">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_setting" android:background="?actionBarItemBackground" android:clickable="true" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginEnd="@dimen/cm_dp_12" app:layout_constraintEnd_toEndOf="parent" app:srcCompat="@drawable/ic_settings_black_24dp" app:tint="@color/action_bar_function" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_help" android:background="?actionBarItemBackground" android:clickable="true" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginEnd="@dimen/cm_dp_24" app:layout_constraintEnd_toStartOf="@id/iv_setting" app:srcCompat="@drawable/ic_help_black_24dp" app:tint="@color/action_bar_function" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_remove_ad" android:background="?actionBarItemBackground" android:clickable="true" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginEnd="@dimen/cm_dp_24" app:layout_constraintEnd_toStartOf="@id/iv_help" app:srcCompat="@drawable/ic_home_remove_ad" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

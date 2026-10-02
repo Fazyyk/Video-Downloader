@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/bg_main_bar_normal" />
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/cm_dp_24" />
+            <solid android:color="@color/main_btn_color_pressed" />
+        </shape>
+    </item>
+</layer-list>

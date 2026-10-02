@@ -1,0 +1,20 @@
+.class public interface abstract Lcom/mbridge/msdk/video/dynview/listener/e;
+.super Ljava/lang/Object;
+.source "r8-map-id-8dbcdcc6608068ac42f86756e80f44f5ea09085ee794eb202af41f88f7b9cc2e"
+
+
+# virtual methods
+.method public abstract a(Landroid/view/View;Ljava/util/List;)V
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/view/View;",
+            "Ljava/util/List<",
+            "Landroid/view/View;",
+            ">;)V"
+        }
+    .end annotation
+.end method
+
+.method public abstract a(Lcom/mbridge/msdk/video/dynview/error/a;)V
+.end method

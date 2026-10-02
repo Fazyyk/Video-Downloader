@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="APKTOOL_RENAMED_0x7f120004">Navigate up</string>
+    <string name="APKTOOL_RENAMED_0x7f120006">Done</string>
+    <string name="APKTOOL_RENAMED_0x7f120009">OFF</string>
+    <string name="APKTOOL_RENAMED_0x7f12000a">ON</string>
+    <string name="APKTOOL_RENAMED_0x7f12000b">Alt+</string>
+    <string name="APKTOOL_RENAMED_0x7f12000c">Ctrl+</string>
+    <string name="APKTOOL_RENAMED_0x7f12000d">delete</string>
+    <string name="APKTOOL_RENAMED_0x7f12000e">enter</string>
+    <string name="APKTOOL_RENAMED_0x7f12000f">Function+</string>
+    <string name="APKTOOL_RENAMED_0x7f120010">Meta+</string>
+    <string name="APKTOOL_RENAMED_0x7f120011">Shift+</string>
+    <string name="APKTOOL_RENAMED_0x7f120012">space</string>
+    <string name="APKTOOL_RENAMED_0x7f120013">Sym+</string>
+    <string name="APKTOOL_RENAMED_0x7f120014">Menu+</string>
+    <string name="APKTOOL_RENAMED_0x7f120015">Search…</string>
+    <string name="APKTOOL_RENAMED_0x7f120016">Clear query</string>
+    <string name="APKTOOL_RENAMED_0x7f120018">Search</string>
+    <string name="APKTOOL_RENAMED_0x7f120019">Submit query</string>
+    <string name="APKTOOL_RENAMED_0x7f12001a">Voice search</string>
+    <string name="APKTOOL_RENAMED_0x7f12001d">Collapse</string>
+    <string name="APKTOOL_RENAMED_0x7f1201a1">In progress</string>
+    <string name="APKTOOL_RENAMED_0x7f1201a2">Neither ticked nor unticked</string>
+    <string name="APKTOOL_RENAMED_0x7f1202af">Not selected</string>
+    <string name="APKTOOL_RENAMED_0x7f1202b5">Off</string>
+    <string name="APKTOOL_RENAMED_0x7f1202be">On</string>
+    <string name="APKTOOL_RENAMED_0x7f12036f">Selected</string>
+    <string name="APKTOOL_RENAMED_0x7f120391">999+</string>
+    <string name="APKTOOL_RENAMED_0x7f120397">Tab</string>
+    <string name="APKTOOL_RENAMED_0x7f12039f">%1$d per cent.</string>
+</resources>

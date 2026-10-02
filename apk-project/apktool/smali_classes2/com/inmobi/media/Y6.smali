@@ -1,0 +1,58 @@
+.class public final Lcom/inmobi/media/Y6;
+.super Ljava/lang/Object;
+.source "r8-map-id-8dbcdcc6608068ac42f86756e80f44f5ea09085ee794eb202af41f88f7b9cc2e"
+
+
+# instance fields
+.field public final a:Landroid/content/Context;
+
+.field public final b:Lwx0;
+
+.field public final c:Lgx3;
+
+.field public final d:Lcom/inmobi/media/Z9;
+
+
+# direct methods
+.method public constructor <init>(Landroid/content/Context;Lwx0;Lgx3;Lcom/inmobi/media/Z9;)V
+    .locals 0
+
+    .line 1
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 2
+    .line 3
+    .line 4
+    invoke-virtual {p2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 5
+    .line 6
+    .line 7
+    invoke-virtual {p3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 8
+    .line 9
+    .line 10
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 11
+    .line 12
+    .line 13
+    iput-object p1, p0, Lcom/inmobi/media/Y6;->a:Landroid/content/Context;
+
+    .line 14
+    .line 15
+    iput-object p2, p0, Lcom/inmobi/media/Y6;->b:Lwx0;
+
+    .line 16
+    .line 17
+    iput-object p3, p0, Lcom/inmobi/media/Y6;->c:Lgx3;
+
+    .line 18
+    .line 19
+    iput-object p4, p0, Lcom/inmobi/media/Y6;->d:Lcom/inmobi/media/Z9;
+
+    .line 20
+    .line 21
+    return-void
+.end method

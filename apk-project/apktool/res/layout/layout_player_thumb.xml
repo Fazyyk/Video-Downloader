@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/thumb_layout" android:visibility="gone" android:layout_width="@dimen/play_seek_thumb_layout_width" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/play_seek_thumb_margin_large" android:layout_alignParentBottom="true" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/bg_center" android:padding="@dimen/cm_dp_8" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.BitmapImageView android:layout_gravity="center_horizontal" android:id="@id/thumb" android:layout_width="@dimen/cm_dp_152" android:layout_height="@dimen/cm_dp_86" android:scaleType="fitCenter" />
+        <TextView android:textSize="@dimen/cm_sp_14" android:textColor="#ffffff" android:gravity="center" android:id="@id/text_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cm_dp_6" android:textAllCaps="true" />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/arrow_down" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_triangle" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:background="@color/notification_background" android:layout_width="match_parent" android:layout_height="48.0dp">
+        <TextView android:textSize="14.0sp" android:textColor="@color/accent_color" android:id="@id/tv_play_now" android:padding="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:fontFamily="@font/lato_bold" android:layout_alignParentEnd="true" />
+        <ImageView android:id="@id/image_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4.0dp" android:layout_centerVertical="true" app:srcCompat="@drawable/ic_finish_video" />
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:layout_marginBottom="4.0dp" android:layout_centerVertical="true" android:layout_toStartOf="@id/tv_play_now" android:layout_toEndOf="@id/image_type">
+            <TextView android:textSize="12.0sp" android:textColor="#eef1fb" android:ellipsize="end" android:id="@id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:fontFamily="@font/lato_bold" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/snackbar_text_color" android:ellipsize="end" android:id="@id/tv_download_complete" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_RENAMED_0x7f1200fd" android:maxLines="1" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

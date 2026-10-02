@@ -1,0 +1,191 @@
+.class public final Lcom/google/android/gms/common/zzb;
+.super Ljava/lang/Object;
+.source "r8-map-id-8dbcdcc6608068ac42f86756e80f44f5ea09085ee794eb202af41f88f7b9cc2e"
+
+# interfaces
+.implements Landroid/os/Parcelable$Creator;
+
+
+# virtual methods
+.method public final createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
+    .locals 10
+
+    .line 1
+    invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->v(Landroid/os/Parcel;)I
+
+    .line 2
+    .line 3
+    .line 4
+    move-result p0
+
+    .line 5
+    const/4 v0, 0x0
+
+    .line 6
+    const-wide/16 v1, -0x1
+
+    .line 7
+    .line 8
+    const/4 v3, 0x0
+
+    .line 9
+    move v5, v0
+
+    .line 10
+    move v9, v5
+
+    .line 11
+    move-wide v6, v1
+
+    .line 12
+    move-object v8, v3
+
+    .line 13
+    :goto_0
+    invoke-virtual {p1}, Landroid/os/Parcel;->dataPosition()I
+
+    .line 14
+    .line 15
+    .line 16
+    move-result v0
+
+    .line 17
+    if-ge v0, p0, :cond_4
+
+    .line 18
+    .line 19
+    invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
+
+    .line 20
+    .line 21
+    .line 22
+    move-result v0
+
+    .line 23
+    int-to-char v1, v0
+
+    .line 24
+    const/4 v2, 0x1
+
+    .line 25
+    if-eq v1, v2, :cond_3
+
+    .line 26
+    .line 27
+    const/4 v2, 0x2
+
+    .line 28
+    if-eq v1, v2, :cond_2
+
+    .line 29
+    .line 30
+    const/4 v2, 0x3
+
+    .line 31
+    if-eq v1, v2, :cond_1
+
+    .line 32
+    .line 33
+    const/4 v2, 0x4
+
+    .line 34
+    if-eq v1, v2, :cond_0
+
+    .line 35
+    .line 36
+    invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->u(Landroid/os/Parcel;I)V
+
+    .line 37
+    .line 38
+    .line 39
+    goto :goto_0
+
+    .line 40
+    :cond_0
+    invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->n(Landroid/os/Parcel;I)Z
+
+    .line 41
+    .line 42
+    .line 43
+    move-result v0
+
+    .line 44
+    move v9, v0
+
+    .line 45
+    goto :goto_0
+
+    .line 46
+    :cond_1
+    invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->r(Landroid/os/Parcel;I)J
+
+    .line 47
+    .line 48
+    .line 49
+    move-result-wide v0
+
+    .line 50
+    move-wide v6, v0
+
+    .line 51
+    goto :goto_0
+
+    .line 52
+    :cond_2
+    invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->q(Landroid/os/Parcel;I)I
+
+    .line 53
+    .line 54
+    .line 55
+    move-result v0
+
+    .line 56
+    move v5, v0
+
+    .line 57
+    goto :goto_0
+
+    .line 58
+    :cond_3
+    invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->h(Landroid/os/Parcel;I)Ljava/lang/String;
+
+    .line 59
+    .line 60
+    .line 61
+    move-result-object v0
+
+    .line 62
+    move-object v8, v0
+
+    .line 63
+    goto :goto_0
+
+    .line 64
+    :cond_4
+    invoke-static {p1, p0}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->m(Landroid/os/Parcel;I)V
+
+    .line 65
+    .line 66
+    .line 67
+    new-instance v4, Lcom/google/android/gms/common/Feature;
+
+    .line 68
+    .line 69
+    invoke-direct/range {v4 .. v9}, Lcom/google/android/gms/common/Feature;-><init>(IJLjava/lang/String;Z)V
+
+    .line 70
+    .line 71
+    .line 72
+    return-object v4
+.end method
+
+.method public final synthetic newArray(I)[Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    new-array p0, p1, [Lcom/google/android/gms/common/Feature;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method

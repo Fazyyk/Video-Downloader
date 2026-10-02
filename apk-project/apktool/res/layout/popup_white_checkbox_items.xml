@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@dimen/cm_dp_5" android:paddingEnd="@dimen/cm_dp_5"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:id="@id/checkbox" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@null" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    <CheckedTextView android:textSize="@dimen/cm_sp_16" android:textColor="@color/checked_white_text" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/popup_item" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="@dimen/cm_dp_45" android:singleLine="true" android:layout_marginStart="@dimen/cm_dp_5" android:layout_marginEnd="@dimen/cm_dp_5" android:layout_toStartOf="@id/checkbox" />
+</RelativeLayout>
