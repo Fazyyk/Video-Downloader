@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/play_list_container" android:background="#f3000000" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="0.0dp">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="@dimen/cm_dp_52">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/down_btn" android:background="@drawable/bg_common_btn_light" android:padding="@dimen/cm_dp_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentStart="true" app:srcCompat="@drawable/ic_close" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/repeat_mode" android:background="@drawable/bg_common_btn_light" android:padding="@dimen/cm_dp_10" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:paddingEnd="@dimen/cm_dp_16" android:layout_alignParentEnd="true" app:srcCompat="@drawable/ic_repeat_order" />
+            <TextView android:textSize="@dimen/cm_sp_12" android:textColor="#e6e6e6" android:id="@id/repeat_mode_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_RENAMED_0x7f12030e" android:maxLines="1" android:singleLine="true" android:layout_centerVertical="true" android:layout_toStartOf="@id/repeat_mode" />
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toEndOf="@id/down_btn">
+                <TextView android:textSize="@dimen/cm_sp_16" android:textColor="#e6e6e6" android:id="@id/play_list_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:layout_centerVertical="true" android:paddingEnd="@dimen/cm_dp_30" />
+                <TextView android:textSize="@dimen/cm_sp_13" android:textColor="#808080" android:gravity="start" android:id="@id/play_list_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/cm_dp_24" android:maxLines="1" android:singleLine="true" android:layout_centerVertical="true" android:layout_alignEnd="@id/play_list_name" />
+            </RelativeLayout>
+            <View android:background="@drawable/red_dot" android:visibility="gone" android:layout_width="@dimen/cm_dp_8" android:layout_height="@dimen/cm_dp_8" android:layout_marginTop="@dimen/cm_dp_11" android:layout_marginEnd="@dimen/cm_dp_11" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/play_list_view" android:layout_width="match_parent" android:layout_height="match_parent" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    </LinearLayout>
+</merge>

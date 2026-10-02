@@ -1,0 +1,2466 @@
+APK archive inventory (structure only)
+Input: Video Downloader_2.7.3.apk (provided attachment)
+The outer file is an XAPK-style ZIP containing a base APK and an ARM64 split.
+DEX bytecode is listed as archive entries only; no source code was decompiled.
+
+Video Downloader_2.7.3.apk/
+├── config.arm64_v8a.apk/
+│   ├── lib/
+│   │   └── arm64-v8a/
+│   │       ├── libapminsighta.so
+│   │       ├── libapminsightb.so
+│   │       ├── libapplovin-native-crash-reporter.so
+│   │       ├── libavcodec.so
+│   │       ├── libavdevice.so
+│   │       ├── libavfilter.so
+│   │       ├── libavformat.so
+│   │       ├── libavutil.so
+│   │       ├── libbuffer_pgl.so
+│   │       ├── libdatastore_shared_counter.so
+│   │       ├── libfanplayer.so
+│   │       ├── libffmpegkit.so
+│   │       ├── libfile_lock_pgl.so
+│   │       ├── libitcore.so
+│   │       ├── libmmkv.so
+│   │       ├── libnms.so
+│   │       ├── libpglarmor.so
+│   │       ├── libswresample.so
+│   │       ├── libswscale.so
+│   │       ├── libtt_ugen_layout.so
+│   │       ├── libunitycoherencenative.so
+│   │       └── libvideodownloader.so
+│   ├── AndroidManifest.xml
+│   └── stamp-cert-sha256
+├── video.downloader.videodownloader.apk/
+│   ├── assets/
+│   │   ├── ad-viewer/
+│   │   │   ├── omid-session-client-v1.js
+│   │   │   └── omsdk-v1.js
+│   │   ├── dexopt/
+│   │   │   ├── baseline.prof
+│   │   │   └── baseline.profm
+│   │   ├── template/
+│   │   │   ├── customWebview/
+│   │   │   │   ├── Root_1.xml
+│   │   │   │   └── Root_2.xml
+│   │   │   ├── ec404/
+│   │   │   │   ├── more_offer_item.xml
+│   │   │   │   ├── Root_1.xml
+│   │   │   │   └── Root_2.xml
+│   │   │   ├── ecPlayable/
+│   │   │   │   ├── Root_1.xml
+│   │   │   │   └── Root_2.xml
+│   │   │   ├── video202/
+│   │   │   │   ├── Root_1.xml
+│   │   │   │   └── Root_2.xml
+│   │   │   ├── video904/
+│   │   │   │   ├── Root_1.xml
+│   │   │   │   └── Root_2.xml
+│   │   │   └── metadata.json
+│   │   ├── ad_full_loading.json
+│   │   ├── Bakelite Phone Ring Single Mono.mp3
+│   │   ├── cm-vne9_rmu
+│   │   ├── cmv_ne9r-ck
+│   │   ├── Coffee Stain.mp3
+│   │   ├── com.moloco.sdk.xenoss.sdkdevkit.mraid.js
+│   │   ├── config.properties
+│   │   ├── dic
+│   │   ├── djg-906543_fushatw
+│   │   ├── Eine Kleine Nachtmusik by Mozart.mp3
+│   │   ├── favicon.ico
+│   │   ├── filedownloader.properties
+│   │   ├── If I Had a Chicken.mp3
+│   │   ├── img_cgr_alarm.png
+│   │   ├── img_cgr_animal.png
+│   │   ├── img_cgr_classical.png
+│   │   ├── img_cgr_contact.png
+│   │   ├── img_cgr_Dynamic.png
+│   │   ├── img_cgr_fun.png
+│   │   ├── img_cgr_hiphop.png
+│   │   ├── img_cgr_Instrumental.png
+│   │   ├── img_cgr_notification.png
+│   │   ├── img_cgr_pop.png
+│   │   ├── img_cgr_popular.png
+│   │   ├── img_cgr_rock.png
+│   │   ├── img_cgr_Uplifting.png
+│   │   ├── J-LSDJF_SL7
+│   │   ├── Lucid Dreamer.mp3
+│   │   ├── mbridge_download_dialog_view.xml
+│   │   ├── mraid-bridge.js
+│   │   ├── mraid.js
+│   │   ├── Nortel Phone Ring.mp3
+│   │   ├── rtData
+│   │   ├── rv_binddatas.xml
+│   │   ├── Spring In My Step.mp3
+│   │   └── Sugar Zone.mp3
+│   ├── com/
+│   │   └── applovin/
+│   │       └── shadow/
+│   │           └── okhttp3/
+│   │               └── internal/
+│   │                   └── publicsuffix/
+│   │                       ├── NOTICE
+│   │                       └── publicsuffixes.gz
+│   ├── google/
+│   │   └── protobuf/
+│   │       ├── any.proto
+│   │       ├── api.proto
+│   │       ├── duration.proto
+│   │       ├── empty.proto
+│   │       ├── field_mask.proto
+│   │       ├── source_context.proto
+│   │       ├── struct.proto
+│   │       ├── timestamp.proto
+│   │       ├── type.proto
+│   │       └── wrappers.proto
+│   ├── kotlin/
+│   │   ├── annotation/
+│   │   │   └── annotation.kotlin_builtins
+│   │   ├── collections/
+│   │   │   └── collections.kotlin_builtins
+│   │   ├── concurrent/
+│   │   │   └── atomics/
+│   │   │       └── atomics.kotlin_builtins
+│   │   ├── coroutines/
+│   │   │   └── coroutines.kotlin_builtins
+│   │   ├── internal/
+│   │   │   └── internal.kotlin_builtins
+│   │   ├── ranges/
+│   │   │   └── ranges.kotlin_builtins
+│   │   ├── reflect/
+│   │   │   └── reflect.kotlin_builtins
+│   │   └── kotlin.kotlin_builtins
+│   ├── META-INF/
+│   │   ├── androidx/
+│   │   │   ├── annotation/
+│   │   │   │   └── annotation/
+│   │   │   │       └── LICENSE.txt
+│   │   │   ├── constraintlayout/
+│   │   │   │   └── constraintlayout-core/
+│   │   │   │       └── LICENSE.txt
+│   │   │   └── room/
+│   │   │       └── room-common/
+│   │   │           └── LICENSE.txt
+│   │   ├── com/
+│   │   │   ├── android/
+│   │   │   │   └── build/
+│   │   │   │       └── gradle/
+│   │   │   │           └── app-metadata.properties
+│   │   │   ├── applovin/
+│   │   │   │   └── mediation/
+│   │   │   │       ├── bigoads-adapter/
+│   │   │   │       │   └── verification.properties
+│   │   │   │       ├── bytedance-adapter/
+│   │   │   │       │   └── verification.properties
+│   │   │   │       ├── chartboost-adapter/
+│   │   │   │       │   └── verification.properties
+│   │   │   │       ├── google-ad-manager-adapter/
+│   │   │   │       │   └── verification.properties
+│   │   │   │       ├── google-adapter/
+│   │   │   │       │   └── verification.properties
+│   │   │   │       ├── inmobi-adapter/
+│   │   │   │       │   └── verification.properties
+│   │   │   │       ├── mintegral-adapter/
+│   │   │   │       │   └── verification.properties
+│   │   │   │       ├── moloco-adapter/
+│   │   │   │       │   └── verification.properties
+│   │   │   │       ├── unityads-adapter/
+│   │   │   │       │   └── verification.properties
+│   │   │   │       └── vungle-adapter/
+│   │   │   │           └── verification.properties
+│   │   │   ├── chartboost/
+│   │   │   │   └── sdk/
+│   │   │   │       └── verification.properties
+│   │   │   ├── pangle/
+│   │   │   │   └── global/
+│   │   │   │       └── pag-sdk/
+│   │   │   │           └── verification.properties
+│   │   │   └── unity3d/
+│   │   │       └── ads-mediation/
+│   │   │           └── adquality-sdk/
+│   │   │               └── verification.properties
+│   │   ├── services/
+│   │   │   ├── lc
+│   │   │   ├── on2
+│   │   │   ├── qx0
+│   │   │   └── ru.ok.tracer.manifest.TracerLiteManifest
+│   │   ├── androidx.activity_activity-compose.version
+│   │   ├── androidx.activity_activity-ktx.version
+│   │   ├── androidx.activity_activity.version
+│   │   ├── androidx.annotation_annotation-experimental.version
+│   │   ├── androidx.appcompat_appcompat-resources.version
+│   │   ├── androidx.appcompat_appcompat.version
+│   │   ├── androidx.arch.core_core-runtime.version
+│   │   ├── androidx.asynclayoutinflater_asynclayoutinflater.version
+│   │   ├── androidx.autofill_autofill.version
+│   │   ├── androidx.browser_browser.version
+│   │   ├── androidx.cardview_cardview.version
+│   │   ├── androidx.compose.animation_animation-core.version
+│   │   ├── androidx.compose.animation_animation.version
+│   │   ├── androidx.compose.foundation_foundation-layout.version
+│   │   ├── androidx.compose.foundation_foundation.version
+│   │   ├── androidx.compose.material_material-icons-core.version
+│   │   ├── androidx.compose.material_material-ripple.version
+│   │   ├── androidx.compose.material_material.version
+│   │   ├── androidx.compose.runtime_runtime-saveable.version
+│   │   ├── androidx.compose.runtime_runtime.version
+│   │   ├── androidx.compose.ui_ui-geometry.version
+│   │   ├── androidx.compose.ui_ui-graphics.version
+│   │   ├── androidx.compose.ui_ui-text.version
+│   │   ├── androidx.compose.ui_ui-unit.version
+│   │   ├── androidx.compose.ui_ui-util.version
+│   │   ├── androidx.compose.ui_ui.version
+│   │   ├── androidx.constraintlayout_constraintlayout.version
+│   │   ├── androidx.coordinatorlayout_coordinatorlayout.version
+│   │   ├── androidx.core_core-ktx.version
+│   │   ├── androidx.core_core-viewtree.version
+│   │   ├── androidx.core_core.version
+│   │   ├── androidx.cursoradapter_cursoradapter.version
+│   │   ├── androidx.customview_customview-poolingcontainer.version
+│   │   ├── androidx.customview_customview.version
+│   │   ├── androidx.datastore_datastore-core.version
+│   │   ├── androidx.datastore_datastore-preferences-core.version
+│   │   ├── androidx.datastore_datastore-preferences.version
+│   │   ├── androidx.datastore_datastore.version
+│   │   ├── androidx.documentfile_documentfile.version
+│   │   ├── androidx.drawerlayout_drawerlayout.version
+│   │   ├── androidx.dynamicanimation_dynamicanimation.version
+│   │   ├── androidx.emoji2_emoji2-views-helper.version
+│   │   ├── androidx.emoji2_emoji2.version
+│   │   ├── androidx.exifinterface_exifinterface.version
+│   │   ├── androidx.fragment_fragment.version
+│   │   ├── androidx.graphics_graphics-shapes.version
+│   │   ├── androidx.interpolator_interpolator.version
+│   │   ├── androidx.legacy_legacy-support-core-ui.version
+│   │   ├── androidx.legacy_legacy-support-core-utils.version
+│   │   ├── androidx.legacy_legacy-support-v4.version
+│   │   ├── androidx.lifecycle_lifecycle-extensions.version
+│   │   ├── androidx.lifecycle_lifecycle-livedata-core.version
+│   │   ├── androidx.lifecycle_lifecycle-livedata.version
+│   │   ├── androidx.lifecycle_lifecycle-process.version
+│   │   ├── androidx.lifecycle_lifecycle-runtime-compose.version
+│   │   ├── androidx.lifecycle_lifecycle-runtime-ktx.version
+│   │   ├── androidx.lifecycle_lifecycle-runtime.version
+│   │   ├── androidx.lifecycle_lifecycle-service.version
+│   │   ├── androidx.lifecycle_lifecycle-viewmodel-ktx.version
+│   │   ├── androidx.lifecycle_lifecycle-viewmodel-savedstate.version
+│   │   ├── androidx.lifecycle_lifecycle-viewmodel.version
+│   │   ├── androidx.loader_loader.version
+│   │   ├── androidx.localbroadcastmanager_localbroadcastmanager.version
+│   │   ├── androidx.media_media.version
+│   │   ├── androidx.palette_palette.version
+│   │   ├── androidx.preference_preference.version
+│   │   ├── androidx.print_print.version
+│   │   ├── androidx.privacysandbox.ads_ads-adservices-java.version
+│   │   ├── androidx.privacysandbox.ads_ads-adservices.version
+│   │   ├── androidx.profileinstaller_profileinstaller.version
+│   │   ├── androidx.recyclerview_recyclerview.version
+│   │   ├── androidx.room_room-ktx.version
+│   │   ├── androidx.room_room-runtime.version
+│   │   ├── androidx.savedstate_savedstate-ktx.version
+│   │   ├── androidx.savedstate_savedstate.version
+│   │   ├── androidx.slidingpanelayout_slidingpanelayout.version
+│   │   ├── androidx.sqlite_sqlite-framework.version
+│   │   ├── androidx.sqlite_sqlite.version
+│   │   ├── androidx.startup_startup-runtime.version
+│   │   ├── androidx.swiperefreshlayout_swiperefreshlayout.version
+│   │   ├── androidx.tracing_tracing-ktx.version
+│   │   ├── androidx.tracing_tracing.version
+│   │   ├── androidx.transition_transition.version
+│   │   ├── androidx.vectordrawable_vectordrawable-animated.version
+│   │   ├── androidx.vectordrawable_vectordrawable.version
+│   │   ├── androidx.versionedparcelable_versionedparcelable.version
+│   │   ├── androidx.viewpager2_viewpager2.version
+│   │   ├── androidx.viewpager_viewpager.version
+│   │   ├── androidx.webkit_webkit.version
+│   │   ├── androidx.work_work-runtime-ktx.version
+│   │   ├── androidx.work_work-runtime.version
+│   │   ├── CHANGES
+│   │   ├── ChartboostMonetization-9.13.0_release.kotlin_module
+│   │   ├── com.applovin.shadow.okio.kotlin_module
+│   │   ├── com.google.android.material_material.version
+│   │   ├── java_kotlin-bytestring_lib.kotlin_module
+│   │   ├── java_kotlin-lite-lite_extensions.kotlin_module
+│   │   ├── java_kotlin-lite-well_known_protos_kotlin_lite.kotlin_module
+│   │   ├── kotlin-stdlib.kotlin_module
+│   │   ├── kotlinx_coroutines_android.version
+│   │   ├── kotlinx_coroutines_core.version
+│   │   ├── kotlinx_coroutines_play_services.version
+│   │   ├── kotlinx_coroutines_slf4j.version
+│   │   ├── moloco-sdk_release.kotlin_module
+│   │   ├── okhttp.kotlin_module
+│   │   ├── README.md
+│   │   ├── rxjava.properties
+│   │   ├── unity-ads_defaultRelease.kotlin_module
+│   │   ├── version-control-info.textproto
+│   │   └── vungle-ads_release.kotlin_module
+│   ├── okhttp3/
+│   │   └── internal/
+│   │       └── publicsuffix/
+│   │           ├── NOTICE
+│   │           └── publicsuffixes.gz
+│   ├── res/
+│   │   ├── anim/
+│   │   │   ├── abc_grow_fade_in_from_bottom.xml
+│   │   │   ├── abc_popup_enter.xml
+│   │   │   ├── abc_popup_exit.xml
+│   │   │   ├── abc_shrink_fade_out_from_bottom.xml
+│   │   │   ├── abc_tooltip_enter.xml
+│   │   │   ├── abc_tooltip_exit.xml
+│   │   │   ├── applovin_slide_down_animation.xml
+│   │   │   ├── applovin_slide_up_animation.xml
+│   │   │   ├── bottom_in.xml
+│   │   │   ├── bottom_out.xml
+│   │   │   ├── btn_checkbox_to_checked_box_inner_merged_animation.xml
+│   │   │   ├── btn_checkbox_to_checked_box_outer_merged_animation.xml
+│   │   │   ├── btn_checkbox_to_checked_icon_null_animation.xml
+│   │   │   ├── btn_checkbox_to_unchecked_box_inner_merged_animation.xml
+│   │   │   ├── btn_checkbox_to_unchecked_check_path_merged_animation.xml
+│   │   │   ├── btn_checkbox_to_unchecked_icon_null_animation.xml
+│   │   │   ├── btn_radio_to_off_mtrl_dot_group_animation.xml
+│   │   │   ├── btn_radio_to_off_mtrl_ring_outer_animation.xml
+│   │   │   ├── btn_radio_to_off_mtrl_ring_outer_path_animation.xml
+│   │   │   ├── btn_radio_to_on_mtrl_dot_group_animation.xml
+│   │   │   ├── btn_radio_to_on_mtrl_ring_outer_animation.xml
+│   │   │   ├── btn_radio_to_on_mtrl_ring_outer_path_animation.xml
+│   │   │   ├── common_slide_down_out.xml
+│   │   │   ├── common_slide_up_in.xml
+│   │   │   ├── design_bottom_sheet_slide_in.xml
+│   │   │   ├── design_bottom_sheet_slide_out.xml
+│   │   │   ├── mbridge_reward_activity_open.xml
+│   │   │   ├── mbridge_reward_activity_stay.xml
+│   │   │   ├── right_in.xml
+│   │   │   ├── right_out.xml
+│   │   │   ├── slide_in_from_bottom.xml
+│   │   │   ├── slide_out_to_bottom.xml
+│   │   │   ├── tt_dislike_animation_dismiss.xml
+│   │   │   ├── tt_dislike_animation_show.xml
+│   │   │   ├── tt_fade_out.xml
+│   │   │   ├── tt_loading_two_icon_scale.xml
+│   │   │   ├── tt_text_animation_x_in.xml
+│   │   │   ├── tt_text_animation_y_in.xml
+│   │   │   └── tt_text_animation_y_out.xml
+│   │   ├── anim-v21/
+│   │   │   └── fragment_fast_out_extra_slow_in.xml
+│   │   ├── animator/
+│   │   │   ├── design_appbar_state_list_animator.xml
+│   │   │   ├── design_fab_hide_motion_spec.xml
+│   │   │   ├── design_fab_show_motion_spec.xml
+│   │   │   ├── fragment_close_enter.xml
+│   │   │   ├── fragment_close_exit.xml
+│   │   │   ├── fragment_fade_enter.xml
+│   │   │   ├── fragment_fade_exit.xml
+│   │   │   ├── fragment_open_enter.xml
+│   │   │   ├── fragment_open_exit.xml
+│   │   │   ├── mtrl_btn_state_list_anim.xml
+│   │   │   ├── mtrl_fab_transformation_sheet_collapse_spec.xml
+│   │   │   └── mtrl_fab_transformation_sheet_expand_spec.xml
+│   │   ├── color/
+│   │   │   ├── abc_background_cache_hint_selector_material_dark.xml
+│   │   │   ├── abc_hint_foreground_material_dark.xml
+│   │   │   ├── abc_hint_foreground_material_light.xml
+│   │   │   ├── abc_primary_text_disable_only_material_dark.xml
+│   │   │   ├── abc_primary_text_material_dark.xml
+│   │   │   ├── abc_primary_text_material_light.xml
+│   │   │   ├── abc_search_url_text.xml
+│   │   │   ├── abc_secondary_text_material_dark.xml
+│   │   │   ├── abc_secondary_text_material_light.xml
+│   │   │   ├── checked_white_text.xml
+│   │   │   ├── common_google_signin_btn_text_dark.xml
+│   │   │   ├── common_google_signin_btn_text_light.xml
+│   │   │   ├── common_google_signin_btn_tint.xml
+│   │   │   ├── design_box_stroke_color.xml
+│   │   │   ├── design_error.xml
+│   │   │   ├── design_icon_tint.xml
+│   │   │   ├── material_divider_color.xml
+│   │   │   ├── material_on_surface_stroke.xml
+│   │   │   ├── mbridge_cm_feedback_rb_text_color_color_list.xml
+│   │   │   ├── mtrl_btn_bg_color_selector.xml
+│   │   │   ├── mtrl_btn_ripple_color.xml
+│   │   │   ├── mtrl_btn_text_color_selector.xml
+│   │   │   ├── mtrl_filled_background_color.xml
+│   │   │   ├── selector_item_nav.xml
+│   │   │   ├── switch_thumb_material_dark.xml
+│   │   │   └── switch_thumb_material_light.xml
+│   │   ├── color-v23/
+│   │   │   ├── abc_color_highlight_material.xml
+│   │   │   ├── abc_tint_btn_checkable.xml
+│   │   │   ├── abc_tint_default.xml
+│   │   │   ├── abc_tint_edittext.xml
+│   │   │   ├── abc_tint_seek_thumb.xml
+│   │   │   ├── abc_tint_spinner.xml
+│   │   │   └── abc_tint_switch_track.xml
+│   │   ├── drawable/
+│   │   │   ├── $applovin_ic_mute_to_unmute__0.xml
+│   │   │   ├── $applovin_ic_mute_to_unmute__1.xml
+│   │   │   ├── $applovin_ic_mute_to_unmute__2.xml
+│   │   │   ├── $applovin_ic_mute_to_unmute__3.xml
+│   │   │   ├── $applovin_ic_mute_to_unmute__4.xml
+│   │   │   ├── $applovin_ic_unmute_to_mute__0.xml
+│   │   │   ├── $applovin_ic_unmute_to_mute__1.xml
+│   │   │   ├── $applovin_ic_unmute_to_mute__2.xml
+│   │   │   ├── $applovin_ic_unmute_to_mute__3.xml
+│   │   │   ├── $applovin_ic_unmute_to_mute__4.xml
+│   │   │   ├── $avd_hide_password__0.xml
+│   │   │   ├── $avd_hide_password__1.xml
+│   │   │   ├── $avd_hide_password__2.xml
+│   │   │   ├── $avd_show_password__0.xml
+│   │   │   ├── $avd_show_password__1.xml
+│   │   │   ├── $avd_show_password__2.xml
+│   │   │   ├── $common_ic_howto__0.xml
+│   │   │   ├── $ic_home_remove_ad__0.xml
+│   │   │   ├── $mtrl_checkbox_button_checked_unchecked__0.xml
+│   │   │   ├── $mtrl_checkbox_button_checked_unchecked__1.xml
+│   │   │   ├── $mtrl_checkbox_button_checked_unchecked__2.xml
+│   │   │   ├── $mtrl_checkbox_button_icon_checked_indeterminate__0.xml
+│   │   │   ├── $mtrl_checkbox_button_icon_checked_unchecked__0.xml
+│   │   │   ├── $mtrl_checkbox_button_icon_checked_unchecked__1.xml
+│   │   │   ├── $mtrl_checkbox_button_icon_checked_unchecked__2.xml
+│   │   │   ├── $mtrl_checkbox_button_icon_indeterminate_checked__0.xml
+│   │   │   ├── $mtrl_checkbox_button_icon_indeterminate_unchecked__0.xml
+│   │   │   ├── $mtrl_checkbox_button_icon_indeterminate_unchecked__1.xml
+│   │   │   ├── $mtrl_checkbox_button_icon_indeterminate_unchecked__2.xml
+│   │   │   ├── $mtrl_checkbox_button_icon_unchecked_checked__0.xml
+│   │   │   ├── $mtrl_checkbox_button_icon_unchecked_checked__1.xml
+│   │   │   ├── $mtrl_checkbox_button_icon_unchecked_checked__2.xml
+│   │   │   ├── $mtrl_checkbox_button_icon_unchecked_indeterminate__0.xml
+│   │   │   ├── $mtrl_checkbox_button_icon_unchecked_indeterminate__1.xml
+│   │   │   ├── $mtrl_checkbox_button_icon_unchecked_indeterminate__2.xml
+│   │   │   ├── $mtrl_checkbox_button_unchecked_checked__0.xml
+│   │   │   ├── $mtrl_checkbox_button_unchecked_checked__1.xml
+│   │   │   ├── $mtrl_checkbox_button_unchecked_checked__2.xml
+│   │   │   ├── abc_btn_borderless_material.xml
+│   │   │   ├── abc_btn_check_material.xml
+│   │   │   ├── abc_btn_check_material_anim.xml
+│   │   │   ├── abc_btn_default_mtrl_shape.xml
+│   │   │   ├── abc_btn_radio_material.xml
+│   │   │   ├── abc_btn_radio_material_anim.xml
+│   │   │   ├── abc_cab_background_internal_bg.xml
+│   │   │   ├── abc_cab_background_top_material.xml
+│   │   │   ├── abc_ic_ab_back_material.xml
+│   │   │   ├── abc_ic_arrow_drop_right_black_24dp.xml
+│   │   │   ├── abc_ic_clear_material.xml
+│   │   │   ├── abc_ic_go_search_api_material.xml
+│   │   │   ├── abc_ic_menu_copy_mtrl_am_alpha.xml
+│   │   │   ├── abc_ic_menu_cut_mtrl_alpha.xml
+│   │   │   ├── abc_ic_menu_paste_mtrl_am_alpha.xml
+│   │   │   ├── abc_ic_menu_selectall_mtrl_alpha.xml
+│   │   │   ├── abc_ic_menu_share_mtrl_alpha.xml
+│   │   │   ├── abc_ic_search_api_material.xml
+│   │   │   ├── abc_ic_voice_search_api_material.xml
+│   │   │   ├── abc_item_background_holo_dark.xml
+│   │   │   ├── abc_item_background_holo_light.xml
+│   │   │   ├── abc_list_selector_background_transition_holo_dark.xml
+│   │   │   ├── abc_list_selector_background_transition_holo_light.xml
+│   │   │   ├── abc_list_selector_holo_dark.xml
+│   │   │   ├── abc_list_selector_holo_light.xml
+│   │   │   ├── abc_ratingbar_indicator_material.xml
+│   │   │   ├── abc_ratingbar_material.xml
+│   │   │   ├── abc_ratingbar_small_material.xml
+│   │   │   ├── abc_seekbar_thumb_material.xml
+│   │   │   ├── abc_seekbar_tick_mark_material.xml
+│   │   │   ├── abc_seekbar_track_material.xml
+│   │   │   ├── abc_spinner_textfield_background_material.xml
+│   │   │   ├── abc_star_black_48dp.xml
+│   │   │   ├── abc_star_half_black_48dp.xml
+│   │   │   ├── abc_switch_thumb_material.xml
+│   │   │   ├── abc_tab_indicator_material.xml
+│   │   │   ├── abc_text_cursor_material.xml
+│   │   │   ├── abc_textfield_search_material.xml
+│   │   │   ├── abc_vector_test.xml
+│   │   │   ├── activity_exit_full_background.xml
+│   │   │   ├── ad_bg_full_loading_dialog.xml
+│   │   │   ├── ad_browser_progressbar.xml
+│   │   │   ├── ad_native_banner_background.xml
+│   │   │   ├── ad_native_bunner_btn_background.xml
+│   │   │   ├── admob_close_button_black_circle_white_cross.xml
+│   │   │   ├── admob_close_button_white_circle_black_cross.xml
+│   │   │   ├── admob_close_button_white_cross.xml
+│   │   │   ├── anim_loading_frame.xml
+│   │   │   ├── applovin_creative_debugger_report_ad_rounded_button.xml
+│   │   │   ├── applovin_ic_baseline_add_circle_outline.xml
+│   │   │   ├── applovin_ic_check_mark_bordered.xml
+│   │   │   ├── applovin_ic_check_mark_borderless.xml
+│   │   │   ├── applovin_ic_disclosure_arrow.xml
+│   │   │   ├── applovin_ic_mediation_adjoe.xml
+│   │   │   ├── applovin_ic_mediation_admob.xml
+│   │   │   ├── applovin_ic_mediation_amazon_marketplace.xml
+│   │   │   ├── applovin_ic_mediation_applovin.xml
+│   │   │   ├── applovin_ic_mediation_bidmachine.xml
+│   │   │   ├── applovin_ic_mediation_bigo.xml
+│   │   │   ├── applovin_ic_mediation_chartboost.xml
+│   │   │   ├── applovin_ic_mediation_facebook.xml
+│   │   │   ├── applovin_ic_mediation_fyber.xml
+│   │   │   ├── applovin_ic_mediation_google_ad_manager.xml
+│   │   │   ├── applovin_ic_mediation_inmobi.xml
+│   │   │   ├── applovin_ic_mediation_ironsource.xml
+│   │   │   ├── applovin_ic_mediation_line.xml
+│   │   │   ├── applovin_ic_mediation_mintegral.xml
+│   │   │   ├── applovin_ic_mediation_mobilefuse.xml
+│   │   │   ├── applovin_ic_mediation_moloco.xml
+│   │   │   ├── applovin_ic_mediation_mytarget.xml
+│   │   │   ├── applovin_ic_mediation_ogury_presage.xml
+│   │   │   ├── applovin_ic_mediation_pangle.xml
+│   │   │   ├── applovin_ic_mediation_placeholder.xml
+│   │   │   ├── applovin_ic_mediation_pubmatic.xml
+│   │   │   ├── applovin_ic_mediation_smaato.xml
+│   │   │   ├── applovin_ic_mediation_tiktok.xml
+│   │   │   ├── applovin_ic_mediation_unity.xml
+│   │   │   ├── applovin_ic_mediation_verve.xml
+│   │   │   ├── applovin_ic_mediation_vungle.xml
+│   │   │   ├── applovin_ic_mediation_yandex.xml
+│   │   │   ├── applovin_ic_mediation_yso.xml
+│   │   │   ├── applovin_ic_mute_to_unmute.xml
+│   │   │   ├── applovin_ic_pause_icon.xml
+│   │   │   ├── applovin_ic_play_icon.xml
+│   │   │   ├── applovin_ic_privacy_icon.png
+│   │   │   ├── applovin_ic_privacy_icon_layered_list.xml
+│   │   │   ├── applovin_ic_replay_icon.xml
+│   │   │   ├── applovin_ic_unmute_to_mute.xml
+│   │   │   ├── applovin_ic_warning.xml
+│   │   │   ├── applovin_ic_warning_outline.xml
+│   │   │   ├── applovin_ic_white_small.png
+│   │   │   ├── applovin_ic_x_mark.xml
+│   │   │   ├── applovin_mediation_debugger_switch_thumb.xml
+│   │   │   ├── applovin_mediation_debugger_switch_track.xml
+│   │   │   ├── applovin_rounded_black_background.xml
+│   │   │   ├── applovin_rounded_button.xml
+│   │   │   ├── applovin_rounded_text_view_border.xml
+│   │   │   ├── avd_hide_password.xml
+│   │   │   ├── avd_show_password.xml
+│   │   │   ├── basis_btn_backg.xml
+│   │   │   ├── basis_ic_close_white_24dp.xml
+│   │   │   ├── bg_008f00_50dp_border_2dp.xml
+│   │   │   ├── bg_0ceef1fb_16dp.xml
+│   │   │   ├── bg_10white_100dp.xml
+│   │   │   ├── bg_1974ff_100dp.xml
+│   │   │   ├── bg_26ff3300_16dp.xml
+│   │   │   ├── bg_2a2a2a_12dp.xml
+│   │   │   ├── bg_2a2a2a_21dp.xml
+│   │   │   ├── bg_575757_50dp_border_2dp.xml
+│   │   │   ├── bg_accent_50dp.xml
+│   │   │   ├── bg_accent_cir.xml
+│   │   │   ├── bg_accent_save.xml
+│   │   │   ├── bg_accent_stroke_8dp.xml
+│   │   │   ├── bg_alertdialog_white.xml
+│   │   │   ├── bg_back_cir.xml
+│   │   │   ├── bg_bottom_popup_white.xml
+│   │   │   ├── bg_btn_blue_100dp.xml
+│   │   │   ├── bg_center.xml
+│   │   │   ├── bg_circle_0dac08.xml
+│   │   │   ├── bg_circle_cc202021.xml
+│   │   │   ├── bg_e0e4ed_16dp.xml
+│   │   │   ├── bg_eef1fb_100dp.xml
+│   │   │   ├── bg_eef1fb_16dp.xml
+│   │   │   ├── bg_eef1fb_cir.xml
+│   │   │   ├── bg_favorite_explore.xml
+│   │   │   ├── bg_ff6b00_24dp.xml
+│   │   │   ├── bg_ff9f16_6dp.xml
+│   │   │   ├── bg_get_premium_btn.xml
+│   │   │   ├── bg_item_progress.xml
+│   │   │   ├── bg_light_search_view.xml
+│   │   │   ├── bg_main_bar_normal.xml
+│   │   │   ├── bg_main_bar_options_normal.xml
+│   │   │   ├── bg_main_bar_options_selected.xml
+│   │   │   ├── bg_main_bar_pressed.xml
+│   │   │   ├── bg_manual_drawer_item.xml
+│   │   │   ├── bg_native_ad_action_btn.xml
+│   │   │   ├── bg_new.xml
+│   │   │   ├── bg_open_copied_link.xml
+│   │   │   ├── bg_open_copied_link_dark.xml
+│   │   │   ├── bg_option_menu_white.xml
+│   │   │   ├── bg_pin.xml
+│   │   │   ├── bg_pin_inputed.xml
+│   │   │   ├── bg_popmenu_black.9.png
+│   │   │   ├── bg_popular_item_expand.xml
+│   │   │   ├── bg_popular_item_progress.xml
+│   │   │   ├── bg_ripple.xml
+│   │   │   ├── bg_sound_progress.xml
+│   │   │   ├── bg_thumb_duration_round.xml
+│   │   │   ├── bg_thumb_round.xml
+│   │   │   ├── bg_transparent_to_black.xml
+│   │   │   ├── bg_video_item.xml
+│   │   │   ├── bg_video_item_duration_round.xml
+│   │   │   ├── bg_video_item_thumb_round.xml
+│   │   │   ├── bg_white_50dp.xml
+│   │   │   ├── bigo_ad_advertiser_background.xml
+│   │   │   ├── bigo_ad_arrow_right.png
+│   │   │   ├── bigo_ad_banner_advertiser_background.xml
+│   │   │   ├── bigo_ad_banner_button_bg_rectangle_blue.xml
+│   │   │   ├── bigo_ad_banner_clickguide.png
+│   │   │   ├── bigo_ad_bg_ad_tag_white_border.xml
+│   │   │   ├── bigo_ad_bg_mask.xml
+│   │   │   ├── bigo_ad_btn_background.xml
+│   │   │   ├── bigo_ad_btn_background_white.xml
+│   │   │   ├── bigo_ad_btn_background_white_dark.xml
+│   │   │   ├── bigo_ad_button_bg_circle_grey.xml
+│   │   │   ├── bigo_ad_button_bg_rectangle_blue.xml
+│   │   │   ├── bigo_ad_button_bg_rectangle_blue_2.xml
+│   │   │   ├── bigo_ad_button_bg_rectangle_green.xml
+│   │   │   ├── bigo_ad_button_bg_rectangle_green_radius8.xml
+│   │   │   ├── bigo_ad_button_countdown_close.xml
+│   │   │   ├── bigo_ad_button_stroke_circle_white.xml
+│   │   │   ├── bigo_ad_cardview_bg.xml
+│   │   │   ├── bigo_ad_click_guide.png
+│   │   │   ├── bigo_ad_click_guide2.xml
+│   │   │   ├── bigo_ad_click_guide_landscape.png
+│   │   │   ├── bigo_ad_click_guide_shadow.png
+│   │   │   ├── bigo_ad_click_ripple.xml
+│   │   │   ├── bigo_ad_close_btn_background.xml
+│   │   │   ├── bigo_ad_default_base_image.jpg
+│   │   │   ├── bigo_ad_default_progressbar.xml
+│   │   │   ├── bigo_ad_domain_left_drawable.xml
+│   │   │   ├── bigo_ad_double_video_play.png
+│   │   │   ├── bigo_ad_double_video_small_play.png
+│   │   │   ├── bigo_ad_edit_background.xml
+│   │   │   ├── bigo_ad_edit_background_dark.xml
+│   │   │   ├── bigo_ad_feeback_arrow_right.png
+│   │   │   ├── bigo_ad_feedback_advertise_info_background.xml
+│   │   │   ├── bigo_ad_feedback_background.xml
+│   │   │   ├── bigo_ad_feedback_top_slide_bar.xml
+│   │   │   ├── bigo_ad_flash.png
+│   │   │   ├── bigo_ad_form_icon_back_up.png
+│   │   │   ├── bigo_ad_gift_widget.png
+│   │   │   ├── bigo_ad_gradual_background.xml
+│   │   │   ├── bigo_ad_grey_btn_background.xml
+│   │   │   ├── bigo_ad_heart_widget.png
+│   │   │   ├── bigo_ad_ic_ad_label.png
+│   │   │   ├── bigo_ad_ic_arrow_down.png
+│   │   │   ├── bigo_ad_ic_arrow_right.png
+│   │   │   ├── bigo_ad_ic_back_gray.png
+│   │   │   ├── bigo_ad_ic_close.png
+│   │   │   ├── bigo_ad_ic_close2.png
+│   │   │   ├── bigo_ad_ic_close3.png
+│   │   │   ├── bigo_ad_ic_close4.png
+│   │   │   ├── bigo_ad_ic_close5.png
+│   │   │   ├── bigo_ad_ic_close_gray.png
+│   │   │   ├── bigo_ad_ic_close_gray_light.png
+│   │   │   ├── bigo_ad_ic_download.png
+│   │   │   ├── bigo_ad_ic_download_box.png
+│   │   │   ├── bigo_ad_ic_download_box_white.png
+│   │   │   ├── bigo_ad_ic_everyone.png
+│   │   │   ├── bigo_ad_ic_everyone_ic_info.png
+│   │   │   ├── bigo_ad_ic_everyone_white.png
+│   │   │   ├── bigo_ad_ic_info.png
+│   │   │   ├── bigo_ad_ic_info_gray.png
+│   │   │   ├── bigo_ad_ic_info_popup.png
+│   │   │   ├── bigo_ad_ic_info_white.png
+│   │   │   ├── bigo_ad_ic_left_round_black.xml
+│   │   │   ├── bigo_ad_ic_left_round_white.xml
+│   │   │   ├── bigo_ad_ic_loading_gp.png
+│   │   │   ├── bigo_ad_ic_media_mute.png
+│   │   │   ├── bigo_ad_ic_media_pause.png
+│   │   │   ├── bigo_ad_ic_media_play.png
+│   │   │   ├── bigo_ad_ic_media_unmute.png
+│   │   │   ├── bigo_ad_ic_phone.png
+│   │   │   ├── bigo_ad_ic_phone_white.png
+│   │   │   ├── bigo_ad_ic_recommend.png
+│   │   │   ├── bigo_ad_ic_recommend_white.png
+│   │   │   ├── bigo_ad_ic_right_black.png
+│   │   │   ├── bigo_ad_ic_right_round_black.png
+│   │   │   ├── bigo_ad_ic_right_round_white.png
+│   │   │   ├── bigo_ad_ic_right_white.png
+│   │   │   ├── bigo_ad_ic_safe.png
+│   │   │   ├── bigo_ad_ic_star.png
+│   │   │   ├── bigo_ad_ic_star2.png
+│   │   │   ├── bigo_ad_ic_star2_white.png
+│   │   │   ├── bigo_ad_ic_star_half.png
+│   │   │   ├── bigo_ad_ic_star_half_white.png
+│   │   │   ├── bigo_ad_ic_star_normal.png
+│   │   │   ├── bigo_ad_ic_star_normal_white.png
+│   │   │   ├── bigo_ad_ic_star_white.png
+│   │   │   ├── bigo_ad_ic_web.png
+│   │   │   ├── bigo_ad_ic_web_back.xml
+│   │   │   ├── bigo_ad_ic_web_back_disable.png
+│   │   │   ├── bigo_ad_ic_web_copy.png
+│   │   │   ├── bigo_ad_ic_web_forward.xml
+│   │   │   ├── bigo_ad_ic_web_forward_enable.png
+│   │   │   ├── bigo_ad_ic_web_open_browser.png
+│   │   │   ├── bigo_ad_ic_web_refresh.png
+│   │   │   ├── bigo_ad_ic_web_white.png
+│   │   │   ├── bigo_ad_icon_background.xml
+│   │   │   ├── bigo_ad_icon_background_dark.xml
+│   │   │   ├── bigo_ad_icon_default.xml
+│   │   │   ├── bigo_ad_icon_default_img.png
+│   │   │   ├── bigo_ad_icon_default_only_icon.xml
+│   │   │   ├── bigo_ad_icon_default_radius22.xml
+│   │   │   ├── bigo_ad_icon_default_radius6.xml
+│   │   │   ├── bigo_ad_icon_novideo_default.png
+│   │   │   ├── bigo_ad_interaction_animation_bg.xml
+│   │   │   ├── bigo_ad_interaction_shake_arrow.png
+│   │   │   ├── bigo_ad_interaction_shake_landscape_phone.png
+│   │   │   ├── bigo_ad_interaction_shake_phone.png
+│   │   │   ├── bigo_ad_interaction_slide_hand.png
+│   │   │   ├── bigo_ad_interaction_slide_line.png
+│   │   │   ├── bigo_ad_interaction_twist_arrow.png
+│   │   │   ├── bigo_ad_interaction_twist_landscape_phone.png
+│   │   │   ├── bigo_ad_interaction_twist_phone.png
+│   │   │   ├── bigo_ad_interstitial_landscape_ad_info_bg.xml
+│   │   │   ├── bigo_ad_interstitial_rich_video_end_landscape_mask.xml
+│   │   │   ├── bigo_ad_label_advertiser_background_raduis7.xml
+│   │   │   ├── bigo_ad_label_background.xml
+│   │   │   ├── bigo_ad_landing_bottom_bar_bg.xml
+│   │   │   ├── bigo_ad_landing_progress_bar.xml
+│   │   │   ├── bigo_ad_landing_top_bar_bg.xml
+│   │   │   ├── bigo_ad_landing_top_indicator.xml
+│   │   │   ├── bigo_ad_landscape_slide_view.png
+│   │   │   ├── bigo_ad_layer_gift_color.png
+│   │   │   ├── bigo_ad_layer_gift_shadow.png
+│   │   │   ├── bigo_ad_layer_heart_color.png
+│   │   │   ├── bigo_ad_layer_heart_shadow.png
+│   │   │   ├── bigo_ad_mid_page_ic_gp_right.png
+│   │   │   ├── bigo_ad_multi_img_advertiser_background.xml
+│   │   │   ├── bigo_ad_multi_img_horizontal_mask.xml
+│   │   │   ├── bigo_ad_multi_img_vertical_mask.xml
+│   │   │   ├── bigo_ad_popup_ad_info_background.xml
+│   │   │   ├── bigo_ad_progressbar_white.xml
+│   │   │   ├── bigo_ad_ru_background.xml
+│   │   │   ├── bigo_ad_slide.png
+│   │   │   ├── bigo_ad_slide_gesture.png
+│   │   │   ├── bigo_ad_splash_endpage_bg.xml
+│   │   │   ├── bigo_ad_splash_endpage_slide_bg.xml
+│   │   │   ├── bigo_ad_splash_header_bg.xml
+│   │   │   ├── bigo_ad_star_icon.xml
+│   │   │   ├── bigo_ad_success.png
+│   │   │   ├── bigo_ad_tag_background.xml
+│   │   │   ├── bigo_ad_top_left_advertiser_background.xml
+│   │   │   ├── bigo_ad_view_ripple.xml
+│   │   │   ├── bigo_ad_warning_background_radius8.xml
+│   │   │   ├── bigo_ad_web_loading_progress_bar.xml
+│   │   │   ├── black_selector.xml
+│   │   │   ├── bottom_sheet_bg.xml
+│   │   │   ├── btn_checkbox_checked_mtrl.xml
+│   │   │   ├── btn_checkbox_checked_to_unchecked_mtrl_animation.xml
+│   │   │   ├── btn_checkbox_unchecked_mtrl.xml
+│   │   │   ├── btn_checkbox_unchecked_to_checked_mtrl_animation.xml
+│   │   │   ├── btn_e6e6e6_stroke.xml
+│   │   │   ├── btn_radio_off_mtrl.xml
+│   │   │   ├── btn_radio_off_to_on_mtrl_animation.xml
+│   │   │   ├── btn_radio_on_mtrl.xml
+│   │   │   ├── btn_radio_on_to_off_mtrl_animation.xml
+│   │   │   ├── card_bg.xml
+│   │   │   ├── common_archive_24dp.xml
+│   │   │   ├── common_audiotrack_24dp.xml
+│   │   │   ├── common_bg_bottom_sheet_dark.xml
+│   │   │   ├── common_bg_bottom_sheet_light.xml
+│   │   │   ├── common_bg_remove_ad.xml
+│   │   │   ├── common_bg_special_offer.xml
+│   │   │   ├── common_description_24dp.xml
+│   │   │   ├── common_google_signin_btn_icon_dark.xml
+│   │   │   ├── common_google_signin_btn_icon_dark_focused.xml
+│   │   │   ├── common_google_signin_btn_icon_dark_normal.xml
+│   │   │   ├── common_google_signin_btn_icon_disabled.xml
+│   │   │   ├── common_google_signin_btn_icon_light.xml
+│   │   │   ├── common_google_signin_btn_icon_light_focused.xml
+│   │   │   ├── common_google_signin_btn_icon_light_normal.xml
+│   │   │   ├── common_google_signin_btn_text_dark.xml
+│   │   │   ├── common_google_signin_btn_text_dark_focused.xml
+│   │   │   ├── common_google_signin_btn_text_dark_normal.xml
+│   │   │   ├── common_google_signin_btn_text_disabled.xml
+│   │   │   ├── common_google_signin_btn_text_light.xml
+│   │   │   ├── common_google_signin_btn_text_light_focused.xml
+│   │   │   ├── common_google_signin_btn_text_light_normal.xml
+│   │   │   ├── common_got_it_backg.xml
+│   │   │   ├── common_help_24dp.xml
+│   │   │   ├── common_ic_close.xml
+│   │   │   ├── common_ic_howto.xml
+│   │   │   ├── common_image_24dp.xml
+│   │   │   ├── common_movie_24dp.xml
+│   │   │   ├── common_satisfied_backg.xml
+│   │   │   ├── design_fab_background.xml
+│   │   │   ├── design_ic_visibility.xml
+│   │   │   ├── design_ic_visibility_off.xml
+│   │   │   ├── design_password_eye.xml
+│   │   │   ├── design_snackbar_background.xml
+│   │   │   ├── divider_16dp.xml
+│   │   │   ├── divider_20dp_land.xml
+│   │   │   ├── double_arrow_24.xml
+│   │   │   ├── exo_rounded_rectangle.xml
+│   │   │   ├── got_it_backg.xml
+│   │   │   ├── ic_action_back.xml
+│   │   │   ├── ic_action_delete.xml
+│   │   │   ├── ic_action_forward.xml
+│   │   │   ├── ic_action_home.xml
+│   │   │   ├── ic_action_plus.xml
+│   │   │   ├── ic_action_refresh.xml
+│   │   │   ├── ic_action_tabs.xml
+│   │   │   ├── ic_add_bookmark_black_24dp.xml
+│   │   │   ├── ic_add_box_black_24dp.xml
+│   │   │   ├── ic_archive_black_24dp.xml
+│   │   │   ├── ic_audiotrack_black_24dp.xml
+│   │   │   ├── ic_back.xml
+│   │   │   ├── ic_backspace.xml
+│   │   │   ├── ic_baseline_arrow_back_24.xml
+│   │   │   ├── ic_baseline_check_circle_24.xml
+│   │   │   ├── ic_baseline_keyboard_arrow_right_24.xml
+│   │   │   ├── ic_bookmark.xml
+│   │   │   ├── ic_bookmark_dark.xml
+│   │   │   ├── ic_brightness.xml
+│   │   │   ├── ic_card_giftcard_black_24dp.xml
+│   │   │   ├── ic_close.xml
+│   │   │   ├── ic_close_speed.xml
+│   │   │   ├── ic_content_copy_black_24dp.xml
+│   │   │   ├── ic_convert.xml
+│   │   │   ├── ic_delete_black_24dp.xml
+│   │   │   ├── ic_delete_gray_24dp.xml
+│   │   │   ├── ic_description_black_24dp.xml
+│   │   │   ├── ic_desktop_windows_black_24dp.xml
+│   │   │   ├── ic_done_all_black_24dp.xml
+│   │   │   ├── ic_download_tip.xml
+│   │   │   ├── ic_edit_gray_24dp.xml
+│   │   │   ├── ic_family_app.xml
+│   │   │   ├── ic_fast.xml
+│   │   │   ├── ic_fb5.xml
+│   │   │   ├── ic_feedback_small.xml
+│   │   │   ├── ic_ff5.xml
+│   │   │   ├── ic_file_download_black_24dp.xml
+│   │   │   ├── ic_file_transfer_24dp.xml
+│   │   │   ├── ic_filter_none_black_24dp.xml
+│   │   │   ├── ic_finish_audio.xml
+│   │   │   ├── ic_finish_document.xml
+│   │   │   ├── ic_finish_image.xml
+│   │   │   ├── ic_finish_unknown.xml
+│   │   │   ├── ic_finish_video.xml
+│   │   │   ├── ic_finish_zip.xml
+│   │   │   ├── ic_folder.xml
+│   │   │   ├── ic_folder_back.xml
+│   │   │   ├── ic_folder_divide.xml
+│   │   │   ├── ic_folder_gray_24dp.xml
+│   │   │   ├── ic_footbar_progress.xml
+│   │   │   ├── ic_guide_triangle.xml
+│   │   │   ├── ic_help_black_24dp.xml
+│   │   │   ├── ic_help_brightness.xml
+│   │   │   ├── ic_help_progress.xml
+│   │   │   ├── ic_help_sound.xml
+│   │   │   ├── ic_history.xml
+│   │   │   ├── ic_history_black_24dp.xml
+│   │   │   ├── ic_home_feedback.xml
+│   │   │   ├── ic_home_remove_ad.xml
+│   │   │   ├── ic_howto.xml
+│   │   │   ├── ic_image_black_24dp.xml
+│   │   │   ├── ic_keyboard_arrow_left_white_24dp.xml
+│   │   │   ├── ic_keyboard_return_black_24dp.xml
+│   │   │   ├── ic_list.xml
+│   │   │   ├── ic_location_gray_24dp.xml
+│   │   │   ├── ic_lock.xml
+│   │   │   ├── ic_locked_folder.xml
+│   │   │   ├── ic_locked_folder_red_point.xml
+│   │   │   ├── ic_menu_delete.xml
+│   │   │   ├── ic_menu_website.xml
+│   │   │   ├── ic_more_vert_black_24dp.xml
+│   │   │   ├── ic_movie_black_24dp.xml
+│   │   │   ├── ic_movie_black_24dp_private.xml
+│   │   │   ├── ic_movie_white_24dp.xml
+│   │   │   ├── ic_mute.xml
+│   │   │   ├── ic_mute_off.xml
+│   │   │   ├── ic_mute_on.xml
+│   │   │   ├── ic_next_video.xml
+│   │   │   ├── ic_no_history.xml
+│   │   │   ├── ic_no_video.xml
+│   │   │   ├── ic_no_wifi.xml
+│   │   │   ├── ic_no_wifi_dark.xml
+│   │   │   ├── ic_notification_tips_bell.xml
+│   │   │   ├── ic_notification_tips_warn.xml
+│   │   │   ├── ic_off_black_24dp.xml
+│   │   │   ├── ic_online_ringtone_top_bg.xml
+│   │   │   ├── ic_overflow.xml
+│   │   │   ├── ic_pause.xml
+│   │   │   ├── ic_pause_black_24dp.xml
+│   │   │   ├── ic_phone_android_white_24dp.xml
+│   │   │   ├── ic_phone_light_blue_24dp.xml
+│   │   │   ├── ic_play.xml
+│   │   │   ├── ic_previous_video.xml
+│   │   │   ├── ic_refresh_black_24dp.xml
+│   │   │   ├── ic_repeat_loop.xml
+│   │   │   ├── ic_repeat_order.xml
+│   │   │   ├── ic_repeat_repeat.xml
+│   │   │   ├── ic_repeat_shuffle.xml
+│   │   │   ├── ic_rotation.xml
+│   │   │   ├── ic_rotation_landscape.xml
+│   │   │   ├── ic_rotation_portrait.xml
+│   │   │   ├── ic_round_close_24.xml
+│   │   │   ├── ic_round_skip_next_24.xml
+│   │   │   ├── ic_round_volume_off_24.xml
+│   │   │   ├── ic_round_volume_up_24.xml
+│   │   │   ├── ic_scan.xml
+│   │   │   ├── ic_sdcard_blue_24dp.xml
+│   │   │   ├── ic_search.xml
+│   │   │   ├── ic_select_all_black_24dp.xml
+│   │   │   ├── ic_select_all_black_24dp_private.xml
+│   │   │   ├── ic_select_all_private_all.xml
+│   │   │   ├── ic_selected_flag_24dp.xml
+│   │   │   ├── ic_settings_black_24dp.xml
+│   │   │   ├── ic_share_black_24dp.xml
+│   │   │   ├── ic_share_to_friends_black_24dp.xml
+│   │   │   ├── ic_signal_wifi_off_white_24dp.xml
+│   │   │   ├── ic_sound.xml
+│   │   │   ├── ic_splash_left_top.xml
+│   │   │   ├── ic_splash_right_bottom.xml
+│   │   │   ├── ic_splash_right_top.xml
+│   │   │   ├── ic_tips.xml
+│   │   │   ├── ic_toobar_back.xml
+│   │   │   ├── ic_triangle.xml
+│   │   │   ├── ic_unlock.xml
+│   │   │   ├── ic_unlock_folder.xml
+│   │   │   ├── ic_update_good.xml
+│   │   │   ├── ic_update_notice.xml
+│   │   │   ├── ic_webpage.xml
+│   │   │   ├── ic_webpage_new.xml
+│   │   │   ├── ic_wifi_white_24dp.xml
+│   │   │   ├── im_back.xml
+│   │   │   ├── im_close_button.xml
+│   │   │   ├── im_close_icon.xml
+│   │   │   ├── im_close_transparent.xml
+│   │   │   ├── im_forward_active.xml
+│   │   │   ├── im_forward_inactive.xml
+│   │   │   ├── info_badge.xml
+│   │   │   ├── layer_list_audio_photo.xml
+│   │   │   ├── lib_rate_button_bg.xml
+│   │   │   ├── lib_rate_dialog_bg.xml
+│   │   │   ├── lib_rate_dialog_bg_dark.xml
+│   │   │   ├── liftoff_icon_mute.xml
+│   │   │   ├── liftoff_icon_unmute.xml
+│   │   │   ├── list_bg.xml
+│   │   │   ├── logo_play_prism_24dp.xml
+│   │   │   ├── mbridge_arrow_down_white.png
+│   │   │   ├── mbridge_arrow_down_white_blackbg.png
+│   │   │   ├── mbridge_arrow_up_black.png
+│   │   │   ├── mbridge_arrow_up_white.png
+│   │   │   ├── mbridge_cm_alertview_bg.xml
+│   │   │   ├── mbridge_cm_alertview_cancel_bg.xml
+│   │   │   ├── mbridge_cm_alertview_cancel_bg_nor.xml
+│   │   │   ├── mbridge_cm_alertview_cancel_bg_pressed.xml
+│   │   │   ├── mbridge_cm_alertview_confirm_bg.xml
+│   │   │   ├── mbridge_cm_alertview_confirm_bg_nor.xml
+│   │   │   ├── mbridge_cm_alertview_confirm_bg_pressed.xml
+│   │   │   ├── mbridge_cm_backward.xml
+│   │   │   ├── mbridge_cm_circle_50black.xml
+│   │   │   ├── mbridge_cm_exits.xml
+│   │   │   ├── mbridge_cm_feedback_btn_bg.xml
+│   │   │   ├── mbridge_cm_feedback_choice_btn_bg.xml
+│   │   │   ├── mbridge_cm_feedback_choice_btn_bg_nor.xml
+│   │   │   ├── mbridge_cm_feedback_choice_btn_bg_pressed.xml
+│   │   │   ├── mbridge_cm_feedback_dialog_view_bg.xml
+│   │   │   ├── mbridge_cm_feedback_dialog_view_btn_bg.xml
+│   │   │   ├── mbridge_cm_forward.xml
+│   │   │   ├── mbridge_cm_progress_drawable.xml
+│   │   │   ├── mbridge_cm_refresh.xml
+│   │   │   ├── mbridge_cta_bg.xml
+│   │   │   ├── mbridge_interstitial_over.xml
+│   │   │   ├── mbridge_native_advanced_close_icon.png
+│   │   │   ├── mbridge_native_bg_loading_camera.xml
+│   │   │   ├── mbridge_nativex_cta_por_nor.xml
+│   │   │   ├── mbridge_nativex_cta_por_pre.xml
+│   │   │   ├── mbridge_nativex_full_land_close.xml
+│   │   │   ├── mbridge_nativex_full_protial_close.xml
+│   │   │   ├── mbridge_nativex_fullview_background.xml
+│   │   │   ├── mbridge_nativex_play_bg.xml
+│   │   │   ├── mbridge_nativex_play_progress.xml
+│   │   │   ├── mbridge_nativex_sound_animation.xml
+│   │   │   ├── mbridge_nativex_sound_bg.xml
+│   │   │   ├── mbridge_order_layout_list_bg.xml
+│   │   │   ├── mbridge_reward_end_card_shape_bg.xml
+│   │   │   ├── mbridge_reward_end_close_shape_oval.xml
+│   │   │   ├── mbridge_reward_end_shape_oval.xml
+│   │   │   ├── mbridge_reward_more_offer_default_bg.xml
+│   │   │   ├── mbridge_reward_shape_choice.xml
+│   │   │   ├── mbridge_reward_shape_choice_rl.xml
+│   │   │   ├── mbridge_reward_shape_end_pager.xml
+│   │   │   ├── mbridge_reward_shape_mf_selector.xml
+│   │   │   ├── mbridge_reward_shape_mof_like_normal.xml
+│   │   │   ├── mbridge_reward_shape_mof_like_pressed.xml
+│   │   │   ├── mbridge_reward_shape_order.xml
+│   │   │   ├── mbridge_reward_shape_order_history.xml
+│   │   │   ├── mbridge_reward_shape_progress.xml
+│   │   │   ├── mbridge_reward_shape_videoend_buttonbg.xml
+│   │   │   ├── mbridge_reward_video_progress_bg.xml
+│   │   │   ├── mbridge_reward_video_progressbar_bg.xml
+│   │   │   ├── mbridge_reward_video_time_count_num_bg.xml
+│   │   │   ├── mbridge_shape_btn.xml
+│   │   │   ├── mbridge_shape_corners_bg.xml
+│   │   │   ├── mbridge_shape_line.xml
+│   │   │   ├── mbridge_shape_splash_circle_14.xml
+│   │   │   ├── mbridge_shape_splash_corners_14.xml
+│   │   │   ├── mbridge_shape_splash_rightbottom_corners_10.xml
+│   │   │   ├── mbridge_splash_button_bg_gray.xml
+│   │   │   ├── mbridge_splash_button_bg_gray_55.xml
+│   │   │   ├── mbridge_splash_button_bg_green.xml
+│   │   │   ├── mbridge_splash_close_bg.xml
+│   │   │   ├── moloco_close.xml
+│   │   │   ├── moloco_icon_button_background.xml
+│   │   │   ├── moloco_twotone_pause_24.xml
+│   │   │   ├── moloco_twotone_play_arrow_24.xml
+│   │   │   ├── moloco_twotone_volume_off_24.xml
+│   │   │   ├── moloco_twotone_volume_up_24.xml
+│   │   │   ├── moloco_volume_off.xml
+│   │   │   ├── moloco_volume_on.xml
+│   │   │   ├── mtrl_checkbox_button.xml
+│   │   │   ├── mtrl_checkbox_button_checked_unchecked.xml
+│   │   │   ├── mtrl_checkbox_button_icon.xml
+│   │   │   ├── mtrl_checkbox_button_icon_checked_indeterminate.xml
+│   │   │   ├── mtrl_checkbox_button_icon_checked_unchecked.xml
+│   │   │   ├── mtrl_checkbox_button_icon_indeterminate_checked.xml
+│   │   │   ├── mtrl_checkbox_button_icon_indeterminate_unchecked.xml
+│   │   │   ├── mtrl_checkbox_button_icon_unchecked_checked.xml
+│   │   │   ├── mtrl_checkbox_button_icon_unchecked_indeterminate.xml
+│   │   │   ├── mtrl_checkbox_button_unchecked_checked.xml
+│   │   │   ├── mtrl_dropdown_arrow.xml
+│   │   │   ├── mtrl_ic_arrow_drop_down.xml
+│   │   │   ├── mtrl_ic_arrow_drop_up.xml
+│   │   │   ├── mtrl_ic_cancel.xml
+│   │   │   ├── mtrl_ic_check_mark.xml
+│   │   │   ├── mtrl_ic_checkbox_checked.xml
+│   │   │   ├── mtrl_ic_checkbox_unchecked.xml
+│   │   │   ├── mtrl_ic_indeterminate.xml
+│   │   │   ├── mtrl_navigation_bar_item_background.xml
+│   │   │   ├── notification_bg.xml
+│   │   │   ├── notification_bg_low.xml
+│   │   │   ├── notification_icon_background.xml
+│   │   │   ├── notification_tile_bg.xml
+│   │   │   ├── offline_dialog_background.xml
+│   │   │   ├── offline_dialog_default_icon_42dp.xml
+│   │   │   ├── play_shadow_bottom.xml
+│   │   │   ├── play_shadow_top.xml
+│   │   │   ├── player_progress_horizontal.xml
+│   │   │   ├── private_download_progressbar.xml
+│   │   │   ├── progress_bar_left.xml
+│   │   │   ├── progress_bar_middle.xml
+│   │   │   ├── progress_bar_notification_left.xml
+│   │   │   ├── progress_bar_notification_middle.xml
+│   │   │   ├── progress_bar_notification_right.xml
+│   │   │   ├── progress_bar_notification_speedup_left.xml
+│   │   │   ├── progress_bar_notification_speedup_middle.xml
+│   │   │   ├── progress_bar_notification_speedup_right.xml
+│   │   │   ├── progress_bar_right.xml
+│   │   │   ├── progress_bar_speedup_left.xml
+│   │   │   ├── progress_bar_speedup_middle.xml
+│   │   │   ├── progress_bar_speedup_right.xml
+│   │   │   ├── red_dot.xml
+│   │   │   ├── rename_background.xml
+│   │   │   ├── sound_progress.xml
+│   │   │   ├── status_bg_continue.xml
+│   │   │   ├── status_bg_ok.xml
+│   │   │   ├── status_black_background.xml
+│   │   │   ├── status_button_background.xml
+│   │   │   ├── status_ic_action_tabs.xml
+│   │   │   ├── status_ic_help_black_24dp.xml
+│   │   │   ├── status_ic_save_black_24dp.xml
+│   │   │   ├── status_saver_background.xml
+│   │   │   ├── tooltip_frame_dark.xml
+│   │   │   ├── tooltip_frame_light.xml
+│   │   │   ├── transparent_xml.xml
+│   │   │   ├── tt_app_open_top_bg.xml
+│   │   │   ├── tt_button_back.xml
+│   │   │   ├── tt_button_blue_back.xml
+│   │   │   ├── tt_ugen_rating_star.png
+│   │   │   ├── tt_user_info.xml
+│   │   │   ├── vector_ic_drop_down_arrow.xml
+│   │   │   ├── xplayer_bg_discover.xml
+│   │   │   ├── xplayer_bg_item_next.xml
+│   │   │   ├── xplayer_bg_return.xml
+│   │   │   └── xplayer_ic_folder.xml
+│   │   ├── drawable-anydpi-v21/
+│   │   │   ├── chartboost_app_icon_placeholder.xml
+│   │   │   ├── chartboost_monetization_default_icon_background.xml
+│   │   │   ├── exo_edit_mode_logo.xml
+│   │   │   ├── exo_ic_audiotrack.xml
+│   │   │   ├── exo_ic_check.xml
+│   │   │   ├── exo_ic_chevron_left.xml
+│   │   │   ├── exo_ic_chevron_right.xml
+│   │   │   ├── exo_ic_forward.xml
+│   │   │   ├── exo_ic_fullscreen_enter.xml
+│   │   │   ├── exo_ic_fullscreen_exit.xml
+│   │   │   ├── exo_ic_pause_circle_filled.xml
+│   │   │   ├── exo_ic_play_circle_filled.xml
+│   │   │   ├── exo_ic_rewind.xml
+│   │   │   ├── exo_ic_settings.xml
+│   │   │   ├── exo_ic_skip_next.xml
+│   │   │   ├── exo_ic_skip_previous.xml
+│   │   │   ├── exo_ic_speed.xml
+│   │   │   ├── exo_ic_subtitle_off.xml
+│   │   │   ├── exo_ic_subtitle_on.xml
+│   │   │   ├── exo_icon_fastforward.xml
+│   │   │   ├── exo_icon_repeat_all.xml
+│   │   │   ├── exo_icon_repeat_off.xml
+│   │   │   ├── exo_icon_repeat_one.xml
+│   │   │   ├── exo_icon_rewind.xml
+│   │   │   ├── exo_icon_shuffle_off.xml
+│   │   │   └── exo_icon_shuffle_on.xml
+│   │   ├── drawable-anydpi-v24/
+│   │   │   ├── cb_close_icon.xml
+│   │   │   ├── cb_info_icon.xml
+│   │   │   ├── cb_skip_icon.xml
+│   │   │   ├── cb_volume_off_icon.xml
+│   │   │   ├── cb_volume_on_icon.xml
+│   │   │   ├── im_mute.xml
+│   │   │   ├── im_refresh.xml
+│   │   │   ├── im_unmute.xml
+│   │   │   └── moloco_skip.xml
+│   │   ├── drawable-anydpi-v26/
+│   │   │   └── ic_launcher.xml
+│   │   ├── drawable-hdpi-v4/
+│   │   │   ├── abc_ab_share_pack_mtrl_alpha.9.png
+│   │   │   ├── abc_btn_check_to_on_mtrl_000.png
+│   │   │   ├── abc_btn_check_to_on_mtrl_015.png
+│   │   │   ├── abc_btn_radio_to_on_mtrl_000.png
+│   │   │   ├── abc_btn_radio_to_on_mtrl_015.png
+│   │   │   ├── abc_btn_switch_to_on_mtrl_00001.9.png
+│   │   │   ├── abc_btn_switch_to_on_mtrl_00012.9.png
+│   │   │   ├── abc_cab_background_top_mtrl_alpha.9.png
+│   │   │   ├── abc_ic_commit_search_api_mtrl_alpha.png
+│   │   │   ├── abc_list_divider_mtrl_alpha.9.png
+│   │   │   ├── abc_list_focused_holo.9.png
+│   │   │   ├── abc_list_longpressed_holo.9.png
+│   │   │   ├── abc_list_pressed_holo_dark.9.png
+│   │   │   ├── abc_list_pressed_holo_light.9.png
+│   │   │   ├── abc_list_selector_disabled_holo_dark.9.png
+│   │   │   ├── abc_list_selector_disabled_holo_light.9.png
+│   │   │   ├── abc_menu_hardkey_panel_mtrl_mult.9.png
+│   │   │   ├── abc_popup_background_mtrl_mult.9.png
+│   │   │   ├── abc_scrubber_control_off_mtrl_alpha.png
+│   │   │   ├── abc_scrubber_control_to_pressed_mtrl_000.png
+│   │   │   ├── abc_scrubber_control_to_pressed_mtrl_005.png
+│   │   │   ├── abc_scrubber_primary_mtrl_alpha.9.png
+│   │   │   ├── abc_scrubber_track_mtrl_alpha.9.png
+│   │   │   ├── abc_spinner_mtrl_am_alpha.9.png
+│   │   │   ├── abc_switch_track_mtrl_alpha.9.png
+│   │   │   ├── abc_tab_indicator_mtrl_alpha.9.png
+│   │   │   ├── abc_text_select_handle_left_mtrl.png
+│   │   │   ├── abc_text_select_handle_middle_mtrl.png
+│   │   │   ├── abc_text_select_handle_right_mtrl.png
+│   │   │   ├── abc_textfield_activated_mtrl_alpha.9.png
+│   │   │   ├── abc_textfield_default_mtrl_alpha.9.png
+│   │   │   ├── abc_textfield_search_activated_mtrl_alpha.9.png
+│   │   │   ├── abc_textfield_search_default_mtrl_alpha.9.png
+│   │   │   ├── cb_close_icon.png
+│   │   │   ├── cb_info_icon.png
+│   │   │   ├── cb_skip_icon.png
+│   │   │   ├── cb_volume_off_icon.png
+│   │   │   ├── cb_volume_on_icon.png
+│   │   │   ├── chartboost_app_icon_placeholder.png
+│   │   │   ├── chartboost_monetization_default_icon_background.png
+│   │   │   ├── common_full_open_on_phone.png
+│   │   │   ├── common_google_signin_btn_icon_dark_normal_background.9.png
+│   │   │   ├── common_google_signin_btn_icon_light_normal_background.9.png
+│   │   │   ├── common_google_signin_btn_text_dark_normal_background.9.png
+│   │   │   ├── common_google_signin_btn_text_light_normal_background.9.png
+│   │   │   ├── download_progressbar.xml
+│   │   │   ├── drawer_left_shadow.9.png
+│   │   │   ├── drawer_right_shadow.9.png
+│   │   │   ├── exo_edit_mode_logo.png
+│   │   │   ├── exo_ic_audiotrack.png
+│   │   │   ├── exo_ic_check.png
+│   │   │   ├── exo_ic_chevron_left.png
+│   │   │   ├── exo_ic_chevron_right.png
+│   │   │   ├── exo_ic_forward.png
+│   │   │   ├── exo_ic_fullscreen_enter.png
+│   │   │   ├── exo_ic_fullscreen_exit.png
+│   │   │   ├── exo_ic_pause_circle_filled.png
+│   │   │   ├── exo_ic_play_circle_filled.png
+│   │   │   ├── exo_ic_rewind.png
+│   │   │   ├── exo_ic_settings.png
+│   │   │   ├── exo_ic_skip_next.png
+│   │   │   ├── exo_ic_skip_previous.png
+│   │   │   ├── exo_ic_speed.png
+│   │   │   ├── exo_ic_subtitle_off.png
+│   │   │   ├── exo_ic_subtitle_on.png
+│   │   │   ├── exo_icon_fastforward.png
+│   │   │   ├── exo_icon_repeat_all.png
+│   │   │   ├── exo_icon_repeat_off.png
+│   │   │   ├── exo_icon_repeat_one.png
+│   │   │   ├── exo_icon_rewind.png
+│   │   │   ├── exo_icon_shuffle_off.png
+│   │   │   ├── exo_icon_shuffle_on.png
+│   │   │   ├── exo_icon_vr.png
+│   │   │   ├── googleg_disabled_color_18.png
+│   │   │   ├── googleg_standard_color_18.png
+│   │   │   ├── ic_file_download_white_24dp_noti.png
+│   │   │   ├── ic_launcher.png
+│   │   │   ├── icon_fc2.png
+│   │   │   ├── im_mute.png
+│   │   │   ├── im_refresh.png
+│   │   │   ├── im_unmute.png
+│   │   │   ├── mbridge_banner_close.png
+│   │   │   ├── mbridge_bottom_media_control.png
+│   │   │   ├── mbridge_cm_backward_disabled.png
+│   │   │   ├── mbridge_cm_backward_nor.png
+│   │   │   ├── mbridge_cm_backward_selected.png
+│   │   │   ├── mbridge_cm_browser.png
+│   │   │   ├── mbridge_cm_btn_shake.png
+│   │   │   ├── mbridge_cm_end_animation.png
+│   │   │   ├── mbridge_cm_exits_nor.png
+│   │   │   ├── mbridge_cm_exits_selected.png
+│   │   │   ├── mbridge_cm_forward_disabled.png
+│   │   │   ├── mbridge_cm_forward_nor.png
+│   │   │   ├── mbridge_cm_forward_selected.png
+│   │   │   ├── mbridge_cm_head.png
+│   │   │   ├── mbridge_cm_highlight.png
+│   │   │   ├── mbridge_cm_progress.png
+│   │   │   ├── mbridge_cm_progress_icon.png
+│   │   │   ├── mbridge_cm_refresh_nor.png
+│   │   │   ├── mbridge_cm_refresh_selected.png
+│   │   │   ├── mbridge_cm_tail.png
+│   │   │   ├── mbridge_demo_star_nor.png
+│   │   │   ├── mbridge_demo_star_sel.png
+│   │   │   ├── mbridge_finger_media_control.png
+│   │   │   ├── mbridge_icon_click_circle.png
+│   │   │   ├── mbridge_icon_click_hand.png
+│   │   │   ├── mbridge_icon_play_bg.png
+│   │   │   ├── mbridge_interstitial_close.png
+│   │   │   ├── mbridge_nativex_close.png
+│   │   │   ├── mbridge_nativex_cta_land_nor.9.png
+│   │   │   ├── mbridge_nativex_cta_land_pre.9.png
+│   │   │   ├── mbridge_nativex_pause.png
+│   │   │   ├── mbridge_nativex_play.png
+│   │   │   ├── mbridge_nativex_sound1.png
+│   │   │   ├── mbridge_nativex_sound2.png
+│   │   │   ├── mbridge_nativex_sound3.png
+│   │   │   ├── mbridge_nativex_sound4.png
+│   │   │   ├── mbridge_nativex_sound5.png
+│   │   │   ├── mbridge_nativex_sound6.png
+│   │   │   ├── mbridge_nativex_sound7.png
+│   │   │   ├── mbridge_nativex_sound8.png
+│   │   │   ├── mbridge_nativex_sound_close.png
+│   │   │   ├── mbridge_nativex_sound_open.png
+│   │   │   ├── mbridge_reward_activity_ad_end_land_des_rl_hot.png
+│   │   │   ├── mbridge_reward_close.png
+│   │   │   ├── mbridge_reward_close_ec.png
+│   │   │   ├── mbridge_reward_end_land_shape.9.png
+│   │   │   ├── mbridge_reward_end_pager_logo.png
+│   │   │   ├── mbridge_reward_flag_cn.png
+│   │   │   ├── mbridge_reward_flag_en.png
+│   │   │   ├── mbridge_reward_notice.png
+│   │   │   ├── mbridge_reward_popview_close.png
+│   │   │   ├── mbridge_reward_sound_close.png
+│   │   │   ├── mbridge_reward_sound_open.png
+│   │   │   ├── mbridge_reward_two_title_arabia_land.png
+│   │   │   ├── mbridge_reward_two_title_arabia_por.png
+│   │   │   ├── mbridge_reward_two_title_en_land.png
+│   │   │   ├── mbridge_reward_two_title_en_por.png
+│   │   │   ├── mbridge_reward_two_title_france_land.png
+│   │   │   ├── mbridge_reward_two_title_france_por.png
+│   │   │   ├── mbridge_reward_two_title_germany_land.png
+│   │   │   ├── mbridge_reward_two_title_germany_por.png
+│   │   │   ├── mbridge_reward_two_title_japan_land.png
+│   │   │   ├── mbridge_reward_two_title_japan_por.png
+│   │   │   ├── mbridge_reward_two_title_korea_land.png
+│   │   │   ├── mbridge_reward_two_title_korea_por.png
+│   │   │   ├── mbridge_reward_two_title_russian_land.png
+│   │   │   ├── mbridge_reward_two_title_russian_por.png
+│   │   │   ├── mbridge_reward_two_title_zh.png
+│   │   │   ├── mbridge_reward_two_title_zh_trad.png
+│   │   │   ├── mbridge_reward_user.png
+│   │   │   ├── mbridge_reward_vast_end_close.png
+│   │   │   ├── mbridge_reward_vast_end_ok.png
+│   │   │   ├── mbridge_reward_video_icon.png
+│   │   │   ├── mbridge_slide_hand.png
+│   │   │   ├── mbridge_slide_rightarrow.png
+│   │   │   ├── mbridge_splash_ad_right_bottom_corner_en.png
+│   │   │   ├── mbridge_splash_ad_right_bottom_corner_zh.png
+│   │   │   ├── mbridge_splash_btn_arrow_right.png
+│   │   │   ├── mbridge_splash_btn_circle.png
+│   │   │   ├── mbridge_splash_btn_finger.png
+│   │   │   ├── mbridge_splash_btn_go.png
+│   │   │   ├── mbridge_splash_btn_light.png
+│   │   │   ├── mbridge_splash_m_circle.png
+│   │   │   ├── mbridge_splash_notice.png
+│   │   │   ├── mbridge_splash_pop_ad.png
+│   │   │   ├── mbridge_splash_pop_ad_en.png
+│   │   │   ├── mbridge_splash_popview_close.png
+│   │   │   ├── mbridge_splash_popview_default.png
+│   │   │   ├── mbridge_video_common_full_star.png
+│   │   │   ├── mbridge_video_common_full_while_star.png
+│   │   │   ├── mbridge_video_common_half_star.png
+│   │   │   ├── moloco_skip.png
+│   │   │   ├── notification_bg_low_normal.9.png
+│   │   │   ├── notification_bg_low_pressed.9.png
+│   │   │   ├── notification_bg_normal.9.png
+│   │   │   ├── notification_bg_normal_pressed.9.png
+│   │   │   ├── notify_panel_notification_icon_bg.png
+│   │   │   ├── simple_player_circle_outline_white_36dp.png
+│   │   │   ├── toast_frame.9.png
+│   │   │   └── update_top.webp
+│   │   ├── drawable-ldpi-v4/
+│   │   │   ├── cb_close_icon.png
+│   │   │   ├── cb_info_icon.png
+│   │   │   ├── cb_skip_icon.png
+│   │   │   ├── cb_volume_off_icon.png
+│   │   │   ├── cb_volume_on_icon.png
+│   │   │   ├── chartboost_app_icon_placeholder.png
+│   │   │   ├── chartboost_monetization_default_icon_background.png
+│   │   │   ├── exo_edit_mode_logo.png
+│   │   │   ├── exo_ic_audiotrack.png
+│   │   │   ├── exo_ic_check.png
+│   │   │   ├── exo_ic_chevron_left.png
+│   │   │   ├── exo_ic_chevron_right.png
+│   │   │   ├── exo_ic_forward.png
+│   │   │   ├── exo_ic_fullscreen_enter.png
+│   │   │   ├── exo_ic_fullscreen_exit.png
+│   │   │   ├── exo_ic_pause_circle_filled.png
+│   │   │   ├── exo_ic_play_circle_filled.png
+│   │   │   ├── exo_ic_rewind.png
+│   │   │   ├── exo_ic_settings.png
+│   │   │   ├── exo_ic_skip_next.png
+│   │   │   ├── exo_ic_skip_previous.png
+│   │   │   ├── exo_ic_speed.png
+│   │   │   ├── exo_ic_subtitle_off.png
+│   │   │   ├── exo_ic_subtitle_on.png
+│   │   │   ├── exo_icon_fastforward.png
+│   │   │   ├── exo_icon_repeat_all.png
+│   │   │   ├── exo_icon_repeat_off.png
+│   │   │   ├── exo_icon_repeat_one.png
+│   │   │   ├── exo_icon_rewind.png
+│   │   │   ├── exo_icon_shuffle_off.png
+│   │   │   ├── exo_icon_shuffle_on.png
+│   │   │   ├── exo_icon_vr.png
+│   │   │   ├── im_mute.png
+│   │   │   ├── im_refresh.png
+│   │   │   ├── im_unmute.png
+│   │   │   ├── moloco_skip.png
+│   │   │   └── toast_frame.9.png
+│   │   ├── drawable-ldrtl/
+│   │   │   └── bg_thumb_duration_round.xml
+│   │   ├── drawable-ldrtl-hdpi-v17/
+│   │   │   └── abc_spinner_mtrl_am_alpha.9.png
+│   │   ├── drawable-ldrtl-mdpi-v17/
+│   │   │   └── abc_spinner_mtrl_am_alpha.9.png
+│   │   ├── drawable-ldrtl-v17/
+│   │   │   └── bg_video_item_duration_round.xml
+│   │   ├── drawable-ldrtl-xhdpi-v17/
+│   │   │   └── abc_spinner_mtrl_am_alpha.9.png
+│   │   ├── drawable-ldrtl-xxhdpi-v17/
+│   │   │   └── abc_spinner_mtrl_am_alpha.9.png
+│   │   ├── drawable-ldrtl-xxxhdpi-v17/
+│   │   │   └── abc_spinner_mtrl_am_alpha.9.png
+│   │   ├── drawable-mdpi-v4/
+│   │   │   ├── abc_ab_share_pack_mtrl_alpha.9.png
+│   │   │   ├── abc_btn_check_to_on_mtrl_000.png
+│   │   │   ├── abc_btn_check_to_on_mtrl_015.png
+│   │   │   ├── abc_btn_radio_to_on_mtrl_000.png
+│   │   │   ├── abc_btn_radio_to_on_mtrl_015.png
+│   │   │   ├── abc_btn_switch_to_on_mtrl_00001.9.png
+│   │   │   ├── abc_btn_switch_to_on_mtrl_00012.9.png
+│   │   │   ├── abc_cab_background_top_mtrl_alpha.9.png
+│   │   │   ├── abc_ic_commit_search_api_mtrl_alpha.png
+│   │   │   ├── abc_list_divider_mtrl_alpha.9.png
+│   │   │   ├── abc_list_focused_holo.9.png
+│   │   │   ├── abc_list_longpressed_holo.9.png
+│   │   │   ├── abc_list_pressed_holo_dark.9.png
+│   │   │   ├── abc_list_pressed_holo_light.9.png
+│   │   │   ├── abc_list_selector_disabled_holo_dark.9.png
+│   │   │   ├── abc_list_selector_disabled_holo_light.9.png
+│   │   │   ├── abc_menu_hardkey_panel_mtrl_mult.9.png
+│   │   │   ├── abc_popup_background_mtrl_mult.9.png
+│   │   │   ├── abc_scrubber_control_off_mtrl_alpha.png
+│   │   │   ├── abc_scrubber_control_to_pressed_mtrl_000.png
+│   │   │   ├── abc_scrubber_control_to_pressed_mtrl_005.png
+│   │   │   ├── abc_scrubber_primary_mtrl_alpha.9.png
+│   │   │   ├── abc_scrubber_track_mtrl_alpha.9.png
+│   │   │   ├── abc_spinner_mtrl_am_alpha.9.png
+│   │   │   ├── abc_switch_track_mtrl_alpha.9.png
+│   │   │   ├── abc_tab_indicator_mtrl_alpha.9.png
+│   │   │   ├── abc_text_select_handle_left_mtrl.png
+│   │   │   ├── abc_text_select_handle_middle_mtrl.png
+│   │   │   ├── abc_text_select_handle_right_mtrl.png
+│   │   │   ├── abc_textfield_activated_mtrl_alpha.9.png
+│   │   │   ├── abc_textfield_default_mtrl_alpha.9.png
+│   │   │   ├── abc_textfield_search_activated_mtrl_alpha.9.png
+│   │   │   ├── abc_textfield_search_default_mtrl_alpha.9.png
+│   │   │   ├── cb_close_icon.png
+│   │   │   ├── cb_info_icon.png
+│   │   │   ├── cb_skip_icon.png
+│   │   │   ├── cb_volume_off_icon.png
+│   │   │   ├── cb_volume_on_icon.png
+│   │   │   ├── chartboost_app_icon_placeholder.png
+│   │   │   ├── chartboost_monetization_default_icon_background.png
+│   │   │   ├── common_google_signin_btn_icon_dark_normal_background.9.png
+│   │   │   ├── common_google_signin_btn_icon_light_normal_background.9.png
+│   │   │   ├── common_google_signin_btn_text_dark_normal_background.9.png
+│   │   │   ├── common_google_signin_btn_text_light_normal_background.9.png
+│   │   │   ├── drawer_left_shadow.9.png
+│   │   │   ├── drawer_right_shadow.9.png
+│   │   │   ├── exo_edit_mode_logo.png
+│   │   │   ├── exo_ic_audiotrack.png
+│   │   │   ├── exo_ic_check.png
+│   │   │   ├── exo_ic_chevron_left.png
+│   │   │   ├── exo_ic_chevron_right.png
+│   │   │   ├── exo_ic_forward.png
+│   │   │   ├── exo_ic_fullscreen_enter.png
+│   │   │   ├── exo_ic_fullscreen_exit.png
+│   │   │   ├── exo_ic_pause_circle_filled.png
+│   │   │   ├── exo_ic_play_circle_filled.png
+│   │   │   ├── exo_ic_rewind.png
+│   │   │   ├── exo_ic_settings.png
+│   │   │   ├── exo_ic_skip_next.png
+│   │   │   ├── exo_ic_skip_previous.png
+│   │   │   ├── exo_ic_speed.png
+│   │   │   ├── exo_ic_subtitle_off.png
+│   │   │   ├── exo_ic_subtitle_on.png
+│   │   │   ├── exo_icon_fastforward.png
+│   │   │   ├── exo_icon_repeat_all.png
+│   │   │   ├── exo_icon_repeat_off.png
+│   │   │   ├── exo_icon_repeat_one.png
+│   │   │   ├── exo_icon_rewind.png
+│   │   │   ├── exo_icon_shuffle_off.png
+│   │   │   ├── exo_icon_shuffle_on.png
+│   │   │   ├── exo_icon_vr.png
+│   │   │   ├── googleg_disabled_color_18.png
+│   │   │   ├── googleg_standard_color_18.png
+│   │   │   ├── ic_file_download_white_24dp_noti.png
+│   │   │   ├── ic_launcher.png
+│   │   │   ├── im_mute.png
+│   │   │   ├── im_refresh.png
+│   │   │   ├── im_unmute.png
+│   │   │   ├── moloco_skip.png
+│   │   │   ├── notification_bg_low_normal.9.png
+│   │   │   ├── notification_bg_low_pressed.9.png
+│   │   │   ├── notification_bg_normal.9.png
+│   │   │   ├── notification_bg_normal_pressed.9.png
+│   │   │   ├── notify_panel_notification_icon_bg.png
+│   │   │   ├── simple_player_circle_outline_white_36dp.png
+│   │   │   ├── toast_frame.9.png
+│   │   │   └── update_top.webp
+│   │   ├── drawable-night-v8/
+│   │   │   ├── applovin_ic_baseline_add_circle_outline.xml
+│   │   │   └── applovin_ic_warning_outline.xml
+│   │   ├── drawable-ru/
+│   │   │   └── ad_mark_new.png
+│   │   ├── drawable-v21/
+│   │   │   ├── abc_action_bar_item_background_material.xml
+│   │   │   ├── abc_btn_colored_material.xml
+│   │   │   ├── abc_dialog_material_background.xml
+│   │   │   ├── abc_edit_text_material.xml
+│   │   │   ├── abc_list_divider_material.xml
+│   │   │   ├── bg_common_btn_light.xml
+│   │   │   ├── bg_common_btn_light2.xml
+│   │   │   ├── btn_black_selector.xml
+│   │   │   ├── notification_action_background.xml
+│   │   │   ├── play_list_black_selector.xml
+│   │   │   └── tt_item_background_material.xml
+│   │   ├── drawable-v23/
+│   │   │   └── abc_control_background_material.xml
+│   │   ├── drawable-watch-v20/
+│   │   │   └── abc_dialog_material_background.xml
+│   │   ├── drawable-xhdpi-v4/
+│   │   │   ├── abc_ab_share_pack_mtrl_alpha.9.png
+│   │   │   ├── abc_btn_check_to_on_mtrl_000.png
+│   │   │   ├── abc_btn_check_to_on_mtrl_015.png
+│   │   │   ├── abc_btn_radio_to_on_mtrl_000.png
+│   │   │   ├── abc_btn_radio_to_on_mtrl_015.png
+│   │   │   ├── abc_btn_switch_to_on_mtrl_00001.9.png
+│   │   │   ├── abc_btn_switch_to_on_mtrl_00012.9.png
+│   │   │   ├── abc_cab_background_top_mtrl_alpha.9.png
+│   │   │   ├── abc_ic_commit_search_api_mtrl_alpha.png
+│   │   │   ├── abc_list_divider_mtrl_alpha.9.png
+│   │   │   ├── abc_list_focused_holo.9.png
+│   │   │   ├── abc_list_longpressed_holo.9.png
+│   │   │   ├── abc_list_pressed_holo_dark.9.png
+│   │   │   ├── abc_list_pressed_holo_light.9.png
+│   │   │   ├── abc_list_selector_disabled_holo_dark.9.png
+│   │   │   ├── abc_list_selector_disabled_holo_light.9.png
+│   │   │   ├── abc_menu_hardkey_panel_mtrl_mult.9.png
+│   │   │   ├── abc_popup_background_mtrl_mult.9.png
+│   │   │   ├── abc_scrubber_control_off_mtrl_alpha.png
+│   │   │   ├── abc_scrubber_control_to_pressed_mtrl_000.png
+│   │   │   ├── abc_scrubber_control_to_pressed_mtrl_005.png
+│   │   │   ├── abc_scrubber_primary_mtrl_alpha.9.png
+│   │   │   ├── abc_scrubber_track_mtrl_alpha.9.png
+│   │   │   ├── abc_spinner_mtrl_am_alpha.9.png
+│   │   │   ├── abc_switch_track_mtrl_alpha.9.png
+│   │   │   ├── abc_tab_indicator_mtrl_alpha.9.png
+│   │   │   ├── abc_text_select_handle_left_mtrl.png
+│   │   │   ├── abc_text_select_handle_middle_mtrl.png
+│   │   │   ├── abc_text_select_handle_right_mtrl.png
+│   │   │   ├── abc_textfield_activated_mtrl_alpha.9.png
+│   │   │   ├── abc_textfield_default_mtrl_alpha.9.png
+│   │   │   ├── abc_textfield_search_activated_mtrl_alpha.9.png
+│   │   │   ├── abc_textfield_search_default_mtrl_alpha.9.png
+│   │   │   ├── ad_gate_default.png
+│   │   │   ├── ad_mark.png
+│   │   │   ├── ad_mark_new.png
+│   │   │   ├── basis_no_webview.png
+│   │   │   ├── btn_save.png
+│   │   │   ├── btn_share.png
+│   │   │   ├── cb_close_icon.png
+│   │   │   ├── cb_info_icon.png
+│   │   │   ├── cb_skip_icon.png
+│   │   │   ├── cb_volume_off_icon.png
+│   │   │   ├── cb_volume_on_icon.png
+│   │   │   ├── chartboost_app_icon_placeholder.png
+│   │   │   ├── chartboost_monetization_default_icon_background.png
+│   │   │   ├── common_full_open_on_phone.png
+│   │   │   ├── common_google_signin_btn_icon_dark_normal_background.9.png
+│   │   │   ├── common_google_signin_btn_icon_light_normal_background.9.png
+│   │   │   ├── common_google_signin_btn_text_dark_normal_background.9.png
+│   │   │   ├── common_google_signin_btn_text_light_normal_background.9.png
+│   │   │   ├── download_no_found.png
+│   │   │   ├── drawer_left_shadow.9.png
+│   │   │   ├── drawer_right_shadow.9.png
+│   │   │   ├── exo_edit_mode_logo.png
+│   │   │   ├── exo_ic_audiotrack.png
+│   │   │   ├── exo_ic_check.png
+│   │   │   ├── exo_ic_chevron_left.png
+│   │   │   ├── exo_ic_chevron_right.png
+│   │   │   ├── exo_ic_forward.png
+│   │   │   ├── exo_ic_fullscreen_enter.png
+│   │   │   ├── exo_ic_fullscreen_exit.png
+│   │   │   ├── exo_ic_pause_circle_filled.png
+│   │   │   ├── exo_ic_play_circle_filled.png
+│   │   │   ├── exo_ic_rewind.png
+│   │   │   ├── exo_ic_settings.png
+│   │   │   ├── exo_ic_skip_next.png
+│   │   │   ├── exo_ic_skip_previous.png
+│   │   │   ├── exo_ic_speed.png
+│   │   │   ├── exo_ic_subtitle_off.png
+│   │   │   ├── exo_ic_subtitle_on.png
+│   │   │   ├── exo_icon_fastforward.png
+│   │   │   ├── exo_icon_repeat_all.png
+│   │   │   ├── exo_icon_repeat_off.png
+│   │   │   ├── exo_icon_repeat_one.png
+│   │   │   ├── exo_icon_rewind.png
+│   │   │   ├── exo_icon_shuffle_off.png
+│   │   │   ├── exo_icon_shuffle_on.png
+│   │   │   ├── exo_icon_vr.png
+│   │   │   ├── games_ad.png
+│   │   │   ├── googleg_disabled_color_18.png
+│   │   │   ├── googleg_standard_color_18.png
+│   │   │   ├── grant_notification.webp
+│   │   │   ├── help_0.webp
+│   │   │   ├── help_1.webp
+│   │   │   ├── help_2.webp
+│   │   │   ├── ic_download_close.webp
+│   │   │   ├── ic_download_downloader.webp
+│   │   │   ├── ic_download_rename.webp
+│   │   │   ├── ic_enter.png
+│   │   │   ├── ic_file_download_white_24dp_noti.png
+│   │   │   ├── ic_guide_happy.webp
+│   │   │   ├── ic_launcher.png
+│   │   │   ├── ic_launcher_background.png
+│   │   │   ├── ic_launcher_foreground.png
+│   │   │   ├── ic_notification.png
+│   │   │   ├── ic_pager_index.png
+│   │   │   ├── ic_pager_index_checked.png
+│   │   │   ├── ic_play_failed.webp
+│   │   │   ├── ic_play_white.png
+│   │   │   ├── ic_satisfied.webp
+│   │   │   ├── ic_update_logo.png
+│   │   │   ├── icon_dailymotion.webp
+│   │   │   ├── icon_facebook.webp
+│   │   │   ├── icon_familyapps.webp
+│   │   │   ├── icon_instagram.webp
+│   │   │   ├── icon_ringtone.png
+│   │   │   ├── icon_tiktok.webp
+│   │   │   ├── icon_tubidy.webp
+│   │   │   ├── icon_twitter.webp
+│   │   │   ├── icon_vimeo.webp
+│   │   │   ├── icon_whatsapp.webp
+│   │   │   ├── im_mute.png
+│   │   │   ├── im_refresh.png
+│   │   │   ├── im_unmute.png
+│   │   │   ├── lib_rate_emoji_star_0.webp
+│   │   │   ├── lib_rate_emoji_star_1.webp
+│   │   │   ├── lib_rate_emoji_star_2.webp
+│   │   │   ├── lib_rate_emoji_star_3.webp
+│   │   │   ├── lib_rate_emoji_star_4.webp
+│   │   │   ├── lib_rate_emoji_star_5.webp
+│   │   │   ├── lib_rate_five_star_arrow.webp
+│   │   │   ├── lib_rate_shining_right.webp
+│   │   │   ├── lib_rate_star.webp
+│   │   │   ├── lib_rate_star_on.webp
+│   │   │   ├── moloco_skip.png
+│   │   │   ├── mp3player.webp
+│   │   │   ├── no_res_emoj.webp
+│   │   │   ├── notification_bg_low_normal.9.png
+│   │   │   ├── notification_bg_low_pressed.9.png
+│   │   │   ├── notification_bg_normal.9.png
+│   │   │   ├── notification_bg_normal_pressed.9.png
+│   │   │   ├── notify_panel_notification_icon_bg.png
+│   │   │   ├── request_permission.webp
+│   │   │   ├── simple_player_center_pause.png
+│   │   │   ├── simple_player_center_play.png
+│   │   │   ├── simple_player_circle_outline_white_36dp.png
+│   │   │   ├── site_dailymotion.png
+│   │   │   ├── site_facebook.png
+│   │   │   ├── site_instagram.webp
+│   │   │   ├── site_tubidy.webp
+│   │   │   ├── site_vimeo.png
+│   │   │   ├── splash_luncher.png
+│   │   │   ├── status_saver.png
+│   │   │   ├── status_saver_help.png
+│   │   │   ├── status_saver_step1.png
+│   │   │   ├── status_saver_step2.png
+│   │   │   ├── status_use_folder.png
+│   │   │   ├── toast_frame.9.png
+│   │   │   ├── toast_start_download.png
+│   │   │   ├── tt_ad_arrow_backward.png
+│   │   │   ├── tt_ad_arrow_forward.png
+│   │   │   ├── tt_ad_arrow_right.png
+│   │   │   ├── tt_ad_bg_header_gradient.png
+│   │   │   ├── tt_ad_close_backup.png
+│   │   │   ├── tt_ad_closed_background_300_250.png
+│   │   │   ├── tt_ad_closed_background_320_50.png
+│   │   │   ├── tt_ad_feedback.png
+│   │   │   ├── tt_ad_feedback_new.png
+│   │   │   ├── tt_ad_link.png
+│   │   │   ├── tt_ad_logo.png
+│   │   │   ├── tt_ad_refresh.png
+│   │   │   ├── tt_ad_threedots.png
+│   │   │   ├── tt_ad_xmark.png
+│   │   │   ├── tt_ad_zoom_down.png
+│   │   │   ├── tt_ad_zoom_up.png
+│   │   │   ├── tt_back.png
+│   │   │   ├── tt_blue_hand.png
+│   │   │   ├── tt_close_btn.png
+│   │   │   ├── tt_close_move_details_normal.png
+│   │   │   ├── tt_close_move_details_pressed.png
+│   │   │   ├── tt_dislike_icon.png
+│   │   │   ├── tt_dislike_icon2.png
+│   │   │   ├── tt_dislike_toast.png
+│   │   │   ├── tt_enlarge_video.png
+│   │   │   ├── tt_history_empty_icon.png
+│   │   │   ├── tt_history_placeholder.png
+│   │   │   ├── tt_history_titlebar_delete.png
+│   │   │   ├── tt_lefterbackicon_titlebar.png
+│   │   │   ├── tt_lefterbackicon_titlebar_for_dark.png
+│   │   │   ├── tt_lefterbackicon_titlebar_press.png
+│   │   │   ├── tt_lefterbackicon_titlebar_press_for_dark.png
+│   │   │   ├── tt_loading.png
+│   │   │   ├── tt_more_browser_icon.png
+│   │   │   ├── tt_more_copy_icon.png
+│   │   │   ├── tt_more_history_icon.png
+│   │   │   ├── tt_more_privacy_icon.png
+│   │   │   ├── tt_more_report_icon.png
+│   │   │   ├── tt_more_retry_icon.png
+│   │   │   ├── tt_mute.png
+│   │   │   ├── tt_new_pause_video.png
+│   │   │   ├── tt_new_pause_video_press.png
+│   │   │   ├── tt_new_play_video.png
+│   │   │   ├── tt_normalscreen_loading.png
+│   │   │   ├── tt_pangle_ad_close_drawable.png
+│   │   │   ├── tt_refreshing_video_textpage_normal.png
+│   │   │   ├── tt_refreshing_video_textpage_pressed.png
+│   │   │   ├── tt_report_ad_arrow.png
+│   │   │   ├── tt_reward_full_feedback.png
+│   │   │   ├── tt_reward_full_mute.png
+│   │   │   ├── tt_reward_full_unmute.png
+│   │   │   ├── tt_shadow_fullscreen_top.9.png
+│   │   │   ├── tt_shadow_lefterback_titlebar.png
+│   │   │   ├── tt_shadow_lefterback_titlebar_press.png
+│   │   │   ├── tt_shadow_lefterback_titlebar_press_withoutnight.png
+│   │   │   ├── tt_shadow_lefterback_titlebar_withoutnight.png
+│   │   │   ├── tt_shrink_fullscreen.png
+│   │   │   ├── tt_shrink_video.png
+│   │   │   ├── tt_skip_btn.png
+│   │   │   ├── tt_splash_hand.png
+│   │   │   ├── tt_splash_hand2.png
+│   │   │   ├── tt_splash_rock.png
+│   │   │   ├── tt_splash_shake_hand.png
+│   │   │   ├── tt_splash_slide_right_bg.png
+│   │   │   ├── tt_splash_slide_right_circle.png
+│   │   │   ├── tt_splash_slide_up_10.png
+│   │   │   ├── tt_splash_slide_up_arrow.png
+│   │   │   ├── tt_splash_slide_up_bg.png
+│   │   │   ├── tt_splash_slide_up_circle.png
+│   │   │   ├── tt_splash_slide_up_finger.png
+│   │   │   ├── tt_splash_twist.png
+│   │   │   ├── tt_splash_unlock_btn_bg.png
+│   │   │   ├── tt_splash_unlock_icon_empty.png
+│   │   │   ├── tt_splash_unlock_image_arrow.png
+│   │   │   ├── tt_splash_unlock_image_go.png
+│   │   │   ├── tt_star.png
+│   │   │   ├── tt_star_thick.png
+│   │   │   ├── tt_star_thick_dark.png
+│   │   │   ├── tt_suggestion_logo.png
+│   │   │   ├── tt_titlebar_backward.png
+│   │   │   ├── tt_titlebar_close_drawable.png
+│   │   │   ├── tt_titlebar_close_for_dark.png
+│   │   │   ├── tt_titlebar_close_new.png
+│   │   │   ├── tt_titlebar_close_press.png
+│   │   │   ├── tt_titlebar_close_press_for_dark.png
+│   │   │   ├── tt_titlebar_forward.png
+│   │   │   ├── tt_titlebar_lock.png
+│   │   │   ├── tt_unmute.png
+│   │   │   ├── tt_up_slide.png
+│   │   │   ├── tt_user.png
+│   │   │   ├── tt_video_close_drawable.png
+│   │   │   ├── tt_white_hand.png
+│   │   │   ├── tt_white_lefterbackicon_titlebar.png
+│   │   │   ├── tt_white_lefterbackicon_titlebar_press.png
+│   │   │   ├── tt_white_righterbackicon_titlebar.png
+│   │   │   ├── tt_white_slide_up.png
+│   │   │   ├── tt_wriggle_union.png
+│   │   │   ├── tt_wriggle_union_white.png
+│   │   │   ├── update_top.webp
+│   │   │   └── use_this_folder.png
+│   │   ├── drawable-xxhdpi-v4/
+│   │   │   ├── abc_ab_share_pack_mtrl_alpha.9.png
+│   │   │   ├── abc_btn_check_to_on_mtrl_000.png
+│   │   │   ├── abc_btn_check_to_on_mtrl_015.png
+│   │   │   ├── abc_btn_radio_to_on_mtrl_000.png
+│   │   │   ├── abc_btn_radio_to_on_mtrl_015.png
+│   │   │   ├── abc_btn_switch_to_on_mtrl_00001.9.png
+│   │   │   ├── abc_btn_switch_to_on_mtrl_00012.9.png
+│   │   │   ├── abc_cab_background_top_mtrl_alpha.9.png
+│   │   │   ├── abc_ic_commit_search_api_mtrl_alpha.png
+│   │   │   ├── abc_list_divider_mtrl_alpha.9.png
+│   │   │   ├── abc_list_focused_holo.9.png
+│   │   │   ├── abc_list_longpressed_holo.9.png
+│   │   │   ├── abc_list_pressed_holo_dark.9.png
+│   │   │   ├── abc_list_pressed_holo_light.9.png
+│   │   │   ├── abc_list_selector_disabled_holo_dark.9.png
+│   │   │   ├── abc_list_selector_disabled_holo_light.9.png
+│   │   │   ├── abc_menu_hardkey_panel_mtrl_mult.9.png
+│   │   │   ├── abc_popup_background_mtrl_mult.9.png
+│   │   │   ├── abc_scrubber_control_off_mtrl_alpha.png
+│   │   │   ├── abc_scrubber_control_to_pressed_mtrl_000.png
+│   │   │   ├── abc_scrubber_control_to_pressed_mtrl_005.png
+│   │   │   ├── abc_scrubber_primary_mtrl_alpha.9.png
+│   │   │   ├── abc_scrubber_track_mtrl_alpha.9.png
+│   │   │   ├── abc_spinner_mtrl_am_alpha.9.png
+│   │   │   ├── abc_switch_track_mtrl_alpha.9.png
+│   │   │   ├── abc_tab_indicator_mtrl_alpha.9.png
+│   │   │   ├── abc_text_select_handle_left_mtrl.png
+│   │   │   ├── abc_text_select_handle_middle_mtrl.png
+│   │   │   ├── abc_text_select_handle_right_mtrl.png
+│   │   │   ├── abc_textfield_activated_mtrl_alpha.9.png
+│   │   │   ├── abc_textfield_default_mtrl_alpha.9.png
+│   │   │   ├── abc_textfield_search_activated_mtrl_alpha.9.png
+│   │   │   ├── abc_textfield_search_default_mtrl_alpha.9.png
+│   │   │   ├── bg_top.png
+│   │   │   ├── cb_close_icon.png
+│   │   │   ├── cb_info_icon.png
+│   │   │   ├── cb_skip_icon.png
+│   │   │   ├── cb_volume_off_icon.png
+│   │   │   ├── cb_volume_on_icon.png
+│   │   │   ├── chartboost_app_icon_placeholder.png
+│   │   │   ├── chartboost_monetization_default_icon_background.png
+│   │   │   ├── close.png
+│   │   │   ├── common_google_signin_btn_icon_dark_normal_background.9.png
+│   │   │   ├── common_google_signin_btn_icon_light_normal_background.9.png
+│   │   │   ├── common_google_signin_btn_text_dark_normal_background.9.png
+│   │   │   ├── common_google_signin_btn_text_light_normal_background.9.png
+│   │   │   ├── exo_edit_mode_logo.png
+│   │   │   ├── exo_ic_audiotrack.png
+│   │   │   ├── exo_ic_check.png
+│   │   │   ├── exo_ic_chevron_left.png
+│   │   │   ├── exo_ic_chevron_right.png
+│   │   │   ├── exo_ic_forward.png
+│   │   │   ├── exo_ic_fullscreen_enter.png
+│   │   │   ├── exo_ic_fullscreen_exit.png
+│   │   │   ├── exo_ic_pause_circle_filled.png
+│   │   │   ├── exo_ic_play_circle_filled.png
+│   │   │   ├── exo_ic_rewind.png
+│   │   │   ├── exo_ic_settings.png
+│   │   │   ├── exo_ic_skip_next.png
+│   │   │   ├── exo_ic_skip_previous.png
+│   │   │   ├── exo_ic_speed.png
+│   │   │   ├── exo_ic_subtitle_off.png
+│   │   │   ├── exo_ic_subtitle_on.png
+│   │   │   ├── exo_icon_fastforward.png
+│   │   │   ├── exo_icon_repeat_all.png
+│   │   │   ├── exo_icon_repeat_off.png
+│   │   │   ├── exo_icon_repeat_one.png
+│   │   │   ├── exo_icon_rewind.png
+│   │   │   ├── exo_icon_shuffle_off.png
+│   │   │   ├── exo_icon_shuffle_on.png
+│   │   │   ├── exo_icon_vr.png
+│   │   │   ├── googleg_disabled_color_18.png
+│   │   │   ├── googleg_standard_color_18.png
+│   │   │   ├── ic_cast_white.png
+│   │   │   ├── ic_close_windows_black.png
+│   │   │   ├── ic_close_windows_white.png
+│   │   │   ├── ic_download.png
+│   │   │   ├── ic_favorite_empty.png
+│   │   │   ├── ic_joinpro.png
+│   │   │   ├── ic_launcher.png
+│   │   │   ├── ic_music.png
+│   │   │   ├── ic_pause_music.png
+│   │   │   ├── ic_play0.png
+│   │   │   ├── ic_play1.png
+│   │   │   ├── ic_play2.png
+│   │   │   ├── ic_play3.png
+│   │   │   ├── ic_play4.png
+│   │   │   ├── ic_play5.png
+│   │   │   ├── ic_play6.png
+│   │   │   ├── ic_play7.png
+│   │   │   ├── ic_play8.png
+│   │   │   ├── ic_popular_alarm.png
+│   │   │   ├── ic_popular_drop_down.png
+│   │   │   ├── ic_popular_drop_down_white.png
+│   │   │   ├── ic_popular_favorite_selected.png
+│   │   │   ├── ic_popular_favorite_unselected.png
+│   │   │   ├── ic_popular_favorite_unselected_white.png
+│   │   │   ├── ic_popular_info.png
+│   │   │   ├── ic_popular_notification.png
+│   │   │   ├── ic_popular_ringtone.png
+│   │   │   ├── ic_pro.png
+│   │   │   ├── ic_scroll_to_top.png
+│   │   │   ├── ic_search.png
+│   │   │   ├── ic_seekbar_thumb.png
+│   │   │   ├── ic_undo.png
+│   │   │   ├── ic_unlock_ad.png
+│   │   │   ├── ic_unlock_bg.png
+│   │   │   ├── ic_unlock_cd.png
+│   │   │   ├── ic_unlock_failed.png
+│   │   │   ├── ic_unlock_music_sign_dark_.png
+│   │   │   ├── ic_unlock_music_sign_yellow.png
+│   │   │   ├── ic_unlock_success.png
+│   │   │   ├── ic_unlock_watch_ad.png
+│   │   │   ├── icon_xcast_ad.png
+│   │   │   ├── im_mute.png
+│   │   │   ├── im_refresh.png
+│   │   │   ├── im_unmute.png
+│   │   │   ├── img_loading1.png
+│   │   │   ├── img_loading2.png
+│   │   │   ├── img_loading3.png
+│   │   │   ├── img_loading4.png
+│   │   │   ├── img_permission_access.png
+│   │   │   ├── img_permission_bg.png
+│   │   │   ├── moloco_skip.png
+│   │   │   ├── toast_frame.9.png
+│   │   │   ├── update_top.webp
+│   │   │   ├── video_default_thumb.jpg
+│   │   │   └── xcast_ad.webp
+│   │   ├── drawable-xxxhdpi-v4/
+│   │   │   ├── abc_btn_check_to_on_mtrl_000.png
+│   │   │   ├── abc_btn_check_to_on_mtrl_015.png
+│   │   │   ├── abc_btn_radio_to_on_mtrl_000.png
+│   │   │   ├── abc_btn_radio_to_on_mtrl_015.png
+│   │   │   ├── abc_btn_switch_to_on_mtrl_00001.9.png
+│   │   │   ├── abc_btn_switch_to_on_mtrl_00012.9.png
+│   │   │   ├── abc_scrubber_control_to_pressed_mtrl_000.png
+│   │   │   ├── abc_scrubber_control_to_pressed_mtrl_005.png
+│   │   │   ├── abc_spinner_mtrl_am_alpha.9.png
+│   │   │   ├── abc_switch_track_mtrl_alpha.9.png
+│   │   │   ├── abc_tab_indicator_mtrl_alpha.9.png
+│   │   │   ├── abc_text_select_handle_left_mtrl.png
+│   │   │   ├── abc_text_select_handle_right_mtrl.png
+│   │   │   ├── cb_close_icon.png
+│   │   │   ├── cb_info_icon.png
+│   │   │   ├── cb_skip_icon.png
+│   │   │   ├── cb_volume_off_icon.png
+│   │   │   ├── cb_volume_on_icon.png
+│   │   │   ├── chartboost_app_icon_placeholder.png
+│   │   │   ├── chartboost_monetization_default_icon_background.png
+│   │   │   ├── exo_edit_mode_logo.png
+│   │   │   ├── exo_ic_audiotrack.png
+│   │   │   ├── exo_ic_check.png
+│   │   │   ├── exo_ic_chevron_left.png
+│   │   │   ├── exo_ic_chevron_right.png
+│   │   │   ├── exo_ic_forward.png
+│   │   │   ├── exo_ic_fullscreen_enter.png
+│   │   │   ├── exo_ic_fullscreen_exit.png
+│   │   │   ├── exo_ic_pause_circle_filled.png
+│   │   │   ├── exo_ic_play_circle_filled.png
+│   │   │   ├── exo_ic_rewind.png
+│   │   │   ├── exo_ic_settings.png
+│   │   │   ├── exo_ic_skip_next.png
+│   │   │   ├── exo_ic_skip_previous.png
+│   │   │   ├── exo_ic_speed.png
+│   │   │   ├── exo_ic_subtitle_off.png
+│   │   │   ├── exo_ic_subtitle_on.png
+│   │   │   ├── exo_icon_fastforward.png
+│   │   │   ├── exo_icon_repeat_all.png
+│   │   │   ├── exo_icon_repeat_off.png
+│   │   │   ├── exo_icon_repeat_one.png
+│   │   │   ├── exo_icon_rewind.png
+│   │   │   ├── exo_icon_shuffle_off.png
+│   │   │   ├── exo_icon_shuffle_on.png
+│   │   │   ├── im_mute.png
+│   │   │   ├── im_refresh.png
+│   │   │   ├── im_unmute.png
+│   │   │   └── moloco_skip.png
+│   │   ├── font/
+│   │   │   ├── lato_bold.ttf
+│   │   │   ├── lato_regular.ttf
+│   │   │   └── roboto_medium_numbers.ttf
+│   │   ├── interpolator/
+│   │   │   ├── btn_checkbox_checked_mtrl_animation_interpolator_0.xml
+│   │   │   ├── btn_checkbox_checked_mtrl_animation_interpolator_1.xml
+│   │   │   ├── btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml
+│   │   │   ├── btn_checkbox_unchecked_mtrl_animation_interpolator_1.xml
+│   │   │   ├── btn_radio_to_off_mtrl_animation_interpolator_0.xml
+│   │   │   ├── btn_radio_to_on_mtrl_animation_interpolator_0.xml
+│   │   │   ├── fast_out_slow_in.xml
+│   │   │   ├── mtrl_fast_out_linear_in.xml
+│   │   │   ├── mtrl_fast_out_slow_in.xml
+│   │   │   └── mtrl_linear_out_slow_in.xml
+│   │   ├── layout/
+│   │   │   ├── abc_action_bar_title_item.xml
+│   │   │   ├── abc_action_menu_item_layout.xml
+│   │   │   ├── abc_action_menu_layout.xml
+│   │   │   ├── abc_action_mode_bar.xml
+│   │   │   ├── abc_action_mode_close_item_material.xml
+│   │   │   ├── abc_alert_dialog_button_bar_material.xml
+│   │   │   ├── abc_alert_dialog_material.xml
+│   │   │   ├── abc_alert_dialog_title_material.xml
+│   │   │   ├── abc_cascading_menu_item_layout.xml
+│   │   │   ├── abc_dialog_title_material.xml
+│   │   │   ├── abc_expanded_menu_layout.xml
+│   │   │   ├── abc_list_menu_item_checkbox.xml
+│   │   │   ├── abc_list_menu_item_icon.xml
+│   │   │   ├── abc_list_menu_item_layout.xml
+│   │   │   ├── abc_list_menu_item_radio.xml
+│   │   │   ├── abc_popup_menu_header_item_layout.xml
+│   │   │   ├── abc_popup_menu_item_layout.xml
+│   │   │   ├── abc_screen_content_include.xml
+│   │   │   ├── abc_screen_simple.xml
+│   │   │   ├── abc_screen_simple_overlay_action_mode.xml
+│   │   │   ├── abc_screen_toolbar.xml
+│   │   │   ├── abc_search_dropdown_item_icons_2line.xml
+│   │   │   ├── abc_search_view.xml
+│   │   │   ├── abc_select_dialog_material.xml
+│   │   │   ├── abc_tooltip.xml
+│   │   │   ├── activity_app.xml
+│   │   │   ├── activity_browser_downloader.xml
+│   │   │   ├── activity_category_detail.xml
+│   │   │   ├── activity_choose_storage.xml
+│   │   │   ├── activity_fd.xml
+│   │   │   ├── activity_files.xml
+│   │   │   ├── activity_help.xml
+│   │   │   ├── activity_history.xml
+│   │   │   ├── activity_image_pre.xml
+│   │   │   ├── activity_image_preview.xml
+│   │   │   ├── activity_main.xml
+│   │   │   ├── activity_more_app.xml
+│   │   │   ├── activity_next.xml
+│   │   │   ├── activity_ringtone_main.xml
+│   │   │   ├── activity_select_video.xml
+│   │   │   ├── activity_splash.xml
+│   │   │   ├── activity_status_saver.xml
+│   │   │   ├── activity_status_saver_help.xml
+│   │   │   ├── activity_status_video_new.xml
+│   │   │   ├── activity_video_site.xml
+│   │   │   ├── ad_full_loading_layout.xml
+│   │   │   ├── ad_full_loading_lottieview.xml
+│   │   │   ├── ad_item_drawer.xml
+│   │   │   ├── ad_native_banner.xml
+│   │   │   ├── ad_native_banner_root.xml
+│   │   │   ├── ad_nativebanner_new.xml
+│   │   │   ├── ad_policy_activity.xml
+│   │   │   ├── admob_empty_layout.xml
+│   │   │   ├── already_in_list.xml
+│   │   │   ├── applovin_debugger_list_item_detail.xml
+│   │   │   ├── applovin_native_ad_media_view.xml
+│   │   │   ├── basis_activity_no_webview.xml
+│   │   │   ├── bigo_ad_activity_form.xml
+│   │   │   ├── bigo_ad_activity_interstitial.xml
+│   │   │   ├── bigo_ad_activity_interstitial_banner.xml
+│   │   │   ├── bigo_ad_activity_interstitial_bottom_card.xml
+│   │   │   ├── bigo_ad_activity_interstitial_h5.xml
+│   │   │   ├── bigo_ad_activity_interstitial_landingpage.xml
+│   │   │   ├── bigo_ad_activity_interstitial_landingpage_7_8.xml
+│   │   │   ├── bigo_ad_activity_interstitial_multi_end_all_wrap_item.xml
+│   │   │   ├── bigo_ad_activity_interstitial_multi_end_half_wrap_item.xml
+│   │   │   ├── bigo_ad_activity_interstitial_multi_end_img_item.xml
+│   │   │   ├── bigo_ad_activity_interstitial_multi_mix_end.xml
+│   │   │   ├── bigo_ad_activity_interstitial_multi_owner_native.xml
+│   │   │   ├── bigo_ad_activity_interstitial_multi_single_end.xml
+│   │   │   ├── bigo_ad_activity_interstitial_native_center.xml
+│   │   │   ├── bigo_ad_activity_interstitial_native_top.xml
+│   │   │   ├── bigo_ad_activity_interstitial_percent_warning.xml
+│   │   │   ├── bigo_ad_activity_interstitial_percent_warning_landscape.xml
+│   │   │   ├── bigo_ad_activity_interstitial_play_page.xml
+│   │   │   ├── bigo_ad_activity_interstitial_rich_video.xml
+│   │   │   ├── bigo_ad_activity_interstitial_rich_video_19_29.xml
+│   │   │   ├── bigo_ad_activity_interstitial_rich_video_2.xml
+│   │   │   ├── bigo_ad_activity_interstitial_rich_video_3.xml
+│   │   │   ├── bigo_ad_activity_interstitial_rich_video_4.xml
+│   │   │   ├── bigo_ad_activity_interstitial_rich_video_5.xml
+│   │   │   ├── bigo_ad_activity_interstitial_rich_video_component_19.xml
+│   │   │   ├── bigo_ad_activity_interstitial_rich_video_component_20.xml
+│   │   │   ├── bigo_ad_activity_interstitial_rich_video_component_21.xml
+│   │   │   ├── bigo_ad_activity_interstitial_rich_video_component_22.xml
+│   │   │   ├── bigo_ad_activity_interstitial_rich_video_component_23.xml
+│   │   │   ├── bigo_ad_activity_interstitial_rich_video_component_24.xml
+│   │   │   ├── bigo_ad_activity_interstitial_rich_video_component_25.xml
+│   │   │   ├── bigo_ad_activity_interstitial_rich_video_component_26.xml
+│   │   │   ├── bigo_ad_activity_interstitial_rich_video_download_10.xml
+│   │   │   ├── bigo_ad_activity_interstitial_rich_video_download_11.xml
+│   │   │   ├── bigo_ad_activity_interstitial_rich_video_download_12.xml
+│   │   │   ├── bigo_ad_activity_interstitial_rich_video_download_6.xml
+│   │   │   ├── bigo_ad_activity_interstitial_rich_video_download_7.xml
+│   │   │   ├── bigo_ad_activity_interstitial_rich_video_download_8.xml
+│   │   │   ├── bigo_ad_activity_interstitial_rich_video_download_9.xml
+│   │   │   ├── bigo_ad_activity_interstitial_rich_video_empty_end.xml
+│   │   │   ├── bigo_ad_activity_interstitial_rich_video_end.xml
+│   │   │   ├── bigo_ad_activity_interstitial_rich_video_end_14_15.xml
+│   │   │   ├── bigo_ad_activity_interstitial_rich_video_end_16_17.xml
+│   │   │   ├── bigo_ad_activity_interstitial_rich_video_end_18.xml
+│   │   │   ├── bigo_ad_activity_interstitial_rich_video_end_19.xml
+│   │   │   ├── bigo_ad_activity_interstitial_rich_video_end_2.xml
+│   │   │   ├── bigo_ad_activity_interstitial_rich_video_end_3.xml
+│   │   │   ├── bigo_ad_activity_interstitial_rich_video_end_4.xml
+│   │   │   ├── bigo_ad_activity_interstitial_rich_video_end_6.xml
+│   │   │   ├── bigo_ad_activity_interstitial_rich_video_end_7.xml
+│   │   │   ├── bigo_ad_activity_interstitial_rich_video_end_8.xml
+│   │   │   ├── bigo_ad_activity_interstitial_rich_video_end_9.xml
+│   │   │   ├── bigo_ad_activity_interstitial_rich_video_end_landscape.xml
+│   │   │   ├── bigo_ad_activity_interstitial_rich_video_end_landscape_2.xml
+│   │   │   ├── bigo_ad_activity_interstitial_rich_video_land_material_31_32.xml
+│   │   │   ├── bigo_ad_activity_interstitial_rich_video_left_material_31.xml
+│   │   │   ├── bigo_ad_activity_interstitial_rich_video_multi_img_13.xml
+│   │   │   ├── bigo_ad_activity_interstitial_rich_video_multi_img_14.xml
+│   │   │   ├── bigo_ad_activity_interstitial_rich_video_multi_img_15.xml
+│   │   │   ├── bigo_ad_activity_interstitial_rich_video_multi_img_16.xml
+│   │   │   ├── bigo_ad_activity_interstitial_rich_video_multi_img_17.xml
+│   │   │   ├── bigo_ad_activity_interstitial_rich_video_multi_img_item_layout.xml
+│   │   │   ├── bigo_ad_activity_interstitial_rich_video_multi_img_media_layout.xml
+│   │   │   ├── bigo_ad_activity_interstitial_rich_video_right_material_32.xml
+│   │   │   ├── bigo_ad_activity_interstitial_sab.xml
+│   │   │   ├── bigo_ad_activity_interstitial_style_landscape_1.xml
+│   │   │   ├── bigo_ad_activity_interstitial_style_landscape_1_full_media.xml
+│   │   │   ├── bigo_ad_activity_interstitial_style_landscape_2.xml
+│   │   │   ├── bigo_ad_activity_interstitial_style_landscape_2_full_media.xml
+│   │   │   ├── bigo_ad_activity_interstitial_style_landscape_3.xml
+│   │   │   ├── bigo_ad_activity_interstitial_style_landscape_3_no_gp_element.xml
+│   │   │   ├── bigo_ad_activity_interstitial_style_landscape_4.xml
+│   │   │   ├── bigo_ad_activity_interstitial_style_landscape_4_full_media.xml
+│   │   │   ├── bigo_ad_activity_interstitial_vpaid.xml
+│   │   │   ├── bigo_ad_activity_pop_up_style_1.xml
+│   │   │   ├── bigo_ad_activity_pop_up_style_2.xml
+│   │   │   ├── bigo_ad_activity_pop_up_style_3.xml
+│   │   │   ├── bigo_ad_activity_pop_up_style_4.xml
+│   │   │   ├── bigo_ad_activity_pop_up_style_5.xml
+│   │   │   ├── bigo_ad_activity_pop_up_style_6.xml
+│   │   │   ├── bigo_ad_activity_popup.xml
+│   │   │   ├── bigo_ad_activity_popup_banner.xml
+│   │   │   ├── bigo_ad_activity_popup_vpaid.xml
+│   │   │   ├── bigo_ad_activity_reward.xml
+│   │   │   ├── bigo_ad_activity_sub_interstitial_rich_video_1_3.xml
+│   │   │   ├── bigo_ad_activity_vertical_twins_owner.xml
+│   │   │   ├── bigo_ad_activity_vertical_twins_sub.xml
+│   │   │   ├── bigo_ad_activity_webview.xml
+│   │   │   ├── bigo_ad_banner_placeholder_img.xml
+│   │   │   ├── bigo_ad_default_loading_layout.xml
+│   │   │   ├── bigo_ad_dialog_reward_retain.xml
+│   │   │   ├── bigo_ad_download_msg.xml
+│   │   │   ├── bigo_ad_download_msg_white.xml
+│   │   │   ├── bigo_ad_endpage_cta_click_guide.xml
+│   │   │   ├── bigo_ad_form_content.xml
+│   │   │   ├── bigo_ad_form_content_dark.xml
+│   │   │   ├── bigo_ad_form_fill_question.xml
+│   │   │   ├── bigo_ad_form_fill_question_dark.xml
+│   │   │   ├── bigo_ad_form_layout.xml
+│   │   │   ├── bigo_ad_form_layout_dark.xml
+│   │   │   ├── bigo_ad_form_notice_privacy.xml
+│   │   │   ├── bigo_ad_form_notice_privacy_dark.xml
+│   │   │   ├── bigo_ad_form_question.xml
+│   │   │   ├── bigo_ad_form_question_dark.xml
+│   │   │   ├── bigo_ad_form_select_question.xml
+│   │   │   ├── bigo_ad_form_select_question_dark.xml
+│   │   │   ├── bigo_ad_item_inter_countdown_bg.xml
+│   │   │   ├── bigo_ad_item_inter_default_countdown_bg.xml
+│   │   │   ├── bigo_ad_item_interaction_horizontal.xml
+│   │   │   ├── bigo_ad_item_interaction_vertical.xml
+│   │   │   ├── bigo_ad_item_splash_countdown_bg.xml
+│   │   │   ├── bigo_ad_label_layout.xml
+│   │   │   ├── bigo_ad_layout_gesture_slide.xml
+│   │   │   ├── bigo_ad_layout_gesture_zoom.xml
+│   │   │   ├── bigo_ad_layout_ic_item.xml
+│   │   │   ├── bigo_ad_layout_interstitial_ad_mark_top_left.xml
+│   │   │   ├── bigo_ad_layout_interstitial_ad_warning_bottom.xml
+│   │   │   ├── bigo_ad_layout_interstitial_icon_item_cta_des_style1.xml
+│   │   │   ├── bigo_ad_layout_interstitial_icon_item_cta_des_style2.xml
+│   │   │   ├── bigo_ad_layout_interstitial_icon_item_cta_style1.xml
+│   │   │   ├── bigo_ad_layout_interstitial_icon_item_cta_style2.xml
+│   │   │   ├── bigo_ad_layout_interstitial_icon_item_style.xml
+│   │   │   ├── bigo_ad_layout_interstitial_icon_view_flow.xml
+│   │   │   ├── bigo_ad_layout_interstitial_mid_page_loading_view.xml
+│   │   │   ├── bigo_ad_layout_interstitial_mid_page_loading_view_landscape.xml
+│   │   │   ├── bigo_ad_layout_interstitial_mid_page_native_fallback_view_download_info_landscape.xml
+│   │   │   ├── bigo_ad_layout_interstitial_mid_page_native_fallback_view_landscape.xml
+│   │   │   ├── bigo_ad_layout_interstitial_mid_page_native_view.xml
+│   │   │   ├── bigo_ad_layout_interstitial_mid_page_native_view_landscape.xml
+│   │   │   ├── bigo_ad_layout_interstitial_rich_video_multi_img_bottom.xml
+│   │   │   ├── bigo_ad_layout_more.xml
+│   │   │   ├── bigo_ad_layout_space.xml
+│   │   │   ├── bigo_ad_layout_space_black.xml
+│   │   │   ├── bigo_ad_layout_word_icon.xml
+│   │   │   ├── bigo_ad_layout_word_icon_first_page.xml
+│   │   │   ├── bigo_ad_media_view.xml
+│   │   │   ├── bigo_ad_native_banner_medium.xml
+│   │   │   ├── bigo_ad_native_banner_small.xml
+│   │   │   ├── bigo_ad_one2n_activity_interstitial.xml
+│   │   │   ├── bigo_ad_optionview_feedback.xml
+│   │   │   ├── bigo_ad_pop_up_ad_msg.xml
+│   │   │   ├── bigo_ad_popup_close_btn.xml
+│   │   │   ├── bigo_ad_splash_ad_label.xml
+│   │   │   ├── bigo_ad_splash_endpage1.xml
+│   │   │   ├── bigo_ad_splash_endpage1_slide.xml
+│   │   │   ├── bigo_ad_splash_endpage_item_click_guide.xml
+│   │   │   ├── bigo_ad_splash_endpage_item_cta.xml
+│   │   │   ├── bigo_ad_splash_endpage_item_flash.xml
+│   │   │   ├── bigo_ad_splash_endpage_item_slide.xml
+│   │   │   ├── bigo_ad_splash_item_arrow.xml
+│   │   │   ├── bigo_ad_splash_item_click_guide.xml
+│   │   │   ├── bigo_ad_splash_item_cta.xml
+│   │   │   ├── bigo_ad_splash_item_cta_bg.xml
+│   │   │   ├── bigo_ad_splash_item_flash.xml
+│   │   │   ├── bigo_ad_splash_item_ripple.xml
+│   │   │   ├── bigo_ad_splash_item_slide.xml
+│   │   │   ├── bigo_ad_splash_style_3_item_cta.xml
+│   │   │   ├── bigo_ad_splash_style_3_multi_img.xml
+│   │   │   ├── bigo_ad_splash_style_4_cta_widget.xml
+│   │   │   ├── bigo_ad_splash_style_5_card_widget.xml
+│   │   │   ├── bigo_ad_splash_style_fullscreen.xml
+│   │   │   ├── bigo_ad_splash_style_fullscreen_immersive.xml
+│   │   │   ├── bigo_ad_splash_style_fullscreen_interaction.xml
+│   │   │   ├── bigo_ad_splash_style_fullscreen_interaction_immersive.xml
+│   │   │   ├── bigo_ad_splash_style_fullscreen_vpaid.xml
+│   │   │   ├── bigo_ad_splash_style_halfscreen.xml
+│   │   │   ├── bigo_ad_splash_style_halfscreen_interaction.xml
+│   │   │   ├── bigo_ad_splash_style_halfscreen_vpaid.xml
+│   │   │   ├── bigo_ad_splash_style_root.xml
+│   │   │   ├── bigo_ad_success_submit.xml
+│   │   │   ├── bigo_ad_success_submit_dark.xml
+│   │   │   ├── bigo_ad_view_click_guide.xml
+│   │   │   ├── bigo_ad_view_click_guide_1.xml
+│   │   │   ├── bigo_ad_view_click_guide_2.xml
+│   │   │   ├── bigo_ad_view_click_guide_3.xml
+│   │   │   ├── bigo_ad_view_click_guide_landscape_1.xml
+│   │   │   ├── bigo_ad_view_click_guide_landscape_2.xml
+│   │   │   ├── bigo_ad_view_click_guide_landscape_3.xml
+│   │   │   ├── bigo_ad_view_flow.xml
+│   │   │   ├── bigo_ad_view_slide_gesture.xml
+│   │   │   ├── bigo_ad_webview_loading.xml
+│   │   │   ├── bookmark_drawer.xml
+│   │   │   ├── bookmark_list_item.xml
+│   │   │   ├── bottom_sheet_private.xml
+│   │   │   ├── browser_actions_context_menu_page.xml
+│   │   │   ├── browser_actions_context_menu_row.xml
+│   │   │   ├── browser_content.xml
+│   │   │   ├── cb_media3_player_layout.xml
+│   │   │   ├── cb_player_view.xml
+│   │   │   ├── common_remove_ad.xml
+│   │   │   ├── common_share.xml
+│   │   │   ├── common_youtube_tips.xml
+│   │   │   ├── creative_debugger_displayed_ad_detail_activity.xml
+│   │   │   ├── custom_dialog.xml
+│   │   │   ├── design_bottom_navigation_item.xml
+│   │   │   ├── design_bottom_sheet_dialog.xml
+│   │   │   ├── design_layout_snackbar.xml
+│   │   │   ├── design_layout_snackbar_include.xml
+│   │   │   ├── design_text_input_end_icon.xml
+│   │   │   ├── design_text_input_start_icon.xml
+│   │   │   ├── dialog_ad_loading.xml
+│   │   │   ├── dialog_auth_request.xml
+│   │   │   ├── dialog_bottom_sheet_action.xml
+│   │   │   ├── dialog_convert.xml
+│   │   │   ├── dialog_edit_bookmark.xml
+│   │   │   ├── dialog_edit_text.xml
+│   │   │   ├── dialog_in_app_update.xml
+│   │   │   ├── dialog_input.xml
+│   │   │   ├── dialog_modify_ringtone_success.xml
+│   │   │   ├── dialog_no_copyright_inquiry.xml
+│   │   │   ├── dialog_no_res.xml
+│   │   │   ├── dialog_open_copied_link.xml
+│   │   │   ├── dialog_open_copied_link_dark.xml
+│   │   │   ├── dialog_permission.xml
+│   │   │   ├── dialog_permission_view.xml
+│   │   │   ├── dialog_play_error.xml
+│   │   │   ├── dialog_play_loading.xml
+│   │   │   ├── dialog_rename.xml
+│   │   │   ├── dialog_satisfied_tip.xml
+│   │   │   ├── dialog_unlock_failed.xml
+│   │   │   ├── dialog_unlock_loading.xml
+│   │   │   ├── dialog_unlock_retry.xml
+│   │   │   ├── dialog_unlock_success.xml
+│   │   │   ├── dialog_vip.xml
+│   │   │   ├── dialog_vip_scene1.xml
+│   │   │   ├── dialog_vip_scene2.xml
+│   │   │   ├── dialog_xcast_ad.xml
+│   │   │   ├── download_drawer.xml
+│   │   │   ├── download_drawer_rename.xml
+│   │   │   ├── download_manual_drawer.xml
+│   │   │   ├── download_progress_drawer.xml
+│   │   │   ├── exo_player_control_view.xml
+│   │   │   ├── exo_player_view.xml
+│   │   │   ├── exo_styled_player_control_view.xml
+│   │   │   ├── exo_styled_player_view.xml
+│   │   │   ├── exo_styled_settings_list.xml
+│   │   │   ├── exo_styled_settings_list_item.xml
+│   │   │   ├── exo_styled_sub_settings_list_item.xml
+│   │   │   ├── favorite_empty_layout.xml
+│   │   │   ├── folder_path_item.xml
+│   │   │   ├── fragment_category.xml
+│   │   │   ├── fragment_email.xml
+│   │   │   ├── fragment_favorite.xml
+│   │   │   ├── fragment_finished.xml
+│   │   │   ├── fragment_help.xml
+│   │   │   ├── fragment_null.xml
+│   │   │   ├── fragment_password.xml
+│   │   │   ├── fragment_popular.xml
+│   │   │   ├── fragment_private_video_list.xml
+│   │   │   ├── fragment_progress.xml
+│   │   │   ├── guide_layout.xml
+│   │   │   ├── hsdp_service_prism_with_loading_indicator.xml
+│   │   │   ├── hsdp_shim_activity.xml
+│   │   │   ├── inmobi_in_app_browser_activity.xml
+│   │   │   ├── item_category_music.xml
+│   │   │   ├── item_download_drawer.xml
+│   │   │   ├── item_feedback.xml
+│   │   │   ├── item_finished_file.xml
+│   │   │   ├── item_folder.xml
+│   │   │   ├── item_help_layout.xml
+│   │   │   ├── item_history.xml
+│   │   │   ├── item_manual_drawer.xml
+│   │   │   ├── item_new_website.xml
+│   │   │   ├── item_next_video.xml
+│   │   │   ├── item_popular_music.xml
+│   │   │   ├── item_private_file.xml
+│   │   │   ├── item_progress_file.xml
+│   │   │   ├── item_purchase_popular_music.xml
+│   │   │   ├── item_recently_website.xml
+│   │   │   ├── item_video_site.xml
+│   │   │   ├── item_website.xml
+│   │   │   ├── layout_bottom_dialog_ui.xml
+│   │   │   ├── layout_discover_confirm.xml
+│   │   │   ├── layout_error_tips.xml
+│   │   │   ├── layout_guid.xml
+│   │   │   ├── layout_play_speed.xml
+│   │   │   ├── layout_player_thumb.xml
+│   │   │   ├── layout_property_popular_item.xml
+│   │   │   ├── lib_rate_dialog.xml
+│   │   │   ├── lib_rate_dialog_rtl.xml
+│   │   │   ├── lightning_view.xml
+│   │   │   ├── list_dialog.xml
+│   │   │   ├── loading_alert.xml
+│   │   │   ├── m3_navigation_menu_divider.xml
+│   │   │   ├── m3_navigation_menu_subheader.xml
+│   │   │   ├── mainlayout.xml
+│   │   │   ├── max_native_ad_banner_icon_and_text_layout.xml
+│   │   │   ├── max_native_ad_banner_view.xml
+│   │   │   ├── max_native_ad_leader_view.xml
+│   │   │   ├── max_native_ad_media_banner_view.xml
+│   │   │   ├── max_native_ad_mrec_view.xml
+│   │   │   ├── max_native_ad_recycler_view_item.xml
+│   │   │   ├── max_native_ad_template_1.xml
+│   │   │   ├── max_native_ad_vertical_banner_view.xml
+│   │   │   ├── max_native_ad_vertical_leader_view.xml
+│   │   │   ├── max_native_ad_vertical_media_banner_view.xml
+│   │   │   ├── mbridge_activity.xml
+│   │   │   ├── mbridge_alertview_layout.xml
+│   │   │   ├── mbridge_bt_container.xml
+│   │   │   ├── mbridge_cm_alertview.xml
+│   │   │   ├── mbridge_cm_feedback_notice_layout.xml
+│   │   │   ├── mbridge_cm_feedbackview.xml
+│   │   │   ├── mbridge_cm_loading_layout.xml
+│   │   │   ├── mbridge_interstitial_activity.xml
+│   │   │   ├── mbridge_more_offer_activity.xml
+│   │   │   ├── mbridge_nativex_fullbasescreen.xml
+│   │   │   ├── mbridge_nativex_fullscreen_top.xml
+│   │   │   ├── mbridge_nativex_mbmediaview.xml
+│   │   │   ├── mbridge_nativex_playerview.xml
+│   │   │   ├── mbridge_order_layout_item.xml
+│   │   │   ├── mbridge_order_layout_list_landscape.xml
+│   │   │   ├── mbridge_order_layout_list_portrait.xml
+│   │   │   ├── mbridge_playercommon_player_view.xml
+│   │   │   ├── mbridge_reward_activity_video_templete.xml
+│   │   │   ├── mbridge_reward_activity_video_templete_transparent.xml
+│   │   │   ├── mbridge_reward_clickable_cta.xml
+│   │   │   ├── mbridge_reward_end_card_layout_landscape.xml
+│   │   │   ├── mbridge_reward_end_card_layout_landscape_1302.xml
+│   │   │   ├── mbridge_reward_end_card_layout_portrait.xml
+│   │   │   ├── mbridge_reward_end_card_layout_portrait_1302.xml
+│   │   │   ├── mbridge_reward_end_card_more_offer_item.xml
+│   │   │   ├── mbridge_reward_endcard_h5.xml
+│   │   │   ├── mbridge_reward_endcard_native_half_landscape.xml
+│   │   │   ├── mbridge_reward_endcard_native_half_portrait.xml
+│   │   │   ├── mbridge_reward_endcard_native_hor.xml
+│   │   │   ├── mbridge_reward_endcard_native_land.xml
+│   │   │   ├── mbridge_reward_endcard_vast.xml
+│   │   │   ├── mbridge_reward_layer_floor.xml
+│   │   │   ├── mbridge_reward_layer_floor_302.xml
+│   │   │   ├── mbridge_reward_layer_floor_5002010.xml
+│   │   │   ├── mbridge_reward_layer_floor_802.xml
+│   │   │   ├── mbridge_reward_layer_floor_902.xml
+│   │   │   ├── mbridge_reward_layer_floor_904.xml
+│   │   │   ├── mbridge_reward_layer_floor_bottom.xml
+│   │   │   ├── mbridge_reward_layer_floor_half_portrait.xml
+│   │   │   ├── mbridge_reward_more_offer_view.xml
+│   │   │   ├── mbridge_reward_videoend_cover.xml
+│   │   │   ├── mbridge_reward_videoview_item.xml
+│   │   │   ├── mbridge_reward_view_tag_item.xml
+│   │   │   ├── mbridge_same_choice_one_layout_landscape.xml
+│   │   │   ├── mbridge_same_choice_one_layout_portrait.xml
+│   │   │   ├── mbridge_splash_landscape.xml
+│   │   │   ├── mbridge_splash_portrait.xml
+│   │   │   ├── mediation_debugger_ad_unit_detail_activity.xml
+│   │   │   ├── mediation_debugger_list_item_right_detail.xml
+│   │   │   ├── mediation_debugger_list_section.xml
+│   │   │   ├── mediation_debugger_list_section_centered.xml
+│   │   │   ├── mediation_debugger_list_view.xml
+│   │   │   ├── mediation_debugger_multi_ad_activity.xml
+│   │   │   ├── mediation_debugger_text_view_activity.xml
+│   │   │   ├── mp3_player.xml
+│   │   │   ├── mtrl_auto_complete_simple_item.xml
+│   │   │   ├── mtrl_layout_snackbar.xml
+│   │   │   ├── mtrl_layout_snackbar_include.xml
+│   │   │   ├── native_start_page.xml
+│   │   │   ├── need_permission.xml
+│   │   │   ├── notification_finish.xml
+│   │   │   ├── notification_media_action.xml
+│   │   │   ├── notification_media_cancel_action.xml
+│   │   │   ├── notification_progress.xml
+│   │   │   ├── notification_template_big_media.xml
+│   │   │   ├── notification_template_big_media_custom.xml
+│   │   │   ├── notification_template_big_media_narrow.xml
+│   │   │   ├── notification_template_big_media_narrow_custom.xml
+│   │   │   ├── notification_template_lines_media.xml
+│   │   │   ├── notification_template_media.xml
+│   │   │   ├── notification_template_media_custom.xml
+│   │   │   ├── notification_template_part_chronometer.xml
+│   │   │   ├── notification_template_part_time.xml
+│   │   │   ├── notification_update.xml
+│   │   │   ├── offline_ads_dialog.xml
+│   │   │   ├── open_permission_setting.xml
+│   │   │   ├── play_list_item.xml
+│   │   │   ├── popup_black_items.xml
+│   │   │   ├── popup_white_checkbox_items.xml
+│   │   │   ├── popup_white_items.xml
+│   │   │   ├── preference.xml
+│   │   │   ├── sdcard_warn.xml
+│   │   │   ├── sdk_loading_panel.xml
+│   │   │   ├── search.xml
+│   │   │   ├── select_dialog_item_material.xml
+│   │   │   ├── select_dialog_multichoice_material.xml
+│   │   │   ├── select_dialog_singlechoice_material.xml
+│   │   │   ├── setting_folder_select.xml
+│   │   │   ├── simple_player_controlbar.xml
+│   │   │   ├── simple_player_list.xml
+│   │   │   ├── simple_player_topbar.xml
+│   │   │   ├── simple_player_touch_gestures.xml
+│   │   │   ├── simple_player_view_player.xml
+│   │   │   ├── status_saver_grid_item.xml
+│   │   │   ├── status_saver_help_layout.xml
+│   │   │   ├── status_saver_permission_dialog.xml
+│   │   │   ├── status_saver_use_this_folder.xml
+│   │   │   ├── support_simple_spinner_dropdown_item.xml
+│   │   │   ├── tab_drawer.xml
+│   │   │   ├── tab_list_item.xml
+│   │   │   ├── tab_list_item_horizontal.xml
+│   │   │   ├── tab_strip.xml
+│   │   │   ├── toast_layout.xml
+│   │   │   ├── toolbar.xml
+│   │   │   ├── toolbar_content.xml
+│   │   │   ├── toolbar_settings.xml
+│   │   │   ├── two_line_autocomplete.xml
+│   │   │   ├── video_loading_progress.xml
+│   │   │   ├── watermark_layout.xml
+│   │   │   └── wifi_tips_drawer.xml
+│   │   ├── layout-land/
+│   │   │   ├── activity_next.xml
+│   │   │   └── item_next_video.xml
+│   │   ├── layout-sw600dp-v13/
+│   │   │   ├── design_layout_snackbar.xml
+│   │   │   └── mtrl_layout_snackbar.xml
+│   │   ├── layout-v21/
+│   │   │   ├── notification_action.xml
+│   │   │   ├── notification_action_tombstone.xml
+│   │   │   ├── notification_template_custom_big.xml
+│   │   │   └── notification_template_icon_group.xml
+│   │   ├── layout-v23/
+│   │   │   ├── exo_player_control_ffwd_button.xml
+│   │   │   ├── exo_player_control_rewind_button.xml
+│   │   │   ├── exo_styled_player_control_ffwd_button.xml
+│   │   │   └── exo_styled_player_control_rewind_button.xml
+│   │   ├── layout-v26/
+│   │   │   └── abc_screen_toolbar.xml
+│   │   ├── layout-v31/
+│   │   │   ├── notification_finish.xml
+│   │   │   └── notification_progress.xml
+│   │   ├── layout-v35/
+│   │   │   └── activity_main.xml
+│   │   ├── layout-watch-v20/
+│   │   │   ├── abc_alert_dialog_button_bar_material.xml
+│   │   │   └── abc_alert_dialog_title_material.xml
+│   │   ├── menu/
+│   │   │   ├── axon_events_activity_menu.xml
+│   │   │   ├── creative_debugger_displayed_ad_activity_menu.xml
+│   │   │   ├── main.xml
+│   │   │   ├── mediation_debugger_activity_menu.xml
+│   │   │   ├── menu_email.xml
+│   │   │   ├── menu_history.xml
+│   │   │   ├── menu_history_more.xml
+│   │   │   ├── menu_locked_list.xml
+│   │   │   └── menu_navigation.xml
+│   │   ├── menu-large-v4/
+│   │   │   └── main.xml
+│   │   ├── menu-xlarge-v4/
+│   │   │   └── main.xml
+│   │   ├── raw/
+│   │   │   ├── applovin_consent_flow_unified_cmp.json
+│   │   │   ├── button.json
+│   │   │   ├── hosts.txt
+│   │   │   ├── inmobi_omid_js.js
+│   │   │   ├── keep_cronet_api.xml
+│   │   │   ├── omid_session_client_v1_6_9.js
+│   │   │   ├── omsdk_v1.js
+│   │   │   ├── omsdk_v1_6_2.js
+│   │   │   ├── omsdk_v1_6_9.js
+│   │   │   ├── popus.json
+│   │   │   ├── russian_trusted_root_ca.cer
+│   │   │   ├── russian_trusted_sub_ca.cer
+│   │   │   ├── splash.json
+│   │   │   └── tobedelete.txt
+│   │   ├── transition/
+│   │   │   ├── changebounds_fadein_together.xml
+│   │   │   └── scene3_transition_manager.xml
+│   │   └── xml/
+│   │       ├── filepaths.xml
+│   │       ├── network_security_config.xml
+│   │       └── splits0.xml
+│   ├── src/
+│   │   └── google/
+│   │       └── protobuf/
+│   │           ├── any.proto
+│   │           ├── api.proto
+│   │           ├── duration.proto
+│   │           ├── empty.proto
+│   │           ├── field_mask.proto
+│   │           ├── source_context.proto
+│   │           ├── struct.proto
+│   │           ├── timestamp.proto
+│   │           ├── type.proto
+│   │           └── wrappers.proto
+│   ├── AndroidManifest.xml
+│   ├── androidsupportmultidexversion.txt
+│   ├── app-update.properties
+│   ├── billing.properties
+│   ├── classes.dex
+│   ├── classes2.dex
+│   ├── classes3.dex
+│   ├── classes4.dex
+│   ├── classes5.dex
+│   ├── client_analytics.proto
+│   ├── core-common.properties
+│   ├── DebugProbesKt.bin
+│   ├── firebase-analytics.properties
+│   ├── firebase-auth-interop.properties
+│   ├── firebase-encoders-proto.properties
+│   ├── firebase-encoders.properties
+│   ├── firebase-measurement-connector.properties
+│   ├── hsdp.properties
+│   ├── play-services-ads-api.properties
+│   ├── play-services-ads-identifier.properties
+│   ├── play-services-ads.properties
+│   ├── play-services-appset.properties
+│   ├── play-services-base.properties
+│   ├── play-services-basement.properties
+│   ├── play-services-cronet.properties
+│   ├── play-services-location.properties
+│   ├── play-services-measurement-api.properties
+│   ├── play-services-measurement-base.properties
+│   ├── play-services-measurement-impl.properties
+│   ├── play-services-measurement-sdk-api.properties
+│   ├── play-services-measurement-sdk.properties
+│   ├── play-services-measurement.properties
+│   ├── play-services-places-placereport.properties
+│   ├── play-services-stats.properties
+│   ├── play-services-tasks.properties
+│   ├── resources.arsc
+│   ├── stamp-cert-sha256
+│   └── user-messaging-platform.properties
+├── icon.png
+└── manifest.json

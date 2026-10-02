@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="APKTOOL_RENAMED_0x7f120021">ರದ್ದುಗೊಳಿಸಿ</string>
+    <string name="APKTOOL_RENAMED_0x7f120022">ಮುಂದುವರಿಸಿ</string>
+    <string name="APKTOOL_RENAMED_0x7f120025">ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ</string>
+    <string name="APKTOOL_RENAMED_0x7f12002d">ತೆರೆಯಿರಿ</string>
+    <string name="APKTOOL_RENAMED_0x7f12003e">ಅನುಮತಿಸಿ</string>
+    <string name="APKTOOL_RENAMED_0x7f120043">ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ಬಲವಂತವಾಗಿ ನಿಲ್ಲಿಸಲಾಯಿತು</string>
+    <string name="APKTOOL_RENAMED_0x7f120052">ಆಡಿಯೋ</string>
+    <string name="APKTOOL_RENAMED_0x7f120054">ಇಲ್ಲಿಗೆ ಹಿಂತಿರುಗಿ ಮತ್ತು ಉಳಿಸಿ ಬಟನ್ ಅನ್ನು ಟ್ಯಾಪ್ ಮಾಡಿ</string>
+    <string name="APKTOOL_RENAMED_0x7f120057">ಇನ್‌ಸ್ಟಾಲ್‌</string>
+    <string name="APKTOOL_RENAMED_0x7f120058">ಗೂಗಲ್‌ ಪ್ಲೇ ನಿಂದ ಮೊದಲು ಆ್ಯಂಡ್ರಾಯ್ಡ್‌ ಸಿಸ್ಟಂ ವೆಬ್‌ವ್ಯೂ ಅನ್ನು ದಯವಿಟ್ಟು ಇನ್‌ಸ್ಟಾಲ್‌ ಮಾಡಿಕೊಳ್ಳಿ.</string>
+    <string name="APKTOOL_RENAMED_0x7f120059">ವೆಬ್‌ಪೇಜ್‌ ಅನ್ನು ಪ್ರದರ್ಶಿಸಲು ಆಗುವುದಿಲ್ಲ.</string>
+    <string name="APKTOOL_RENAMED_0x7f1200a8">ಕಾನೂನು ನಿರ್ಬಂಧಗಳಿಂದಾಗಿ, YouTube ನಲ್ಲಿ ವೀಡಿಯೊಗಳನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ.</string>
+    <string name="APKTOOL_RENAMED_0x7f1200a9">ವಿಷಯ ಲಭ್ಯವಿಲ್ಲ, ದಯವಿಟ್ಟು ಉಳಿದವನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ</string>
+    <string name="APKTOOL_RENAMED_0x7f1200d1">ಅಭಿನಂದನೆಗಳು! ಯಶಸ್ವಿಯಾಗಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಲಾಗಿದೆ.</string>
+    <string name="APKTOOL_RENAMED_0x7f1200f4">ಹಕ್ಕುತ್ಯಾಗ</string>
+    <string name="APKTOOL_RENAMED_0x7f1200f5">"ನೀವು ವೀಡಿಯೊಗಳು ಅಥವಾ ಫೋಟೋಗಳನ್ನು ಮರುಪೋಸ್ಟ್ ಮಾಡುವ ಮೊದಲು ದಯವಿಟ್ಟು ಮಾಲೀಕರಿಂದ ಅನುಮತಿ ಪಡೆಯಿರಿ;
+
+ಯಾವುದೇ ಅನಧಿಕೃತ ಕ್ರಿಯೆಗಳು (ವಿಷಯಗಳನ್ನು ಮರು-ಅಪ್‌ಲೋಡ್ ಮಾಡುವುದು ಅಥವಾ ಡೌನ್‌ಲೋಡ್ ಮಾಡುವುದು) ಮತ್ತು/ಅಥವಾ ಬೌದ್ಧಿಕ ಆಸ್ತಿ ಹಕ್ಕುಗಳ ಉಲ್ಲಂಘನೆಗಳು ಬಳಕೆದಾರರ ಏಕೈಕ ಜವಾಬ್ದಾರಿಯಾಗಿದೆ."</string>
+    <string name="APKTOOL_RENAMED_0x7f1200fd">ಡೌನ್‌ಲೋಡ್ ಪೂರ್ಣಗೊಂಡಿದೆ</string>
+    <string name="APKTOOL_RENAMED_0x7f120102">ಡೌನ್‌ಲೋಡ್‌ ಸಮಯ ಮೀರಿದೆ</string>
+    <string name="APKTOOL_RENAMED_0x7f120103">ಡೌನ್‌ಲೋಡ್ ವೇಗ ತುಂಬಾ ನಿಧಾನವಾಗಿದೆ</string>
+    <string name="APKTOOL_RENAMED_0x7f120105">%s ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲಾಗಿದೆ</string>
+    <string name="APKTOOL_RENAMED_0x7f120106">ಹಿನ್ನೆಲೆಯಲ್ಲಿ ಸಾಮಾನ್ಯ ಡೌನ್‌ಲೋಡ್ ಅನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಲು, ದಯವಿಟ್ಟು ಅಧಿಸೂಚನೆ ಪಟ್ಟಿ ಅನುಮತಿಯನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ.</string>
+    <string name="APKTOOL_RENAMED_0x7f120107">"ಸಾಮಾಜಿಕ ವೆಬ್‌ಗಳಿಂದ ಎಲ್ಲಾ ವೀಡಿಯೊಗಳನ್ನು ವೇಗವಾಗಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು ಉಚಿತ ಡೌನ್‌ಲೋಡರ್‌.
+%s"</string>
+    <string name="APKTOOL_RENAMED_0x7f12016a">ಲಿಂಕ್ ಅವಧಿ ಮೀರಿದೆ</string>
+    <string name="APKTOOL_RENAMED_0x7f120170">ಡೌನ್‌ಲೋಡ್‌ ವಿಫಲವಾಗಿದೆ</string>
+    <string name="APKTOOL_RENAMED_0x7f120174">ಕುಟುಂಬ ಅಪ್ಲಿಕೇಶನ್‌ಗಳು</string>
+    <string name="APKTOOL_RENAMED_0x7f120175">ಪ್ರತಿಕ್ರಿಯೆ</string>
+    <string name="APKTOOL_RENAMED_0x7f120177">ಪ್ರತಿಕ್ರಿಯೆ ಅಥವಾ ಪ್ರಶ್ನೆಗಳನ್ನು ಪಡೆದಿದ್ದೀರಾ? ನಮಗೆ ಹೇಳಿ</string>
+    <string name="APKTOOL_RENAMED_0x7f120180">ಡೀಫಾಲ್ಟ್‌</string>
+    <string name="APKTOOL_RENAMED_0x7f120182">ಹಿನ್ನೆಲೆ ಡೌನ್‌ಲೋಡ್‌ಗಾಗಿ</string>
+    <string name="APKTOOL_RENAMED_0x7f120184">%2$s ರ %1$s ನ್ನು ಬಳಸಲಾಗಿದೆ</string>
+    <string name="APKTOOL_RENAMED_0x7f12018a">ಉತ್ತಮ</string>
+    <string name="APKTOOL_RENAMED_0x7f120199">ಇದು ಹೇಗೆ ಕೆಲಸ ಮಾಡುತ್ತದೆ</string>
+    <string name="APKTOOL_RENAMED_0x7f12019a">ವಾಟ್ಸಾಪ್ 24 ಗಂಟೆಗಳ ನಂತರ ಸ್ಟೇಟಸ್‌ ನವೀಕರಣಗಳನ್ನು ಅಳಿಸುತ್ತದೆ. ಅವುಗಳನ್ನು ಅಳಿಸುವ ಮೊದಲು ಈ ಆ್ಯಪ್‌ನೊಂದಿಗೆ ನೀವು ಅವುಗಳನ್ನು ಉಳಿಸಬಹುದು.</string>
+    <string name="APKTOOL_RENAMED_0x7f12019b">ಡೌನ್‌ಲೋಡ್‌ ಹೇಗೆ ಮಾಡುವುದು</string>
+    <string name="APKTOOL_RENAMED_0x7f1201ad">ನಂತರ</string>
+    <string name="APKTOOL_RENAMED_0x7f120299">ನೆಟ್‌ವರ್ಕ್‌</string>
+    <string name="APKTOOL_RENAMED_0x7f1202a0">ವೀಡಿಯೊಗಳನ್ನು ಬ್ರೌಸ್ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ</string>
+    <string name="APKTOOL_RENAMED_0x7f1202a2">ಯಾವುದೇ ಡೌನ್‌ಲೋಡ್ ಸಂಪನ್ಮೂಲಗಳು ಪತ್ತೆಯಾಗಿಲ್ಲ</string>
+    <string name="APKTOOL_RENAMED_0x7f1202a6">&lt;strong>&lt;font color=#007AFF>ದಯವಿಟ್ಟು ವೀಡಿಯೊವನ್ನು ಮೊದಲು ಪ್ಲೇ ಮಾಡಿ&lt;/font>&lt;/strong>, ಮತ್ತು ವೀಡಿಯೊವನ್ನು %s ಪತ್ತೆ ಮಾಡಿದ ನಂತರ ಡೌನ್ ಲೋಡ್ ಬಟನ್ ಲಭ್ಯವಾಗುತ್ತದೆ.</string>
+    <string name="APKTOOL_RENAMED_0x7f1202ac">ಪತ್ತೆಹಚ್ಚಲಾಗದ ವಾಟ್ಸಾಪ್‌</string>
+    <string name="APKTOOL_RENAMED_0x7f1202ad">ಸಾಕಷ್ಟು ಸ್ಥಳವಿಲ್ಲ</string>
+    <string name="APKTOOL_RENAMED_0x7f1202ae">ನಿಜವಾಗಿಯೂ ಇಲ್ಲ</string>
+    <string name="APKTOOL_RENAMED_0x7f1202c8">ವಾಟ್ಸಾಪ್ ತೆರೆಯಿರಿ</string>
+    <string name="APKTOOL_RENAMED_0x7f1202d9">%s ಸರಿಯಾಗಿ ಕೆಲಸ ಮಾಡುತ್ತದೆ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಲು ಅನುಮತಿಯ ಅಗತ್ಯವಿದೆ.</string>
+    <string name="APKTOOL_RENAMED_0x7f1202dc">ಅನುಮತಿ ಅಗತ್ಯವಿದೆ</string>
+    <string name="APKTOOL_RENAMED_0x7f1202de">"ನಿಮ್ಮ ಪೋನ್‌ ಸಂಗ್ರಹಣೆ ಕಡಿಮೆಯಾಗಿದೆ! ಕೇವಲ %sM ಸ್ಥಳ ಉಳಿದಿದೆ.
+
+ಉಳಿದ ಸ್ಥಳವು 32M ಗಿಂತ ಹೆಚ್ಚಾಗಿದೆ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಲು ದಯವಿಟ್ಟು ಕೆಲವು ಅಪ್ಲಿಕೇಶನ್‌ಗಳನ್ನು ಅಳಿಸಿ."</string>
+    <string name="APKTOOL_RENAMED_0x7f1202e5">ಪ್ಲೇ ಮಾಡಿ</string>
+    <string name="APKTOOL_RENAMED_0x7f120309">ಜಾಹಿರಾತುಗಳನ್ನು ತೆಗೆದುಹಾಕಿ</string>
+    <string name="APKTOOL_RENAMED_0x7f12031e">ರಿಂಗ್‌ಟೋನ್‌</string>
+    <string name="APKTOOL_RENAMED_0x7f12035f">ನಮ್ಮ ಅಪ್ಲಿಕೇಶನ್‌ನಿಂದ ನೀವು ತೃಪ್ತರಾಗಿದ್ದೀರಾ?</string>
+    <string name="APKTOOL_RENAMED_0x7f120360">ಗ್ಯಾಲರಿಯಲ್ಲಿ ಉಳಿಸಲಾಗಿದೆ</string>
+    <string name="APKTOOL_RENAMED_0x7f120370">ಕಳುಹಿಸಿ</string>
+    <string name="APKTOOL_RENAMED_0x7f120373">ವಾಲ್‌ಪೇಪರ್‌ ಆಗಿ ಹೊಂದಿಸಿ</string>
+    <string name="APKTOOL_RENAMED_0x7f12037c">ಹಂಚಿ</string>
+    <string name="APKTOOL_RENAMED_0x7f12037d">ಇದು ನಿಮಗೆ ಇಷ್ಟವಾಯಿತೇ? ಇದನ್ನು ಹಂಚಿಕೊಳ್ಳಿ ಮತ್ತು ಹೆಚ್ಚಿನ ಜನರಿಗೆ ಇದರ ಬಗ್ಗೆ ತಿಳಿಸಿ!</string>
+    <string name="APKTOOL_RENAMED_0x7f12037e">%s ಅನ್ನು ಬಳಸಿದ್ದಕ್ಕಾಗಿ ಧನ್ಯವಾದಗಳು</string>
+    <string name="APKTOOL_RENAMED_0x7f12037f">ಈಗ ಹಂಚಿಕೊಳ್ಳಿ</string>
+    <string name="APKTOOL_RENAMED_0x7f120381">ಸ್ನೇಹಿತರೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳಿ</string>
+    <string name="APKTOOL_RENAMED_0x7f120387">ಇತರೆ</string>
+    <string name="APKTOOL_RENAMED_0x7f120389">ವಿಶೇಷ ಕೊಡುಗೆ</string>
+    <string name="APKTOOL_RENAMED_0x7f12038d">6x ವೇಗ ಡೌನ್‌ಲೋಡ್ ಪ್ರಾರಂಭಿಸಿ</string>
+    <string name="APKTOOL_RENAMED_0x7f120392">ವಾಟ್ಸಾಪ್‌ಗೆ ಸ್ಟೇಟಸ್ ಸೇವರ್</string>
+    <string name="APKTOOL_RENAMED_0x7f12039d">ಸಲಹೆಗಳು</string>
+    <string name="APKTOOL_RENAMED_0x7f12039e">ನೀವು ಎದುರಿಸಿದ ಸಮಸ್ಯೆಯನ್ನು ನಮಗೆ ತಿಳಿಸಿ</string>
+    <string name="APKTOOL_RENAMED_0x7f1203a0">ನಾವು ಅದನ್ನು ಭವಿಷ್ಯದ ಆವೃತ್ತಿಯಲ್ಲಿ ಸರಿಪಡಿಸುತ್ತೇವೆ. ಅನಾನುಕೂಲತೆಗಾಗಿ ಕ್ಷಮಿಸಿ.</string>
+    <string name="APKTOOL_RENAMED_0x7f1203a1">ನಿಮ್ಮ ಪ್ರತಿಕ್ರಿಯೆಗೆ ಧನ್ಯವಾದಗಳು</string>
+    <string name="APKTOOL_RENAMED_0x7f1203b6">ತುಂಬಾ ಜಾಹೀರಾತುಗಳು</string>
+    <string name="APKTOOL_RENAMED_0x7f12045a">ವೀಡಿಯೊಗಳನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು ಎರಡು ಹಂತಗಳು</string>
+    <string name="APKTOOL_RENAMED_0x7f12045b">ವಿಧ</string>
+    <string name="APKTOOL_RENAMED_0x7f12045c">ದಯವಿಟ್ಟು ನಿಮ್ಮ ಸಮಸ್ಯೆಯನ್ನು ವಿವರಿಸಿ (ಕನಿಷ್ಠ %s ಅಕ್ಷರಗಳು)</string>
+    <string name="APKTOOL_RENAMED_0x7f12046d">ಕಾನೂನು ನಿರ್ಬಂಧಗಳಿಂದಾಗಿ ಈ ವೀಡಿಯೊವನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ, ದಯವಿಟ್ಟು ಬೇರೆಯದನ್ನು ಪ್ರಯತ್ನಿಸಿ.</string>
+    <string name="APKTOOL_RENAMED_0x7f120470">ವೀಕ್ಷಿಸಿ</string>
+    <string name="APKTOOL_RENAMED_0x7f120471">ವಾಟ್ಸಾಪ್‌ನಲ್ಲಿ ಸ್ಟೇಟಸ್ ಅನ್ನು ವೀಕ್ಷಿಸಿ</string>
+</resources>

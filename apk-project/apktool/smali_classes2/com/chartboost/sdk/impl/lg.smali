@@ -1,0 +1,14 @@
+.class public interface abstract Lcom/chartboost/sdk/impl/lg;
+.super Ljava/lang/Object;
+.source "r8-map-id-8dbcdcc6608068ac42f86756e80f44f5ea09085ee794eb202af41f88f7b9cc2e"
+
+
+# virtual methods
+.method public abstract a()Lcom/chartboost/sdk/impl/x3;
+.end method
+
+.method public abstract b()Lcom/chartboost/sdk/impl/k1;
+.end method
+
+.method public abstract c()Lcom/chartboost/sdk/impl/ng;
+.end method

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:background="@color/action_bar_color" android:layout_width="match_parent" android:layout_height="?actionBarSize">
+        <FrameLayout android:gravity="center" android:id="@id/tab_header_button" android:background="?actionBarItemBackground" android:layout_width="?actionBarSize" android:layout_height="match_parent" android:layout_alignParentEnd="true">
+            <ImageView android:layout_gravity="center" android:id="@id/plusIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/APKTOOL_RENAMED_0x7f120029" app:srcCompat="@drawable/ic_more_vert_black_24dp" />
+        </FrameLayout>
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:minHeight="?android:listPreferredItemHeight" android:text="@string/APKTOOL_RENAMED_0x7f120398" android:maxLines="1" android:layout_marginStart="@dimen/cm_dp_16" android:layout_marginEnd="@dimen/cm_dp_16" />
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/tabs_list" android:layout_width="match_parent" android:layout_height="0.0dp" android:divider="@null" android:dividerHeight="0.0dp" android:layout_weight="1.0" android:overScrollMode="ifContentScrolls" />
+    <TextView android:background="#99999999" android:layout_width="match_parent" android:layout_height="0.5dp" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/video_site_layout" android:background="@drawable/transparent_xml" android:layout_width="match_parent" android:layout_height="@dimen/cm_dp_50">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/cm_dp_16" android:layout_marginEnd="@dimen/cm_dp_16" app:srcCompat="@drawable/ic_card_giftcard_black_24dp" app:tint="@color/accent_color" />
+        <TextView android:textSize="@dimen/cm_sp_16" android:textColor="#000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_RENAMED_0x7f12046f" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:background="@color/action_bar_color" android:layout_width="match_parent" android:layout_height="?actionBarSize" android:baselineAligned="false" android:weightSum="4.0">
+        <FrameLayout android:id="@id/action_back" android:background="?actionBarItemBackground" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:id="@id/icon_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/APKTOOL_RENAMED_0x7f12001f" app:srcCompat="@drawable/ic_action_back" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/action_home" android:background="?actionBarItemBackground" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:id="@id/icon_home" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/APKTOOL_RENAMED_0x7f120028" app:srcCompat="@drawable/ic_action_home" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/action_forward" android:background="?actionBarItemBackground" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:id="@id/icon_forward" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/APKTOOL_RENAMED_0x7f120026" app:srcCompat="@drawable/ic_action_forward" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/new_tab_button" android:background="?actionBarItemBackground" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:id="@id/icon_plus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/APKTOOL_RENAMED_0x7f120029" app:srcCompat="@drawable/ic_action_plus" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

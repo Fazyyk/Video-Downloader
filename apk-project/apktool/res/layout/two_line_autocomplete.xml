@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="@dimen/cm_dp_8" android:paddingBottom="@dimen/cm_dp_10" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/cm_dp_16" android:paddingEnd="@dimen/cm_dp_8"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/suggestionIcon" android:layout_width="@dimen/cm_dp_24" android:layout_height="@dimen/cm_dp_24" app:tint="@color/icon_light_theme" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/cm_dp_16">
+        <TextView android:textSize="@dimen/cm_sp_18" android:textColor="#000000" android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" />
+        <TextView android:textColor="#6a6a6a" android:ellipsize="end" android:id="@id/url" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cm_dp_4" android:maxLines="1" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

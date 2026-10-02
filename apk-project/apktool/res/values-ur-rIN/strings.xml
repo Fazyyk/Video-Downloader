@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="APKTOOL_RENAMED_0x7f120021">منسوخ کریں</string>
+    <string name="APKTOOL_RENAMED_0x7f120022">جاری رکھیں</string>
+    <string name="APKTOOL_RENAMED_0x7f120025">ڈاؤنلوڈ کریں</string>
+    <string name="APKTOOL_RENAMED_0x7f12002d">کھولیں</string>
+    <string name="APKTOOL_RENAMED_0x7f12003e">اجازت دیں</string>
+    <string name="APKTOOL_RENAMED_0x7f120043">ایپ کو زبردستی روک دیا گیا</string>
+    <string name="APKTOOL_RENAMED_0x7f120052">آڈیو</string>
+    <string name="APKTOOL_RENAMED_0x7f120054">یہاں واپس جائیں اور محفوظ کریں کے بٹن پر ٹیپ کریں</string>
+    <string name="APKTOOL_RENAMED_0x7f1200a8">قانونی پابندیوں کی وجہ سے ، یوٹیوب پر ویڈیوز ڈاؤن لوڈ نہیں کی جا سکتیں۔</string>
+    <string name="APKTOOL_RENAMED_0x7f1200a9">مواد دستیاب نہیں ہے، براہ کرم دوسروں کو ڈاؤن لوڈ کریں</string>
+    <string name="APKTOOL_RENAMED_0x7f1200d1">مبارک ہو! کامیابی کے ساتھ ڈاؤن لوڈ ہو گیا۔</string>
+    <string name="APKTOOL_RENAMED_0x7f1200f4">دستبرداری</string>
+    <string name="APKTOOL_RENAMED_0x7f1200f5">"براہ کرم ویڈیوز یا تصاویر کو دوبارہ پوسٹ کرنے سے پہلے مالک سے اجازت حاصل کریں۔
+
+کسی بھی غیر مجاز اقدامات (مواد کو دوبارہ اپ لوڈ کرنا یا ڈاؤن لوڈ کرنا) اور / یا دانشورانہ املاک کے حقوق کی پامالی کرنا صارف کی واحد ذمہ داری ہے۔"</string>
+    <string name="APKTOOL_RENAMED_0x7f1200fd">ڈاؤنلوڈ مکمل ہوا</string>
+    <string name="APKTOOL_RENAMED_0x7f120102">ٹائم آؤٹ ڈاؤنلوڈ کریں</string>
+    <string name="APKTOOL_RENAMED_0x7f120103">ڈاؤنلوڈ کی رفتار بہت زیادہ ہلکی ہے</string>
+    <string name="APKTOOL_RENAMED_0x7f120105">ڈاؤنلوڈ ہوا %s</string>
+    <string name="APKTOOL_RENAMED_0x7f120106">پس منظر میں عام ڈاؤن لوڈ کو یقینی بنانے کے لیے، براہ کرم نوٹیفیکیشن بار کی اجازت کو فعال کریں۔</string>
+    <string name="APKTOOL_RENAMED_0x7f120107">"مفت ڈاؤن لوڈ کرنے والا تمام ویڈیوز کو سوشل ویبس سے تیزی سے ڈاؤن لوڈ کرنے کے لیے۔
+
+%s"</string>
+    <string name="APKTOOL_RENAMED_0x7f12016a">لنک کی میعاد ختم ہوگئی</string>
+    <string name="APKTOOL_RENAMED_0x7f120170">ڈاؤنلوڈ ناکام ہوا</string>
+    <string name="APKTOOL_RENAMED_0x7f120174">فیملی ایپس</string>
+    <string name="APKTOOL_RENAMED_0x7f120175">رائے</string>
+    <string name="APKTOOL_RENAMED_0x7f120177">رائے یا سوالات ہیں؟ ہمیں بتائیں</string>
+    <string name="APKTOOL_RENAMED_0x7f120180">ڈیفالٹ</string>
+    <string name="APKTOOL_RENAMED_0x7f120182">پس منظر ڈاؤنلوڈنگ کے لیے</string>
+    <string name="APKTOOL_RENAMED_0x7f120184">%2$s کا %1$s استعمال ہوا</string>
+    <string name="APKTOOL_RENAMED_0x7f12018a">اچھی</string>
+    <string name="APKTOOL_RENAMED_0x7f120199">یہ کیسے کام کرتا ہے</string>
+    <string name="APKTOOL_RENAMED_0x7f12019a">واٹس ایپ 24 گھنٹے بعد سٹیٹس اپڈیٹس کو حذف کردے گا۔ حذف ہونے سے پہلے آپ انہیں اس ایپ کے ذریعہ محفوظ کرسکتے ہیں۔</string>
+    <string name="APKTOOL_RENAMED_0x7f12019b">کیسے ڈاؤنلوڈ کریں</string>
+    <string name="APKTOOL_RENAMED_0x7f1201ad">بعد میں</string>
+    <string name="APKTOOL_RENAMED_0x7f120299">نیٹورک</string>
+    <string name="APKTOOL_RENAMED_0x7f1202a0">ویڈیوز کو براؤز نہیں کیا جاسکتا</string>
+    <string name="APKTOOL_RENAMED_0x7f1202a2">ڈاؤن لوڈ کے وسائل نہیں ملے</string>
+    <string name="APKTOOL_RENAMED_0x7f1202a6">&lt;strong>&lt;font color=#007AFF> براہ کرم پہلے ویڈیو چالو کریں&lt;/font>&lt;/strong>, اور %s ویڈیو کا پتہ لگانے کے بعد ڈاؤنلوڈ بٹن دستیاب ہوگا</string>
+    <string name="APKTOOL_RENAMED_0x7f1202ac">واٹس ایپ کا پتہ نہیں چل سکا</string>
+    <string name="APKTOOL_RENAMED_0x7f1202ad">جگہ کافی نہیں ہے</string>
+    <string name="APKTOOL_RENAMED_0x7f1202ae">واقعی نہیں</string>
+    <string name="APKTOOL_RENAMED_0x7f1202c8">واٹس ایپ کھولیں</string>
+    <string name="APKTOOL_RENAMED_0x7f1202d9">اس بات کا یقین کرنے کے لیے اجازت ضروری ہے کہ %S صحیح طریقے سے کام کرتا ہے۔</string>
+    <string name="APKTOOL_RENAMED_0x7f1202dc">اجازت مطلوب ہے</string>
+    <string name="APKTOOL_RENAMED_0x7f1202de">"آپ کا فون اسٹوریج کم چل رہا ہے! باقی جگہ صرف %sM ہے۔
+
+براہ کرم کچھ ایپس کو حذف کریں یہ یقینی بنائے کے لیے کہ باقی جگہ 32M سے زیادہ ہے۔"</string>
+    <string name="APKTOOL_RENAMED_0x7f1202e5">چالو کریں</string>
+    <string name="APKTOOL_RENAMED_0x7f120309">اشتہار ہٹائیں</string>
+    <string name="APKTOOL_RENAMED_0x7f12031e">رنگ ٹون</string>
+    <string name="APKTOOL_RENAMED_0x7f12035f">کیا آپ ہماری ایپ سے مطمئن ہیں؟</string>
+    <string name="APKTOOL_RENAMED_0x7f120360">گیلری میں محفوظ کیا گیا</string>
+    <string name="APKTOOL_RENAMED_0x7f120370">بھجیں</string>
+    <string name="APKTOOL_RENAMED_0x7f120373">وال پیپر کے طور پر سیٹ کریں</string>
+    <string name="APKTOOL_RENAMED_0x7f12037c">ساجھا کریں</string>
+    <string name="APKTOOL_RENAMED_0x7f12037d">کیا یہ آپ کو اچھا لگتا ہے؟ اس کو ساجھا کریں اور مزید لوگوں کو اس کے بارے میں بتائیں!</string>
+    <string name="APKTOOL_RENAMED_0x7f12037e">%s استعمال کرنے کے لیے شکریہ</string>
+    <string name="APKTOOL_RENAMED_0x7f12037f">اب ساجھا کریں</string>
+    <string name="APKTOOL_RENAMED_0x7f120381">دوستوں کے ساتھ ساجھا کریں</string>
+    <string name="APKTOOL_RENAMED_0x7f120387">دیگران</string>
+    <string name="APKTOOL_RENAMED_0x7f120389">خصوصی آفر</string>
+    <string name="APKTOOL_RENAMED_0x7f12038d">6× ڈاؤنلوڈ رفتار شروع کریں</string>
+    <string name="APKTOOL_RENAMED_0x7f120392">واٹس ایپ کے سٹیٹس محفوظ کرنے والا</string>
+    <string name="APKTOOL_RENAMED_0x7f12039d">ٹِپس</string>
+    <string name="APKTOOL_RENAMED_0x7f12039e">آپ کو جس پریشانی کا سامنا کرنا پڑا اسے ہمیں بتائیں</string>
+    <string name="APKTOOL_RENAMED_0x7f1203a0">ہم اسے مستقبل کے ورژن میں ٹھیک کردیں گے۔ تکلیف کے لیے معذرت۔</string>
+    <string name="APKTOOL_RENAMED_0x7f1203a1">آپ کی رائے دہی کے لیے شکریہ</string>
+    <string name="APKTOOL_RENAMED_0x7f1203b6">بہت سارے اشتہارات</string>
+    <string name="APKTOOL_RENAMED_0x7f12045a">ویڈیوز ڈاؤنلوڈ کرنے کے لیے دو اقدامات</string>
+    <string name="APKTOOL_RENAMED_0x7f12045b">ٹائپ</string>
+    <string name="APKTOOL_RENAMED_0x7f12045c">براہ کرم اپنی پریشانی کی وضاحت کریں (کم از کم %s حروف)</string>
+    <string name="APKTOOL_RENAMED_0x7f12046d">قانونی پابندیوں کی وجہ سے یہ ویڈیو ڈاؤن لوڈ نہیں ہو سکتی ہے، براہ کرم دوسروں کو آزمائیں۔</string>
+    <string name="APKTOOL_RENAMED_0x7f120470">دیکھیں</string>
+    <string name="APKTOOL_RENAMED_0x7f120471">واٹس ایپ پر سٹیٹس دیکھیں</string>
+</resources>

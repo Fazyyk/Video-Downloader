@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/cm_dp_56"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/cm_sp_14" android:textColor="@color/gray_dark" android:gravity="center_vertical" android:id="@id/tv_path_item" android:layout_width="wrap_content" android:layout_height="@dimen/cm_dp_56" android:text="@string/APKTOOL_RENAMED_0x7f1202dd" android:layout_marginStart="@dimen/cm_dp_8" android:layout_marginEnd="@dimen/cm_dp_8" />
+    <ImageView android:layout_width="@dimen/cm_dp_16" android:layout_height="@dimen/cm_dp_56" app:srcCompat="@drawable/ic_folder_divide" />
+</LinearLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="APKTOOL_RENAMED_0x7f120021">ਰੱਦ</string>
+    <string name="APKTOOL_RENAMED_0x7f120022">ਜਾਰੀ ਰੱਖਣਾ</string>
+    <string name="APKTOOL_RENAMED_0x7f120025">ਡਾਊਨਲੋਡ</string>
+    <string name="APKTOOL_RENAMED_0x7f12002d">ਖੋਲੋ</string>
+    <string name="APKTOOL_RENAMED_0x7f12003e">ਆਗਿਆ</string>
+    <string name="APKTOOL_RENAMED_0x7f120043">ਐਪ ਨੂੰ ਜ਼ਬਰਦਸਤੀ ਰੋਕਿਆ ਗਿਆ ਸੀ</string>
+    <string name="APKTOOL_RENAMED_0x7f120052">ਆਡੀਓ</string>
+    <string name="APKTOOL_RENAMED_0x7f120054">"ਇੱਥੋ ਪਿੱਛੇ ਜਾਓ ਅਤੇ ਸੇਵ ਬਟਨ 'ਤੇ ਟੈਪ ਕਰੋ"</string>
+    <string name="APKTOOL_RENAMED_0x7f120057">ਇੰਸਟਾਲ</string>
+    <string name="APKTOOL_RENAMED_0x7f120058">ਕਿਰਪਾ ਕਰਕੇ ਪਹਿਲਾਂ ਗੂਗਲ ਪਲੇ ਤੋਂ ਏਨਡਰੌਇਡ ਸਿਸਟਮ ਵੈੱਬਵਿਯੂ ਨੂੰ ਇੰਸਟਾਲ ਕਰੋ।</string>
+    <string name="APKTOOL_RENAMED_0x7f120059">ਵੈੱਬਪੇਜ ਵੇਖਿਆ ਨਹੀਂ ਜਾ ਸਕਦਾ</string>
+    <string name="APKTOOL_RENAMED_0x7f1200a8">"ਕਨੂੰਨੀ ਪਾਬੰਦੀਆਂ ਦੇ ਕਾਰਨ, ਯੂਟਿਬ 'ਤੇ ਵੀਡੀਓ ਡਾ downloadedਨਲੋਡ ਨਹੀਂ ਕੀਤੇ ਜਾ ਸਕਦੇ."</string>
+    <string name="APKTOOL_RENAMED_0x7f1200a9">ਸਮਗਰੀ ਮੌਜੂਦ ਨਹੀਂ ਹੈ, ਕਿਰਪਾ ਕਰਕੇ ਕਿਸੇ ਹੋਰ ਤੋਂ ਡਾਊਨਲੋਡ ਕਰੋ</string>
+    <string name="APKTOOL_RENAMED_0x7f1200d1">ਮੁਬਾਰਕਾਂ! ਸਫ਼ਲਤਾਪੂਰਵਕ ਡਾਉਨਲੋਡ ਹੋ ਗਿਆ ਹੈ।</string>
+    <string name="APKTOOL_RENAMED_0x7f1200f4">ਤਿਆਗ</string>
+    <string name="APKTOOL_RENAMED_0x7f1200f5">"ਵੀਡੀਓ ਜਾਂ ਫ਼ੋਟੋਆਂ ਨੂੰ ਦੁਬਾਰਾ ਪੋਸਟ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਕਿਰਪਾ ਕਰ ਕੇ ਮਾਲਕ ਤੋਂ ਸਹਿਮਤੀ ਪ੍ਰਾਪਤ ਕਰੋ;
+
+ਕੋਈ ਅਣਅਧਿਕਾਰਤ ਕਾਰਵਾਈਆਂ (ਸਮਗਰੀ ਨੂੰ ਦੁਬਾਰਾ ਅਪਲੋਡ ਜਾਂ ਡਾਉਨਲੋਡ ਕਰਨਾ) ਅਤੇ / ਜਾਂ ਬੌਧਿਕ ਸੰਪੱਤੀ ਦੇ ਅਧਿਕਾਰਾਂ ਦੀ ਉਲੰਘਣਾ ਕਰਨਾ ਉਪਭੋਗਤਾ ਦੀ ਇਕੋ ਇੱਕ ਜ਼ਿੰਮੇਵਾਰੀ ਹੈ।"</string>
+    <string name="APKTOOL_RENAMED_0x7f1200fd">ਡਾਊਨਲੋਡ ਪੂਰਾ ਹੋਇਆ</string>
+    <string name="APKTOOL_RENAMED_0x7f120102">ਡਾਊਨਲੋਡ ਕਰਨ ਦਾ ਸਮਾਂ ਖ਼ਤਮ ਹੋਇਆ</string>
+    <string name="APKTOOL_RENAMED_0x7f120103">ਡਾਊਨਲੋਡ ਦੀ ਸਪੀਡ ਬਹੁਤ ਘੱਟ ਹੈ</string>
+    <string name="APKTOOL_RENAMED_0x7f120105">%s ਡਾਉਨਲੋਡ ਹੋ ਗਿਆ ਹੈ</string>
+    <string name="APKTOOL_RENAMED_0x7f120106">ਬੈਕਗ੍ਰਾਉਂਡ ਵਿੱਚ ਸਧਾਰਣ ਡਾਊਨਲੋਡ ਨੂੰ ਯਕੀਨੀ ਬਣਾਉਣ ਲਈ, ਕਿਰਪਾ ਕਰ ਕੇ ਨੋਟੀਫ਼ਿਕੇਸ਼ਨ ਬਾਰ ਦੀ ਸਹਿਮਤੀ ਨੂੰ ਸਮਰੱਥ ਕਰੋ।</string>
+    <string name="APKTOOL_RENAMED_0x7f120107">"ਸੋਸ਼ਲ ਵੈਬਸਾਈਟਾਂ ਤੋਂ ਸਾਰੇ ਵੀਡੀਓ ਤੇਜ਼ੀ ਨਾਲ ਡਾਊਨਲੋਡ ਕਰਨ ਲਈ ਮੁਫਤ ਡਾਊਨਲੋਡਰ।
+
+%s"</string>
+    <string name="APKTOOL_RENAMED_0x7f12016a">ਲਿੰਕ ਦਾ ਸਮਾਂ ਖ਼ਤਮ ਹੋ ਗਿਆ ਹੈ</string>
+    <string name="APKTOOL_RENAMED_0x7f120170">ਡਾਊਨਲੋਡ ਆਸਫ਼ਲ ਹੋਇਆ</string>
+    <string name="APKTOOL_RENAMED_0x7f120174">ਫੈਮਿਲੀ ਐਪ</string>
+    <string name="APKTOOL_RENAMED_0x7f120175">ਫੀਡਬੈਕ</string>
+    <string name="APKTOOL_RENAMED_0x7f120177">ਫੀਡਬੈਕ ਜਾਂ ਪ੍ਰਸ਼ਨ ਮਿਲੇ? ਸਾਨੂੰ ਦਸੋ</string>
+    <string name="APKTOOL_RENAMED_0x7f120180">ਡਿਫੌਲਟ</string>
+    <string name="APKTOOL_RENAMED_0x7f120182">ਬੈਕਗ੍ਰਾਉਂਡ ਡਾਊਨਲੋਡ ਦੇ ਲਈ</string>
+    <string name="APKTOOL_RENAMED_0x7f120184">%1$s ਦੀ %2$s ਵਰਤੋਂ ਕੀਤੀ ਗਈ</string>
+    <string name="APKTOOL_RENAMED_0x7f12018a">ਚੰਗਾ</string>
+    <string name="APKTOOL_RENAMED_0x7f120199">ਇਹ ਕਿਵੇਂ ਕੰਮ ਕਰਦਾ ਹੈ</string>
+    <string name="APKTOOL_RENAMED_0x7f12019a">ਵਾਟਸ-ਐਪ 24 ਘੰਟੇ ਵਿੱਚ ਅੱਪਡੇਟ ਸਟੇਟਸ ਨੂੰ ਮਿਟਾ ਦੇਵੇਗਾ। ਮਿਟਣ ਤੋਂ ਪਹਿਲਾਂ ਤੁਸੀਂ ਇਸ ਐਪ ਨਾਲ ਇਹਨੂੰ ਸੇਵ ਕਰ ਸਕਦੇ ਹੋ।</string>
+    <string name="APKTOOL_RENAMED_0x7f12019b">ਡਾਊਨਲੋਡ ਕਿਵੇਂ ਕਰੋ</string>
+    <string name="APKTOOL_RENAMED_0x7f1201ad">ਬਾਅਦ ਵਿੱਚ</string>
+    <string name="APKTOOL_RENAMED_0x7f120299">ਨੈੱਟਵਰਕ</string>
+    <string name="APKTOOL_RENAMED_0x7f1202a0">ਵੀਡੀਓ ਬ੍ਰਾਉਜ਼ਰ ਨਹੀਂ ਕਰ ਸਕਦੇ</string>
+    <string name="APKTOOL_RENAMED_0x7f1202a2">ਡਾਊਨਲੋਡ ਦਾ ਸਰੋਤ ਨਹੀਂ ਮਿਲਿਆ</string>
+    <string name="APKTOOL_RENAMED_0x7f1202a6">&lt;strong>&lt;font color=#007AFF>ਕਿਰਪਾ ਪਹਿਲਾਂ ਵੀਡੀਓ ਨੂੰ ਚਲਾਓ first&lt;/font>&lt;/strong>, ਅਤੇ %s ਵੀਡੀਓ ਦੀ ਖੋਜ ਕਰਨ ਤੋਂ ਬਾਅਦ ਡਾਊਨਲੋਡ ਬਟਨ ਉਪਲਬਧ ਹੋਵੇਗਾ।</string>
+    <string name="APKTOOL_RENAMED_0x7f1202ac">ਵਾਟਸ-ਐਪ ਨਹੀਂ ਮਿਲਿਆ</string>
+    <string name="APKTOOL_RENAMED_0x7f1202ad">ਵਾਧੂ ਥਾਂ ਨਹੀਂ ਹੈ</string>
+    <string name="APKTOOL_RENAMED_0x7f1202ae">ਸੱਚਮੁੱਚ ਨਹੀਂ</string>
+    <string name="APKTOOL_RENAMED_0x7f1202c8">ਵਾਟਸ-ਐਪ ਖੋਲੋ</string>
+    <string name="APKTOOL_RENAMED_0x7f1202d9">ਇਹ ਯਕੀਨੀ ਬਣਾਉਣ ਲਈ ਸਹਿਮਤੀ ਲੋੜੀਂਦੀ ਹੈ ਕਿ %s ਸਹੀ ਤਰਾਂ ਕੰਮ ਕਰਦਾ ਹੈ।</string>
+    <string name="APKTOOL_RENAMED_0x7f1202dc">ਆਗਿਆ ਜੁਰੂਰੀ ਹੈ</string>
+    <string name="APKTOOL_RENAMED_0x7f1202de">"ਤੁਹਾਡੇ ਫ਼ੋਨ ਦੀ ਸਟੋਰੇਜ ਘੱਟ ਚੱਲ ਰਹੀ ਹੈ! ਇੱਥੇ ਸਿਰਫ਼ %sM ਦੀ ਖ਼ਾਲੀ ਥਾਂ ਬਾਕੀ ਹੈ।
+
+ਕਿਰਪਾ ਕਰ ਕੇ ਇਹ ਯਕੀਨੀ ਬਣਾਉਣ ਲਈ ਕੁੱਝ ਐਪਾਂ ਨੂੰ ਮਿਟਾਓ ਕਿ ਬਾਕੀ ਖ਼ਾਲੀ ਜਗਾਂ 32M ਤੋਂ ਵੱਧ ਹੈ।"</string>
+    <string name="APKTOOL_RENAMED_0x7f1202e5">ਚਾਲੂ</string>
+    <string name="APKTOOL_RENAMED_0x7f120309">ਵਿਗਿਆਪਨ ਹਟਾਓ</string>
+    <string name="APKTOOL_RENAMED_0x7f12031e">ਰਿੰਗ ਟੋਨ</string>
+    <string name="APKTOOL_RENAMED_0x7f12035f">"ਕੀ ਤੁਸੀਂ ਆਪਣੇ ਐਪ ਦੇ ਨਾਲ ਸੰਤੁਸ਼ਟ ਹੋ "</string>
+    <string name="APKTOOL_RENAMED_0x7f120360">ਗੈਲਰੀ ਵਿੱਚ ਸੇਵ ਕਰੋ</string>
+    <string name="APKTOOL_RENAMED_0x7f120370">ਭੇਜੋ</string>
+    <string name="APKTOOL_RENAMED_0x7f120373">"ਵਾਲਪੇਪਰ 'ਤੇ ਸੈੱਟ ਕਰੋ"</string>
+    <string name="APKTOOL_RENAMED_0x7f12037c">ਸ਼ੇਅਰ</string>
+    <string name="APKTOOL_RENAMED_0x7f12037d">ਕੀ ਤੁਹਾਨੂੰ ਇਹ ਪੰਸਦ ਹੈ? ਇਸਨੂੰ ਸਾਂਝਾ ਕਰੋ ਅਤੇ ਵਧੇਰੇ ਲੋਕਾਂ ਨੂੰ ਇਸ ਬਾਰੇ ਦੱਸੋ!</string>
+    <string name="APKTOOL_RENAMED_0x7f12037e">%s ਦੀ ਵਰਤੋਂ ਕਰਨ ਲਈ ਧੰਨਵਾਦ</string>
+    <string name="APKTOOL_RENAMED_0x7f12037f">ਹੁਣੇ ਸਾਂਝਾ ਕਰੋ</string>
+    <string name="APKTOOL_RENAMED_0x7f120381">ਦੋਸਤਾਂ ਨਾਲ ਸਾਂਝਾ ਕਰੋ</string>
+    <string name="APKTOOL_RENAMED_0x7f120387">ਹੋਰ</string>
+    <string name="APKTOOL_RENAMED_0x7f120389">ਸਪੈਸ਼ਲ ਆਫ਼ਰ</string>
+    <string name="APKTOOL_RENAMED_0x7f12038d">6x ਡਾਊਨਲੋਡ ਦੀ ਸਪੀਡ ਸ਼ੁਰੂ ਕਰੋ</string>
+    <string name="APKTOOL_RENAMED_0x7f120392">ਵਾਟਸ-ਐਪ ਲਈ ਸਟੇਟਸ ਸੇਵਰ</string>
+    <string name="APKTOOL_RENAMED_0x7f12039d">ਟਿਪਸ</string>
+    <string name="APKTOOL_RENAMED_0x7f12039e">ਸਾਨੂੰ ਦੱਸੋ ਤੁਹਾਨੂੰ ਕਿਹੜੀ ਸਮੱਸਿਆ ਆਈ</string>
+    <string name="APKTOOL_RENAMED_0x7f1203a0">ਅਸੀਂ ਇਸ ਨੂੰ ਭਵਿੱਖ ਦੇ ਵਰਜਨ ਵਿੱਚ ਠੀਕ ਕਰਾਂਗੇ। ਅਸੁਵਿਧਾ ਲਈ ਮੁਆਫ਼ੀ ਚਾਹੁੰਦੇ ਹਾਂ।</string>
+    <string name="APKTOOL_RENAMED_0x7f1203a1">ਤੁਹਾਡੇ ਫਿਡਬੈਕ ਦੇ ਲਈ ਧੰਨਵਾਦ</string>
+    <string name="APKTOOL_RENAMED_0x7f1203b6">ਬਹੁਤ ਸਾਰੇ ਵਿਗਿਆਪਨ</string>
+    <string name="APKTOOL_RENAMED_0x7f12045a">ਵੀਡੀਓ ਡਾਊਨਲੋਡ ਕਰਨ ਦੇ ਦੋ ਸਟੈੱਪ</string>
+    <string name="APKTOOL_RENAMED_0x7f12045b">ਟਾਈਪ</string>
+    <string name="APKTOOL_RENAMED_0x7f12045c">ਕਿਰਪਾ ਕਰ ਕੇ ਆਪਣੀ ਸਮੱਸਿਆ ਦਾ ਵਰਣਨ ਕਰੋ (ਘੱਟੋ ਘੱਟ %s ਅੱਖਰ)</string>
+    <string name="APKTOOL_RENAMED_0x7f12046d">"ਕਾਨੂੰਨੀ ਪਾਬੰਦੀਆਂ ਦੇ ਕਾਰਨ ਇਹ ਵੀਡੀਓ ਡਾਊਨਲੋਡ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕਦੀ, ਕਿਰਪਾ ਕਰ ਕੇ ਕੁੱਝ ਹੋਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ। "</string>
+    <string name="APKTOOL_RENAMED_0x7f120470">ਵੇਖੋ</string>
+    <string name="APKTOOL_RENAMED_0x7f120471">"ਵਾਟਸ-ਅਪ 'ਤੇ ਸਟੇਟਸ ਦੇਖੋ"</string>
+</resources>

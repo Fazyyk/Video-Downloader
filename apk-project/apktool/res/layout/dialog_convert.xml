@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/drawer_top_color" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:background="@drawable/bottom_sheet_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cm_dp_52" app:srcCompat="@drawable/ic_play_failed" />
+                <TextView android:textSize="@dimen/cm_sp_24" android:textColor="#031c36" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_RENAMED_0x7f1202e4" android:fontFamily="@font/lato_bold" android:layout_marginStart="@dimen/cm_dp_20" android:layout_marginEnd="@dimen/cm_dp_20" />
+                <TextView android:textSize="@dimen/cm_sp_14" android:textColor="#788795" android:gravity="center" android:id="@id/tv_tw_des" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cm_dp_14" android:text="@string/APKTOOL_RENAMED_0x7f1200d7" android:layout_marginStart="@dimen/cm_dp_20" android:layout_marginEnd="@dimen/cm_dp_20" />
+                <TextView android:textSize="@dimen/cm_sp_16" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_convert" android:background="@drawable/bg_accent_50dp" android:layout_width="match_parent" android:layout_height="@dimen/cm_dp_57" android:layout_marginTop="@dimen/cm_dp_32" android:layout_marginBottom="@dimen/cm_dp_24" android:text="@string/APKTOOL_RENAMED_0x7f1200d5" android:fontFamily="@font/lato_bold" android:layout_marginStart="@dimen/cm_dp_20" android:layout_marginEnd="@dimen/cm_dp_20" />
+            </LinearLayout>
+        </ScrollView>
+        <ImageView android:id="@id/iv_convert_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cm_dp_20" android:layout_marginEnd="@dimen/cm_dp_20" android:layout_alignParentEnd="true" app:srcCompat="@drawable/ic_close" app:tint="#4d000000" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/status_root" android:background="?status_save_backgroundColor" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:layout_width="match_parent" android:layout_height="?actionBarSize" />
+    <ScrollView android:id="@id/status_ad_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ad_layout" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </ScrollView>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/cm_dp_8" android:layout_above="@id/status_ad_container" android:layout_below="@id/toolbar">
+        <include android:visibility="gone" layout="@layout/status_saver_help_layout" />
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipeRefreshLayout" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_status" android:paddingTop="@dimen/cm_dp_6" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginStart="@dimen/cm_dp_4" android:layout_marginEnd="@dimen/cm_dp_4" />
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    </RelativeLayout>
+</RelativeLayout>

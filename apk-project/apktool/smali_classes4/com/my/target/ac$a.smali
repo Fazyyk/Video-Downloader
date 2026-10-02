@@ -1,0 +1,58 @@
+.class public interface abstract Lcom/my/target/ac$a;
+.super Ljava/lang/Object;
+.source "r8-map-id-8dbcdcc6608068ac42f86756e80f44f5ea09085ee794eb202af41f88f7b9cc2e"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/my/target/ac;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "a"
+.end annotation
+
+
+# virtual methods
+.method public abstract a()V
+.end method
+
+.method public abstract a(Landroid/net/Uri;)V
+.end method
+
+.method public abstract a(Lcom/my/target/ac;Landroid/webkit/WebView;)V
+.end method
+
+.method public abstract a(Z)V
+.end method
+
+.method public abstract a(FF)Z
+.end method
+
+.method public abstract a(IIIIZI)Z
+.end method
+
+.method public abstract a(Landroid/webkit/ConsoleMessage;Lcom/my/target/ac;)Z
+.end method
+
+.method public abstract a(Ljava/lang/String;)Z
+.end method
+
+.method public abstract a(Ljava/lang/String;Landroid/webkit/JsResult;)Z
+.end method
+
+.method public abstract a(ZLcom/my/target/cc;)Z
+.end method
+
+.method public abstract b()V
+.end method
+
+.method public abstract b(Landroid/net/Uri;)Z
+.end method
+
+.method public abstract c()V
+.end method
+
+.method public abstract d()Z
+.end method

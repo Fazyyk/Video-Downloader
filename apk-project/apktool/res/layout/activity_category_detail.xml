@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/AppTheme.AppBarOverlay" android:id="@id/app_bar" android:background="@android:color/transparent" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="@dimen/cm_dp_198" app:elevation="0.0dp">
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/toolbar_layout" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent" app:contentScrim="@color/color_3c346b" app:layout_scrollFlags="scroll|exitUntilCollapsed">
+            <ImageView android:id="@id/img_detail" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" />
+            <View android:id="@id/mask_view" android:background="@color/transparent_25_000000_color" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/album_small_iv" android:layout_width="@dimen/cm_dp_80" android:layout_height="@dimen/cm_dp_80" android:layout_marginTop="@dimen/cm_dp_85" android:scaleType="fitXY" android:layout_marginStart="@dimen/cm_dp_24" app:srcCompat="@drawable/layer_list_audio_photo" />
+            <TextView android:textSize="@dimen/cm_sp_24" android:textColor="@color/lib_white" android:id="@id/category_title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cm_dp_81" android:fontFamily="sans-serif-medium" android:layout_marginStart="@dimen/cm_dp_120" />
+            <TextView android:textSize="@dimen/cm_sp_14" android:textColor="@color/transparent_70_white_color" android:id="@id/category_count_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cm_dp_120" android:layout_marginStart="@dimen/cm_dp_120" />
+            <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:layout_width="match_parent" android:layout_height="?actionBarSize" app:layout_collapseMode="pin" app:popupTheme="@style/AppTheme.PopupOverlay">
+                <TextView android:textSize="@dimen/cm_sp_20" android:textColor="@color/lib_white" android:id="@id/collapse_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif-medium" />
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/APKTOOL_RENAMED_0x7f120045" />
+    <ImageView android:layout_gravity="end|bottom" android:id="@id/floating_bar" android:background="?selectableItemBackgroundBorderless" android:visibility="gone" android:layout_width="@dimen/cm_dp_46" android:layout_height="@dimen/cm_dp_46" android:layout_marginBottom="@dimen/cm_dp_28" android:src="@drawable/ic_scroll_to_top" android:layout_marginEnd="@dimen/cm_dp_24" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

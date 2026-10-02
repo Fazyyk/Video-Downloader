@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <FrameLayout android:layout_gravity="end|bottom" android:id="@id/floating_bar" android:background="?selectableItemBackgroundBorderless" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/cm_dp_28" android:layout_marginEnd="@dimen/cm_dp_24">
+        <ImageView android:layout_width="@dimen/cm_dp_46" android:layout_height="@dimen/cm_dp_46" android:src="@drawable/ic_scroll_to_top" />
+    </FrameLayout>
+    <ViewStub android:id="@id/stub_empty_layout" android:layout="@layout/favorite_empty_layout" android:layout_width="match_parent" android:layout_height="match_parent" />
+</FrameLayout>

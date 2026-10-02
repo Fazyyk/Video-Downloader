@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_add_box_black_24dp" android:id="@id/action_new_tab" android:title="@string/APKTOOL_RENAMED_0x7f120029" />
+    <item android:icon="@drawable/ic_share_black_24dp" android:id="@id/action_share" android:title="@string/APKTOOL_RENAMED_0x7f12002f" />
+    <item android:icon="@drawable/ic_history_black_24dp" android:id="@id/action_history" android:title="@string/APKTOOL_RENAMED_0x7f120027" />
+    <item android:icon="@drawable/ic_content_copy_black_24dp" android:id="@id/action_copy" android:title="@string/APKTOOL_RENAMED_0x7f120023" />
+    <item android:icon="@drawable/ic_bookmark_dark" android:id="@id/action_bookmarks" android:title="@string/APKTOOL_RENAMED_0x7f120020" />
+    <item android:icon="@drawable/ic_add_bookmark_black_24dp" android:id="@id/action_add_bookmark" android:title="@string/APKTOOL_RENAMED_0x7f12001e" />
+    <item android:icon="@drawable/ic_desktop_windows_black_24dp" android:id="@id/agent_desktop" android:checked="false" android:title="@string/APKTOOL_RENAMED_0x7f1200e9" android:checkable="true" />
+    <item android:icon="@drawable/ic_share_to_friends_black_24dp" android:id="@id/action_share_to_friends" android:title="@string/APKTOOL_RENAMED_0x7f120381" />
+    <item android:icon="@drawable/ic_scan" android:id="@id/action_scan" android:title="@string/APKTOOL_RENAMED_0x7f120361" />
+    <item android:icon="@drawable/ic_family_app" android:id="@id/action_family_app" android:title="@string/APKTOOL_RENAMED_0x7f120174" />
+    <item android:icon="@drawable/ic_settings_black_24dp" android:id="@id/action_settings" android:title="@string/APKTOOL_RENAMED_0x7f120379" />
+</menu>

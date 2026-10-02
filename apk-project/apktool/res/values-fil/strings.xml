@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="APKTOOL_RENAMED_0x7f120021">Kanselahin</string>
+    <string name="APKTOOL_RENAMED_0x7f120025">I-download</string>
+    <string name="APKTOOL_RENAMED_0x7f12002d">Buksan</string>
+    <string name="APKTOOL_RENAMED_0x7f12002f">Ibahagi</string>
+    <string name="APKTOOL_RENAMED_0x7f120053">I-auto Rotate</string>
+    <string name="APKTOOL_RENAMED_0x7f12009b">Liwanag :</string>
+    <string name="APKTOOL_RENAMED_0x7f12009c">Liwanag</string>
+    <string name="APKTOOL_RENAMED_0x7f120132">Pinduting muli upang mag-exit</string>
+    <string name="APKTOOL_RENAMED_0x7f1201aa">Landscape</string>
+    <string name="APKTOOL_RENAMED_0x7f1201ab">Naka-lock ang Landscape</string>
+    <string name="APKTOOL_RENAMED_0x7f1201b0">Bigyan ng rating sa Google Play</string>
+    <string name="APKTOOL_RENAMED_0x7f1201b1">Bigyan ng Rating</string>
+    <string name="APKTOOL_RENAMED_0x7f1201b2">Nagsisikap kaming mabuti para sa mas mahusay na karanasan ng user. Lubos kaming magpapasalamat kung mabibigyan mo kami ng rating.</string>
+    <string name="APKTOOL_RENAMED_0x7f1201b4">Ang pinakamahusay naming makukuha :)</string>
+    <string name="APKTOOL_RENAMED_0x7f1201b5">Pakibigyan kami ng ilang feedback.</string>
+    <string name="APKTOOL_RENAMED_0x7f1201b6">Gusto ka rin namin!</string>
+    <string name="APKTOOL_RENAMED_0x7f1201b7">Gusto ko ito</string>
+    <string name="APKTOOL_RENAMED_0x7f1201b8">Naku!</string>
+    <string name="APKTOOL_RENAMED_0x7f1201bb">Salamat sa iyong feedback.</string>
+    <string name="APKTOOL_RENAMED_0x7f1201c9">Naka-lock</string>
+    <string name="APKTOOL_RENAMED_0x7f12028e">I-mute</string>
+    <string name="APKTOOL_RENAMED_0x7f12028f">I-on ang Tunog</string>
+    <string name="APKTOOL_RENAMED_0x7f120290">I-off ang Tunog</string>
+    <string name="APKTOOL_RENAMED_0x7f1202a3">Walang susunod na video.</string>
+    <string name="APKTOOL_RENAMED_0x7f1202a4">Walang susunod na video.</string>
+    <string name="APKTOOL_RENAMED_0x7f1202b5">Naka-off</string>
+    <string name="APKTOOL_RENAMED_0x7f1202ef">Portrait</string>
+    <string name="APKTOOL_RENAMED_0x7f1202f0">Naka-lock ang Portrait</string>
+    <string name="APKTOOL_RENAMED_0x7f12030c">I-loop Lahat</string>
+    <string name="APKTOOL_RENAMED_0x7f12030e">Ayos</string>
+    <string name="APKTOOL_RENAMED_0x7f12030f">Ulitin ang Kasalukuyan+</string>
+    <string name="APKTOOL_RENAMED_0x7f120310">I-shuffle Lahat</string>
+    <string name="APKTOOL_RENAMED_0x7f120315">Magpatuloy sa pag-play simula sa kung saan ka huminto.</string>
+    <string name="APKTOOL_RENAMED_0x7f120357">I-rotate</string>
+    <string name="APKTOOL_RENAMED_0x7f12036b">Progress ng Seek</string>
+    <string name="APKTOOL_RENAMED_0x7f120386">Hindi nag-play, pakisubukang muli.</string>
+    <string name="APKTOOL_RENAMED_0x7f120390">Magsimulang muli</string>
+    <string name="APKTOOL_RENAMED_0x7f120472">Volume</string>
+    <string name="APKTOOL_RENAMED_0x7f12047c">Mag-cast ng video, musika at litrato sa Stick, Xbox One, mga Smart TV. Panglahatan.</string>
+    <string name="APKTOOL_RENAMED_0x7f12047d">Cast App mula sa InShot</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/feedback_root" android:background="@color/feedback_backg_color" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:id="@id/nest_scroll_view" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:layout_width="match_parent" android:layout_height="?actionBarSize" app:layout_scrollFlags="scroll|enterAlways" />
+            <TextView android:textSize="@dimen/cm_sp_24" android:textStyle="bold" android:textColor="@color/feedback_text_color" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_RENAMED_0x7f12039e" android:layout_marginStart="@dimen/cm_dp_18" android:layout_marginEnd="@dimen/cm_dp_18" />
+            <TextView android:textSize="@dimen/cm_sp_14" android:textColor="#7d8eaf" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cm_dp_12" android:text="@string/APKTOOL_RENAMED_0x7f12045b" android:layout_marginStart="@dimen/cm_dp_18" android:layout_marginEnd="@dimen/cm_dp_18" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/recycle_view" android:background="@drawable/bg_alertdialog_white" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cm_dp_12" />
+            <RelativeLayout android:background="@drawable/bg_alertdialog_white" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cm_dp_12">
+                <EditText android:textSize="@dimen/cm_sp_14" android:gravity="top" android:id="@id/et_message" android:background="#00000000" android:paddingTop="@dimen/cm_dp_12" android:paddingBottom="@dimen/cm_dp_6" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/APKTOOL_RENAMED_0x7f12045c" android:minLines="5" android:fontFamily="@font/lato_regular" android:paddingStart="@dimen/cm_dp_18" android:paddingEnd="@dimen/cm_dp_18" />
+            </RelativeLayout>
+            <TextView android:enabled="false" android:textSize="@dimen/cm_sp_16" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_submit" android:background="@drawable/common_got_it_backg" android:layout_width="match_parent" android:layout_height="@dimen/cm_dp_50" android:layout_marginLeft="@dimen/cm_dp_20" android:layout_marginTop="@dimen/cm_dp_24" android:layout_marginRight="@dimen/cm_dp_20" android:text="@string/APKTOOL_RENAMED_0x7f12017e" android:alpha="0.5" android:fontFamily="@font/lato_bold" android:layout_marginHorizontal="@dimen/cm_dp_20" />
+            <View android:layout_width="match_parent" android:layout_height="@dimen/cm_dp_64" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

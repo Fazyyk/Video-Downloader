@@ -1,0 +1,59 @@
+.class public abstract Lcom/chartboost/sdk/impl/i3;
+.super Ljava/lang/Object;
+.source "r8-map-id-8dbcdcc6608068ac42f86756e80f44f5ea09085ee794eb202af41f88f7b9cc2e"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/chartboost/sdk/impl/i3$a;
+    }
+.end annotation
+
+
+# static fields
+.field public static final a:Lcom/chartboost/sdk/impl/i3$a;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 2
+
+    .line 1
+    new-instance v0, Lcom/chartboost/sdk/impl/i3$a;
+
+    .line 2
+    .line 3
+    const/4 v1, 0x0
+
+    .line 4
+    invoke-direct {v0, v1}, Lcom/chartboost/sdk/impl/i3$a;-><init>(Lz61;)V
+
+    .line 5
+    .line 6
+    .line 7
+    sput-object v0, Lcom/chartboost/sdk/impl/i3;->a:Lcom/chartboost/sdk/impl/i3$a;
+
+    .line 8
+    .line 9
+    return-void
+.end method
+
+.method public static final a()Ljavax/net/ssl/SSLSocketFactory;
+    .locals 1
+
+    .line 1
+    sget-object v0, Lcom/chartboost/sdk/impl/i3;->a:Lcom/chartboost/sdk/impl/i3$a;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0}, Lcom/chartboost/sdk/impl/i3$a;->a()Ljavax/net/ssl/SSLSocketFactory;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object v0
+
+    .line 7
+    return-object v0
+.end method

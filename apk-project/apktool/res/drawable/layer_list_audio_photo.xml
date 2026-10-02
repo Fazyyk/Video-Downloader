@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/cm_dp_2" />
+            <size android:height="@dimen/cm_dp_40" android:width="@dimen/cm_dp_40" />
+            <solid android:color="#33ffffff" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:drawable="@drawable/ic_music" android:left="@dimen/cm_dp_8" android:top="@dimen/cm_dp_8" android:right="@dimen/cm_dp_8" android:bottom="@dimen/cm_dp_8" />
+</layer-list>
